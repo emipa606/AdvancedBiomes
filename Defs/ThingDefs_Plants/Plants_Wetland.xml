@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  
+  <ThingDef ParentName="TreeBase">
+    <defName>WetlandTreeMangrove</defName>
+    <label>mangrove tree</label>
+    <description>A mangrove is a shrub or small tree that grows in coastal saline or brackish water.</description>
+    <graphicData>
+      <texPath>Plant/TreeMangrove</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.05</Nutrition>
+      <Beauty>1</Beauty>
+    </statBases>
+    <plant>
+      <wildClusterRadius>4</wildClusterRadius>
+      <growDays>14</growDays>
+			<visualSizeRange>
+        <min>1.3</min>
+        <max>2.3</max>
+      </visualSizeRange>
+      <harvestWork>550</harvestWork>
+      <harvestYield>20</harvestYield>
+    </plant>
+    <ingestible /> 
+  </ThingDef>
+
+</Defs>

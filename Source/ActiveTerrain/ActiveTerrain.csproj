@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{52C8274B-2599-4C6A-88DA-A7261A9D1E67}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ActiveTerrain</RootNamespace>
+    <AssemblyName>ActiveTerrain</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\1.1\Assemblies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony, Version=2.0.0.9, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lib.Harmony.2.0.0.9\lib\net472\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation" />
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActiveTerrainUtility.cs" />
+    <Compile Include="CompPowerTraderFloor.cs" />
+    <Compile Include="CompSignals.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpecialTerrain.cs" />
+    <Compile Include="SpecialTerrainList.cs" />
+    <Compile Include="TempControlType.cs" />
+    <Compile Include="TerrainComp.cs" />
+    <Compile Include="TerrainCompProperties.cs" />
+    <Compile Include="TerrainCompProperties_Glower.cs" />
+    <Compile Include="TerrainCompProperties_HeatPush.cs" />
+    <Compile Include="TerrainCompProperties_PowerTrader.cs" />
+    <Compile Include="TerrainCompProperties_SelfClean.cs" />
+    <Compile Include="TerrainCompProperties_TempControl.cs" />
+    <Compile Include="TerrainComp_Glower.cs" />
+    <Compile Include="TerrainComp_HeatPush.cs" />
+    <Compile Include="TerrainComp_HeatPushPowered.cs" />
+    <Compile Include="TerrainComp_PowerTrader.cs" />
+    <Compile Include="TerrainComp_SelfClean.cs" />
+    <Compile Include="TerrainComp_SelfCleanPowered.cs" />
+    <Compile Include="TerrainComp_TempControl.cs" />
+    <Compile Include="TerrainInstance.cs" />
+    <Compile Include="_MouseoverReadout.cs" />
+    <Compile Include="_TerrainGrid.cs" />
+    <Compile Include="__TerrainGrid.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

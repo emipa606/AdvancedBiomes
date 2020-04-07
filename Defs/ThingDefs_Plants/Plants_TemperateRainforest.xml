@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  
+  <ThingDef ParentName="TreeBase">
+    <defName>TreeCedar</defName>
+    <label>redcedar tree</label>
+    <description>Native to the temperate rainforests, redcedar is a riprarian tree, growing in many forested swamps and streambanks.</description>
+    <graphicData>
+      <texPath>Plant/TreeCedar</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+        <shadowData>
+          <volume>(0.2, 0.3, 0.2)</volume>
+        </shadowData>
+    </graphicData>
+    <statBases>
+      <Beauty>2</Beauty>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <ingestible />
+		<plant>
+			<growDays>20</growDays>
+			<visualSizeRange>
+        <min>1.3</min>
+        <max>3.0</max>
+      </visualSizeRange>
+      <harvestWork>700</harvestWork>
+      <harvestYield>30</harvestYield>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>SwordFern</defName>
+    <label>sword fern</label>
+    <description>Sword fern populates the understory of moist coniferous forests at low elevations. It grows best in a well-drained acidic soil of rich humus and small stones.</description>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Plant/SwordFern</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+       <shadowData>
+         <volume>(0.55, 0.2, 0.2)</volume>
+       </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <fillPercent>0.20</fillPercent>
+    <pathCost>30</pathCost>
+    <ingestible />
+    <plant>
+			<fertilityMin>0.4</fertilityMin>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<growDays>3</growDays>
+			<leaflessGraphicPath>Things/Plant/Bush_Leafless</leaflessGraphicPath>
+      <wildClusterRadius>4</wildClusterRadius>
+      <visualSizeRange>
+        <min>0.7</min>
+        <max>1.1</max>
+      </visualSizeRange>
+      <topWindExposure>0.3</topWindExposure>
+    </plant>
+  </ThingDef>
+
+</Defs>
