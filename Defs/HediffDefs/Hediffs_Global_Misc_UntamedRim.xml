@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <HediffDef>
     <defName>PoisonBuildup</defName>
     <hediffClass>HediffWithComps</hediffClass>
@@ -18,7 +17,7 @@
     <stages>
       <li>
         <label>initial-hidden</label>
-	<becomeVisible>false</becomeVisible>
+        <becomeVisible>false</becomeVisible>
       </li>
       <li>
         <label>initial</label>
@@ -117,5 +116,4 @@
       </li>
     </stages>
   </HediffDef>
-
 </Defs>

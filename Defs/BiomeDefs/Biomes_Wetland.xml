@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <BiomeDef>
     <defName>Wetland</defName>
     <label>wetland</label>
@@ -118,36 +117,35 @@
       <SnowHard>4</SnowHard>
     </baseWeatherCommonalities>
     <wildPlants>
-			<Plant_TallGrass>7.0</Plant_TallGrass>
-			<Plant_Dandelion>0.8</Plant_Dandelion>
-			<Plant_Bush>0.7</Plant_Bush>
-			<Plant_TreeCecropia>0.3</Plant_TreeCecropia>
-			<Plant_TreeTeak>0.3</Plant_TreeTeak>
-			<TreeCedar>0.3</TreeCedar>
-			<SwordFern>0.7</SwordFern>
-			<WetlandTreeMangrove>0.6</WetlandTreeMangrove>
-			<Plant_Berry>0.1</Plant_Berry>
-			<Plant_Brambles>2.0</Plant_Brambles>
-		</wildPlants>
+      <Plant_TallGrass>7.0</Plant_TallGrass>
+      <Plant_Dandelion>0.8</Plant_Dandelion>
+      <Plant_Bush>0.7</Plant_Bush>
+      <Plant_TreeCecropia>0.3</Plant_TreeCecropia>
+      <Plant_TreeTeak>0.3</Plant_TreeTeak>
+      <TreeCedar>0.3</TreeCedar>
+      <SwordFern>0.7</SwordFern>
+      <WetlandTreeMangrove>0.6</WetlandTreeMangrove>
+      <Plant_Berry>0.1</Plant_Berry>
+      <Plant_Brambles>2.0</Plant_Brambles>
+    </wildPlants>
     <wildAnimals>
-			<Rat>1</Rat>
-			<Monkey>1</Monkey>
-			<WildBoar>1</WildBoar>
-			<Boomalope>0.7</Boomalope>
-			<Capybara>0.7</Capybara>
-			<Cassowary>0.7</Cassowary>
-			<Tortoise>0.6</Tortoise>
-			<Chinchilla>0.6</Chinchilla>
-			<Alpaca>0.5</Alpaca>
-			<Turkey>0.2</Turkey>
-			<Emu>0.2</Emu>
-			<Cobra>0.17</Cobra>
-			<Panther>0.09</Panther>
-			<Elephant>0.1</Elephant>
-		</wildAnimals>
+      <Rat>1</Rat>
+      <Monkey>1</Monkey>
+      <WildBoar>1</WildBoar>
+      <Boomalope>0.7</Boomalope>
+      <Capybara>0.7</Capybara>
+      <Cassowary>0.7</Cassowary>
+      <Tortoise>0.6</Tortoise>
+      <Chinchilla>0.6</Chinchilla>
+      <Alpaca>0.5</Alpaca>
+      <Turkey>0.2</Turkey>
+      <Emu>0.2</Emu>
+      <Cobra>0.17</Cobra>
+      <Panther>0.09</Panther>
+      <Elephant>0.1</Elephant>
+    </wildAnimals>
     <allowedPackAnimals>
       <li>Muffalo</li>
     </allowedPackAnimals>
   </BiomeDef>
-
 </Defs>

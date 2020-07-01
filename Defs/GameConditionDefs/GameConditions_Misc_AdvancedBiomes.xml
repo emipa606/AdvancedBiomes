@@ -1,10 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-
-<Defs> <GameConditionDef>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <GameConditionDef>
     <defName>Spores</defName>
     <conditionClass>BiomesPlus.GameCondition_Spores</conditionClass>
     <label>toxic spores</label>
     <description>The poisonous flora releases a cloud of toxic spores over this entire region. Any person or creature not under a roof will be slowly sickened by them as they settle out of the atmosphere.</description>
     <endMessage>The worst of the poisonous spores have settled.</endMessage>
     <canBePermanent>true</canBePermanent>
-  </GameConditionDef> </Defs>
+  </GameConditionDef>
+</Defs>

@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ActiveTerrain.SpecialTerrain>
     <defName>Lava</defName>
     <label>lava</label>
@@ -9,30 +8,20 @@
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>395</renderPrecedence>
     <pathCost>300</pathCost>
-		<passability>Impassable</passability>
+    <passability>Impassable</passability>
     <acceptFilth>false</acceptFilth>
     <fertility>0</fertility>
     <avoidWander>true</avoidWander>
     <terrainComps>
-		
       <li Class="ActiveTerrain.TerrainCompProperties_HeatPush">
-
-	<pushAmount>1000</pushAmount>
-
+        <pushAmount>1000</pushAmount>
       </li>
-
       <li Class="ActiveTerrain.TerrainCompProperties_Glower">
-
         <overlightRadius>0</overlightRadius>
-
-	<glowRadius>5</glowRadius>
-
-	<powered>false</powered>
-
+        <glowRadius>5</glowRadius>
+        <powered>false</powered>
       </li>
-
     </terrainComps>
-
     <changeable>false</changeable>
     <holdSnow>false</holdSnow>
     <takeSplashes>true</takeSplashes>
@@ -40,5 +29,4 @@
       <li>Lava</li>
     </tags>
   </ActiveTerrain.SpecialTerrain>
-
 </Defs>

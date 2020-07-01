@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <TerrainDef>
     <defName>SavannaSoil</defName>
     <label>soil</label>
@@ -24,7 +23,6 @@
     <fertility>1.0</fertility>
     <takeFootprints>True</takeFootprints>
   </TerrainDef>
-
   <TerrainDef>
     <defName>SavannaSoilRich</defName>
     <label>rich soil</label>
@@ -47,5 +45,4 @@
     <fertility>1.4</fertility>
     <takeFootprints>True</takeFootprints>
   </TerrainDef>
-
 </Defs>

@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef ParentName="PlantFoodRawBase">
     <defName>RawPoisonMushroom</defName>
     <label>wild mushrooms</label>
@@ -17,9 +16,8 @@
     <comps>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>25</daysToRotStart>
-				<rotDestroys>true</rotDestroys>
-			</li>
+        <rotDestroys>true</rotDestroys>
+      </li>
     </comps>
   </ThingDef>
-
 </Defs>

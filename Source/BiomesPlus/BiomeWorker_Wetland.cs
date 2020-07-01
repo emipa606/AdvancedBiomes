@@ -1,11 +1,11 @@
-﻿using System;
-using RimWorld;
+﻿using RimWorld;
 using RimWorld.Planet;
+using Verse;
 
 namespace BiomesPlus
 {
-	// Token: 0x02000005 RID: 5
-	public class BiomeWorker_Wetland : BiomeWorker
+    // Token: 0x02000005 RID: 5
+    public class BiomeWorker_Wetland : BiomeWorker
 	{
 		// Token: 0x06000008 RID: 8 RVA: 0x000022A8 File Offset: 0x000004A8
 		public override float GetScore(Tile tile, int tileID)
@@ -31,6 +31,7 @@ namespace BiomesPlus
 			{
 				result = 16f + (tile.temperature - 7f) + (tile.rainfall - 600f) / 155f;
 			}
+			result = result * (LoadedModManager.GetMod<BiomesPlusMod>().GetSettings<BiomesPlusSettings>().Wetland / 100);
 			return result;
 		}
 	}

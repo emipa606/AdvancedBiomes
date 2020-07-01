@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <TerrainDef>
     <defName>PoisonSoil</defName>
     <label>poison soil</label>
@@ -24,7 +23,6 @@
     <fertility>1.0</fertility>
     <takeFootprints>True</takeFootprints>
   </TerrainDef>
-
   <TerrainDef>
     <defName>PoisonMarshyTerrain</defName>
     <label>marshy soil</label>
@@ -49,7 +47,6 @@
     <takeFootprints>True</takeFootprints>
     <driesTo>Soil</driesTo>
   </TerrainDef>
-
   <TerrainDef>
     <defName>PoisonSoilRich</defName>
     <label>rich soil</label>
@@ -72,7 +69,6 @@
     <fertility>1.4</fertility>
     <takeFootprints>True</takeFootprints>
   </TerrainDef>
-
   <TerrainDef>
     <defName>PoisonMud</defName>
     <label>mud</label>
@@ -91,7 +87,6 @@
     <avoidWander>true</avoidWander>
     <driesTo>Soil</driesTo>
   </TerrainDef>
-
   <TerrainDef>
     <defName>PoisonMarsh</defName>
     <label>marsh</label>
@@ -110,7 +105,6 @@
     <avoidWander>true</avoidWander>
     <driesTo>Soil</driesTo>
   </TerrainDef>
-
   <TerrainDef>
     <defName>PoisonMossyTerrain</defName>
     <label>lichen-covered dirt</label>
@@ -135,5 +129,4 @@
     <acceptFilth>true</acceptFilth>
     <avoidWander>false</avoidWander>
   </TerrainDef>
-
 </Defs>

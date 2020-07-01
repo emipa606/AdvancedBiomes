@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <BiomeDef>
     <defName>Wasteland</defName>
     <label>wasteland</label>
@@ -54,7 +53,7 @@
         <max>999</max>
       </li>
     </terrainsByFertility>
-<terrainPatchMakers>
+    <terrainPatchMakers>
       <li>
         <perlinFrequency>0.02</perlinFrequency>
         <thresholds>
@@ -80,10 +79,10 @@
       <SnowHard>1</SnowHard>
     </baseWeatherCommonalities>
     <wildPlants>
-			<Plant_Grass>1.5</Plant_Grass>
-			<TreeDead>1</TreeDead>
-			<Plant_Agave>0.05</Plant_Agave>
-		</wildPlants>
+      <Plant_Grass>1.5</Plant_Grass>
+      <TreeDead>1</TreeDead>
+      <Plant_Agave>0.05</Plant_Agave>
+    </wildPlants>
     <wildAnimals>
       <Megascarab>1</Megascarab>
       <Iguana>0.3</Iguana>
@@ -97,5 +96,4 @@
       <li>Dromedary</li>
     </allowedPackAnimals>
   </BiomeDef>
-
 </Defs>

@@ -57,7 +57,9 @@
     <Compile Include="BiomeWorker_Wetland.cs" />
     <Compile Include="GameCondition_Spores.cs" />
     <Compile Include="MaterialLoader.cs" />
+    <Compile Include="Mod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
     <Compile Include="WeatherOverlay_Spores.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

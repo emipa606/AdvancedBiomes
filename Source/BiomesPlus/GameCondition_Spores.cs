@@ -1,13 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using RimWorld;
 using UnityEngine;
 using Verse;
 
 namespace BiomesPlus
 {
-	// Token: 0x02000009 RID: 9
-	public class GameCondition_Spores : GameCondition
+    // Token: 0x02000009 RID: 9
+    public class GameCondition_Spores : GameCondition
 	{
 		// Token: 0x06000010 RID: 16 RVA: 0x000024E0 File Offset: 0x000006E0
 		public GameCondition_Spores()

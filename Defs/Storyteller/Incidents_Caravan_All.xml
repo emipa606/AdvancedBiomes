@@ -1,17 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <!-- =============================== Threats =============================== -->
-
   <IncidentDef>
     <defName>Ambush</defName>
     <label>ambush</label>
-		<category>ThreatBig</category>
-		<targetTags>
+    <category>ThreatBig</category>
+    <targetTags>
       <li>Caravan</li>
       <li>Map_TempIncident</li>
     </targetTags>
-		<workerClass>IncidentWorker_Ambush_EnemyFaction</workerClass>
+    <workerClass>IncidentWorker_Ambush_EnemyFaction</workerClass>
     <pointsScaleable>true</pointsScaleable>
     <minRefireDays>0.17</minRefireDays>
     <letterText>{0} has been ambushed by {1} from {2}!</letterText>
@@ -24,25 +22,23 @@
       <TropicalRainforest>20</TropicalRainforest>
       <AridShrubland>20</AridShrubland>
       <Desert>30</Desert>
-			<Tundra>30</Tundra>
+      <Tundra>30</Tundra>
       <TropicalSwamp>30</TropicalSwamp>
       <TemperateSwamp>30</TemperateSwamp>
       <ColdBog>35</ColdBog>
-			<ExtremeDesert>35</ExtremeDesert>
-			<IceSheet>40</IceSheet>
+      <ExtremeDesert>35</ExtremeDesert>
+      <IceSheet>40</IceSheet>
       <SeaIce>60</SeaIce>
       <PoisonForest>60</PoisonForest>
       <Savanna>20</Savanna>
       <Wetland>20</Wetland>
       <Volcano>30</Volcano>
-
     </mtbDaysByBiome>
   </IncidentDef>
-  
   <IncidentDef>
     <defName>ManhunterAmbush</defName>
     <label>manhunter ambush</label>
-		<category>ThreatBig</category>
+    <category>ThreatBig</category>
     <targetTags>
       <li>Caravan</li>
       <li>Map_TempIncident</li>
@@ -55,25 +51,24 @@
     <letterDef>ThreatBig</letterDef>
     <tale>CaravanAmbushedByManhunter</tale>
     <mtbDaysByBiome>
-			<TemperateForest>20</TemperateForest>
-			<BorealForest>20</BorealForest>
-			<TropicalRainforest>20</TropicalRainforest>
-			<AridShrubland>20</AridShrubland>
-			<Desert>30</Desert>
-			<Tundra>30</Tundra>
+      <TemperateForest>20</TemperateForest>
+      <BorealForest>20</BorealForest>
+      <TropicalRainforest>20</TropicalRainforest>
+      <AridShrubland>20</AridShrubland>
+      <Desert>30</Desert>
+      <Tundra>30</Tundra>
       <TropicalSwamp>30</TropicalSwamp>
       <TemperateSwamp>30</TemperateSwamp>
       <ColdBog>35</ColdBog>
-			<ExtremeDesert>35</ExtremeDesert>
-			<IceSheet>40</IceSheet>
-			<SeaIce>60</SeaIce>
+      <ExtremeDesert>35</ExtremeDesert>
+      <IceSheet>40</IceSheet>
+      <SeaIce>60</SeaIce>
       <PoisonForest>60</PoisonForest>
       <Savanna>20</Savanna>
       <Wetland>20</Wetland>
       <Volcano>30</Volcano>
     </mtbDaysByBiome>
   </IncidentDef>
-  
   <WorldObjectDef>
     <defName>Ambush</defName>
     <label>ambush</label>
@@ -94,13 +89,11 @@
       <li Class="WorldObjectCompProperties_TimedForcedExit" />
     </comps>
   </WorldObjectDef>
-
   <!--================================ Good ================================-->
-  
   <IncidentDef>
     <defName>CaravanMeeting</defName>
     <label>caravan meeting</label>
-		<category>Misc</category>
+    <category>Misc</category>
     <targetTags>
       <li>Caravan</li>
       <li>Map_TempIncident</li>
@@ -114,11 +107,11 @@
       <AridShrubland>10</AridShrubland>
       <TropicalRainforest>10</TropicalRainforest>
       <Desert>15</Desert>
-			<Tundra>15</Tundra>
+      <Tundra>15</Tundra>
       <TropicalSwamp>15</TropicalSwamp>
       <TemperateSwamp>15</TemperateSwamp>
       <ColdBog>25</ColdBog>
-			<ExtremeDesert>25</ExtremeDesert>
+      <ExtremeDesert>25</ExtremeDesert>
       <IceSheet>35</IceSheet>
       <SeaIce>80</SeaIce>
       <PoisonForest>80</PoisonForest>
@@ -127,13 +120,11 @@
       <Volcano>15</Volcano>
     </mtbDaysByBiome>
   </IncidentDef>
-
   <!--==================================== Bad ==================================-->
-
   <IncidentDef>
     <defName>CaravanDemand</defName>
     <label>payment demand</label>
-		<category>ThreatSmall</category>
+    <category>ThreatSmall</category>
     <targetTags>
       <li>Caravan</li>
     </targetTags>
@@ -159,5 +150,4 @@
       <Volcano>30</Volcano>
     </mtbDaysByBiome>
   </IncidentDef>
-  
 </Defs>

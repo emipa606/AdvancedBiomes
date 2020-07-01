@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PoisonDeer.label>deer</PoisonDeer.label>
+  <PoisonDeer.labelPlural>deer</PoisonDeer.labelPlural>
+  <PoisonDeer.lifeStages.0.label>deer</PoisonDeer.lifeStages.0.label>
+  <PoisonDeer.lifeStages.0.labelPlural>deer</PoisonDeer.lifeStages.0.labelPlural>
+  <PoisonDeer.lifeStages.0.labelMale>buck</PoisonDeer.lifeStages.0.labelMale>
+  <PoisonDeer.lifeStages.0.labelMalePlural>male deers</PoisonDeer.lifeStages.0.labelMalePlural>
+  <PoisonDeer.lifeStages.0.labelFemale>doe</PoisonDeer.lifeStages.0.labelFemale>
+  <PoisonDeer.lifeStages.0.labelFemalePlural>female deers</PoisonDeer.lifeStages.0.labelFemalePlural>
+  <PoisonDeer.lifeStages.1.label>deer</PoisonDeer.lifeStages.1.label>
+  <PoisonDeer.lifeStages.1.labelPlural>deer</PoisonDeer.lifeStages.1.labelPlural>
+  <PoisonDeer.lifeStages.1.labelMale>buck</PoisonDeer.lifeStages.1.labelMale>
+  <PoisonDeer.lifeStages.1.labelMalePlural>male deers</PoisonDeer.lifeStages.1.labelMalePlural>
+  <PoisonDeer.lifeStages.1.labelFemale>doe</PoisonDeer.lifeStages.1.labelFemale>
+  <PoisonDeer.lifeStages.1.labelFemalePlural>female deers</PoisonDeer.lifeStages.1.labelFemalePlural>
+  <PoisonDeer.lifeStages.2.label>deer</PoisonDeer.lifeStages.2.label>
+  <PoisonDeer.lifeStages.2.labelPlural>deer</PoisonDeer.lifeStages.2.labelPlural>
+  <PoisonDeer.lifeStages.2.labelMale>buck</PoisonDeer.lifeStages.2.labelMale>
+  <PoisonDeer.lifeStages.2.labelMalePlural>male deers</PoisonDeer.lifeStages.2.labelMalePlural>
+  <PoisonDeer.lifeStages.2.labelFemale>doe</PoisonDeer.lifeStages.2.labelFemale>
+  <PoisonDeer.lifeStages.2.labelFemalePlural>female deers</PoisonDeer.lifeStages.2.labelFemalePlural>
+  <PoisonDeer.labelMale>buck</PoisonDeer.labelMale>
+  <PoisonDeer.labelMalePlural>male deer</PoisonDeer.labelMalePlural>
+  <PoisonDeer.labelFemale>doe</PoisonDeer.labelFemale>
+  <PoisonDeer.labelFemalePlural>female deer</PoisonDeer.labelFemalePlural>
+
+  <PoisonRat.label>rat</PoisonRat.label>
+  <PoisonRat.labelPlural>rats</PoisonRat.labelPlural>
+  <PoisonRat.lifeStages.0.label>rat</PoisonRat.lifeStages.0.label>
+  <PoisonRat.lifeStages.0.labelPlural>rat</PoisonRat.lifeStages.0.labelPlural>
+  <PoisonRat.lifeStages.0.labelMale>male rat</PoisonRat.lifeStages.0.labelMale>
+  <PoisonRat.lifeStages.0.labelMalePlural>male rats</PoisonRat.lifeStages.0.labelMalePlural>
+  <PoisonRat.lifeStages.0.labelFemale>female rat</PoisonRat.lifeStages.0.labelFemale>
+  <PoisonRat.lifeStages.0.labelFemalePlural>female rats</PoisonRat.lifeStages.0.labelFemalePlural>
+  <PoisonRat.lifeStages.1.label>rat</PoisonRat.lifeStages.1.label>
+  <PoisonRat.lifeStages.1.labelPlural>rat</PoisonRat.lifeStages.1.labelPlural>
+  <PoisonRat.lifeStages.1.labelMale>male rat</PoisonRat.lifeStages.1.labelMale>
+  <PoisonRat.lifeStages.1.labelMalePlural>male rats</PoisonRat.lifeStages.1.labelMalePlural>
+  <PoisonRat.lifeStages.1.labelFemale>female rat</PoisonRat.lifeStages.1.labelFemale>
+  <PoisonRat.lifeStages.1.labelFemalePlural>female rats</PoisonRat.lifeStages.1.labelFemalePlural>
+  <PoisonRat.lifeStages.2.label>rat</PoisonRat.lifeStages.2.label>
+  <PoisonRat.lifeStages.2.labelPlural>rat</PoisonRat.lifeStages.2.labelPlural>
+  <PoisonRat.lifeStages.2.labelMale>male rat</PoisonRat.lifeStages.2.labelMale>
+  <PoisonRat.lifeStages.2.labelMalePlural>male rats</PoisonRat.lifeStages.2.labelMalePlural>
+  <PoisonRat.lifeStages.2.labelFemale>female rat</PoisonRat.lifeStages.2.labelFemale>
+  <PoisonRat.lifeStages.2.labelFemalePlural>female rats</PoisonRat.lifeStages.2.labelFemalePlural>
+  <PoisonRat.labelMale>male rat</PoisonRat.labelMale>
+  <PoisonRat.labelMalePlural>male rats</PoisonRat.labelMalePlural>
+  <PoisonRat.labelFemale>female rat</PoisonRat.labelFemale>
+  <PoisonRat.labelFemalePlural>female rats</PoisonRat.labelFemalePlural>
+
+  <MutantCow.label>cow</MutantCow.label>
+  <MutantCow.labelPlural>cows</MutantCow.labelPlural>
+  <MutantCow.lifeStages.0.label>calf</MutantCow.lifeStages.0.label>
+  <MutantCow.lifeStages.0.labelPlural>calves</MutantCow.lifeStages.0.labelPlural>
+  <MutantCow.lifeStages.0.labelMale>male calf</MutantCow.lifeStages.0.labelMale>
+  <MutantCow.lifeStages.0.labelMalePlural>male calves</MutantCow.lifeStages.0.labelMalePlural>
+  <MutantCow.lifeStages.0.labelFemale>female calf</MutantCow.lifeStages.0.labelFemale>
+  <MutantCow.lifeStages.0.labelFemalePlural>female calves</MutantCow.lifeStages.0.labelFemalePlural>
+  <MutantCow.lifeStages.1.label>cow</MutantCow.lifeStages.1.label>
+  <MutantCow.lifeStages.1.labelPlural>cow</MutantCow.lifeStages.1.labelPlural>
+  <MutantCow.lifeStages.1.labelMale>bull</MutantCow.lifeStages.1.labelMale>
+  <MutantCow.lifeStages.1.labelMalePlural>male cows</MutantCow.lifeStages.1.labelMalePlural>
+  <MutantCow.lifeStages.1.labelFemale>cow</MutantCow.lifeStages.1.labelFemale>
+  <MutantCow.lifeStages.1.labelFemalePlural>female cows</MutantCow.lifeStages.1.labelFemalePlural>
+  <MutantCow.lifeStages.2.label>cow</MutantCow.lifeStages.2.label>
+  <MutantCow.lifeStages.2.labelPlural>cow</MutantCow.lifeStages.2.labelPlural>
+  <MutantCow.lifeStages.2.labelMale>bull</MutantCow.lifeStages.2.labelMale>
+  <MutantCow.lifeStages.2.labelMalePlural>male cows</MutantCow.lifeStages.2.labelMalePlural>
+  <MutantCow.lifeStages.2.labelFemale>cow</MutantCow.lifeStages.2.labelFemale>
+  <MutantCow.lifeStages.2.labelFemalePlural>female cows</MutantCow.lifeStages.2.labelFemalePlural>
+  <MutantCow.labelMale>bull</MutantCow.labelMale>
+  <MutantCow.labelMalePlural>bulls</MutantCow.labelMalePlural>
+  <MutantCow.labelFemale>cow</MutantCow.labelFemale>
+  <MutantCow.labelFemalePlural>cows</MutantCow.labelFemalePlural>
+
+  <PoisonButterfly.label>butterfly</PoisonButterfly.label>
+  <PoisonButterfly.labelPlural>butterflies</PoisonButterfly.labelPlural>
+  <PoisonButterfly.lifeStages.0.label>butterfly</PoisonButterfly.lifeStages.0.label>
+  <PoisonButterfly.lifeStages.0.labelPlural>butterflies</PoisonButterfly.lifeStages.0.labelPlural>
+  <PoisonButterfly.lifeStages.0.labelMale>butterfly</PoisonButterfly.lifeStages.0.labelMale>
+  <PoisonButterfly.lifeStages.0.labelMalePlural>male butterflys</PoisonButterfly.lifeStages.0.labelMalePlural>
+  <PoisonButterfly.lifeStages.0.labelFemale>butterfly</PoisonButterfly.lifeStages.0.labelFemale>
+  <PoisonButterfly.lifeStages.0.labelFemalePlural>female butterflys</PoisonButterfly.lifeStages.0.labelFemalePlural>
+  <PoisonButterfly.lifeStages.1.label>butterfly</PoisonButterfly.lifeStages.1.label>
+  <PoisonButterfly.lifeStages.1.labelPlural>butterflies</PoisonButterfly.lifeStages.1.labelPlural>
+  <PoisonButterfly.lifeStages.1.labelMale>butterfly</PoisonButterfly.lifeStages.1.labelMale>
+  <PoisonButterfly.lifeStages.1.labelMalePlural>male butterflys</PoisonButterfly.lifeStages.1.labelMalePlural>
+  <PoisonButterfly.lifeStages.1.labelFemale>butterfly</PoisonButterfly.lifeStages.1.labelFemale>
+  <PoisonButterfly.lifeStages.1.labelFemalePlural>female butterflys</PoisonButterfly.lifeStages.1.labelFemalePlural>
+  <PoisonButterfly.lifeStages.2.label>butterfly</PoisonButterfly.lifeStages.2.label>
+  <PoisonButterfly.lifeStages.2.labelPlural>butterflies</PoisonButterfly.lifeStages.2.labelPlural>
+  <PoisonButterfly.lifeStages.2.labelMale>butterfly</PoisonButterfly.lifeStages.2.labelMale>
+  <PoisonButterfly.lifeStages.2.labelMalePlural>male butterflys</PoisonButterfly.lifeStages.2.labelMalePlural>
+  <PoisonButterfly.lifeStages.2.labelFemale>butterfly</PoisonButterfly.lifeStages.2.labelFemale>
+  <PoisonButterfly.lifeStages.2.labelFemalePlural>female butterflys</PoisonButterfly.lifeStages.2.labelFemalePlural>
+  <PoisonButterfly.labelMale>butterfly</PoisonButterfly.labelMale>
+  <PoisonButterfly.labelMalePlural>male butterflies</PoisonButterfly.labelMalePlural>
+  <PoisonButterfly.labelFemale>butterfly</PoisonButterfly.labelFemale>
+  <PoisonButterfly.labelFemalePlural>female butterflies</PoisonButterfly.labelFemalePlural>
+
+
+</LanguageData>

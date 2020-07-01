@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <TerrainDef>
     <defName>VolcanoSoil</defName>
     <label>ashy soil</label>
@@ -24,7 +23,6 @@
     <fertility>1.0</fertility>
     <takeFootprints>True</takeFootprints>
   </TerrainDef>
-
   <TerrainDef>
     <defName>VolcanoSoilRich</defName>
     <label>rich volcanic soil</label>
@@ -47,12 +45,11 @@
     <fertility>1.4</fertility>
     <takeFootprints>True</takeFootprints>
   </TerrainDef>
-
   <TerrainDef>
     <defName>VolcanoObsidian</defName>
     <label>obsidian</label>
     <texturePath>Surfaces/VolcanoSoilRich</texturePath>
-        <edgeType>FadeRough</edgeType>
+    <edgeType>FadeRough</edgeType>
     <renderPrecedence>320</renderPrecedence>
     <pathCost>2</pathCost>
     <statBases>
@@ -71,5 +68,4 @@
     <fertility>0.0</fertility>
     <takeFootprints>True</takeFootprints>
   </TerrainDef>
-
 </Defs>

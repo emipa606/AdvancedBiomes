@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <BiomeDef>
     <defName>Volcano</defName>
     <label>volcano</label>
@@ -58,15 +57,15 @@
         <max>999</max>
       </li>
     </terrainsByFertility>
-<terrainPatchMakers>
+    <terrainPatchMakers>
       <li>
         <perlinFrequency>0.035</perlinFrequency>
         <thresholds>
-      	  <li>
+          <li>
             <terrain>VolcanoSoilRich</terrain>
             <min>0.5</min>
             <max>0.64</max>
-     	  </li>
+          </li>
           <li>
             <terrain>WaterShallow</terrain>
             <min>0.64</min>
@@ -108,39 +107,39 @@
       <SnowGentle>4</SnowGentle>
       <SnowHard>4</SnowHard>
     </baseWeatherCommonalities>
-        <wildPlants>
-			<Plant_Grass>10.0</Plant_Grass>
-			<Plant_Moss>4.0</Plant_Moss>
-			<Plant_Bush>3.0</Plant_Bush>
-			<Plant_TreePine>5.0</Plant_TreePine>
-			<Plant_Berry>1.8</Plant_Berry>
-			<Plant_TreeBirch>1.5</Plant_TreeBirch>
-			<Plant_TreePoplar>1.2</Plant_TreePoplar>
-			<Plant_HealrootWild>0.3</Plant_HealrootWild>
-		</wildPlants>
+    <wildPlants>
+      <Plant_Grass>10.0</Plant_Grass>
+      <Plant_Moss>4.0</Plant_Moss>
+      <Plant_Bush>3.0</Plant_Bush>
+      <Plant_TreePine>5.0</Plant_TreePine>
+      <Plant_Berry>1.8</Plant_Berry>
+      <Plant_TreeBirch>1.5</Plant_TreeBirch>
+      <Plant_TreePoplar>1.2</Plant_TreePoplar>
+      <Plant_HealrootWild>0.3</Plant_HealrootWild>
+    </wildPlants>
     <wildAnimals>
-			<Hare>1.00</Hare>
-			<Squirrel>1.00</Squirrel>
-			<Rat>0.8</Rat>
-			<Deer>0.5</Deer>
-			<WildBoar>0.5</WildBoar>
-			<Turkey>0.5</Turkey>
-			<Raccoon>0.4</Raccoon>
-			<Tortoise>0.4</Tortoise>
-			<Ibex>0.3</Ibex>
-			<Boomrat>0.25</Boomrat>
-			<Muffalo>0.2</Muffalo>
-			<Boomalope>0.2</Boomalope>
-			<Alpaca>0.1</Alpaca>
-			<Emu>0.1</Emu>
-			<Ostrich>0.1</Ostrich>
-			<Gazelle>0.05</Gazelle>
-			<Wolf_Timber>0.04</Wolf_Timber>
-			<Fox_Red>0.04</Fox_Red>
-			<Megasloth>0.04</Megasloth>
-      			<Bear_Grizzly>0.07</Bear_Grizzly>
-			<Warg>0.012</Warg>
-			<Cougar>0.012</Cougar>
+      <Hare>1.00</Hare>
+      <Squirrel>1.00</Squirrel>
+      <Rat>0.8</Rat>
+      <Deer>0.5</Deer>
+      <WildBoar>0.5</WildBoar>
+      <Turkey>0.5</Turkey>
+      <Raccoon>0.4</Raccoon>
+      <Tortoise>0.4</Tortoise>
+      <Ibex>0.3</Ibex>
+      <Boomrat>0.25</Boomrat>
+      <Muffalo>0.2</Muffalo>
+      <Boomalope>0.2</Boomalope>
+      <Alpaca>0.1</Alpaca>
+      <Emu>0.1</Emu>
+      <Ostrich>0.1</Ostrich>
+      <Gazelle>0.05</Gazelle>
+      <Wolf_Timber>0.04</Wolf_Timber>
+      <Fox_Red>0.04</Fox_Red>
+      <Megasloth>0.04</Megasloth>
+      <Bear_Grizzly>0.07</Bear_Grizzly>
+      <Warg>0.012</Warg>
+      <Cougar>0.012</Cougar>
       <Lynx>0.008</Lynx>
     </wildAnimals>
     <allowedPackAnimals>
@@ -148,5 +147,4 @@
       <li>Dromedary</li>
     </allowedPackAnimals>
   </BiomeDef>
-
 </Defs>

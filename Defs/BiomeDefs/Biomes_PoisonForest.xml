@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <BiomeDef>
     <defName>PoisonForest</defName>
     <label>poison forest</label>
@@ -96,36 +95,35 @@
       <PoisonForestSpores>18</PoisonForestSpores>
     </baseWeatherCommonalities>
     <wildPlants>
-			<PoisonPlantTallGrass>7.0</PoisonPlantTallGrass>
-			<PoisonPlantDandelion>0.8</PoisonPlantDandelion>
-			<PoisonPlantBush>0.7</PoisonPlantBush>
-			<PoisonBrambles>0.4</PoisonBrambles>
-			<PoisonRafflesia>0.2</PoisonRafflesia>
-			<PoisonShrub>0.7</PoisonShrub>
-			<PoisonPlantTreeCecropia>0.3</PoisonPlantTreeCecropia>
-			<PoisonPlantTreeTeak>0.3</PoisonPlantTreeTeak>
-			<PoisonTreeCypress>0.3</PoisonTreeCypress>
-			<PoisonTreePalm>0.3</PoisonTreePalm>
-			<PoisonTreeWillow>0.3</PoisonTreeWillow>
-			<PoisonPlantRaspberry>0.1</PoisonPlantRaspberry>
-			<PoisonMushroom>0.15</PoisonMushroom>
-			<Plant_TallGrass>0.0</Plant_TallGrass>
-			<Plant_Dandelion>0.0</Plant_Dandelion>
-			<Plant_Bush>0.0</Plant_Bush>
-			<Plant_TreeCecropia>0.0</Plant_TreeCecropia>
-			<Plant_TreeTeak>0.0</Plant_TreeTeak>
-			<Plant_Berry>0.0</Plant_Berry>
-		</wildPlants>
+      <PoisonPlantTallGrass>7.0</PoisonPlantTallGrass>
+      <PoisonPlantDandelion>0.8</PoisonPlantDandelion>
+      <PoisonPlantBush>0.7</PoisonPlantBush>
+      <PoisonBrambles>0.4</PoisonBrambles>
+      <PoisonRafflesia>0.2</PoisonRafflesia>
+      <PoisonShrub>0.7</PoisonShrub>
+      <PoisonPlantTreeCecropia>0.3</PoisonPlantTreeCecropia>
+      <PoisonPlantTreeTeak>0.3</PoisonPlantTreeTeak>
+      <PoisonTreeCypress>0.3</PoisonTreeCypress>
+      <PoisonTreePalm>0.3</PoisonTreePalm>
+      <PoisonTreeWillow>0.3</PoisonTreeWillow>
+      <PoisonPlantRaspberry>0.1</PoisonPlantRaspberry>
+      <PoisonMushroom>0.15</PoisonMushroom>
+      <Plant_TallGrass>0.0</Plant_TallGrass>
+      <Plant_Dandelion>0.0</Plant_Dandelion>
+      <Plant_Bush>0.0</Plant_Bush>
+      <Plant_TreeCecropia>0.0</Plant_TreeCecropia>
+      <Plant_TreeTeak>0.0</Plant_TreeTeak>
+      <Plant_Berry>0.0</Plant_Berry>
+    </wildPlants>
     <wildAnimals>
-			<PoisonRat>1</PoisonRat>
-			<PoisonDeer>0.70</PoisonDeer>
-			<PoisonButterfly>1</PoisonButterfly>
-	</wildAnimals>
+      <PoisonRat>1</PoisonRat>
+      <PoisonDeer>0.70</PoisonDeer>
+      <PoisonButterfly>1</PoisonButterfly>
+    </wildAnimals>
     <allowedPackAnimals>
-			<li>Muffalo</li>
-			<li>Elephant</li>
-			<li>Alpaca</li>
-	</allowedPackAnimals>
+      <li>Muffalo</li>
+      <li>Elephant</li>
+      <li>Alpaca</li>
+    </allowedPackAnimals>
   </BiomeDef>
-
 </Defs>
