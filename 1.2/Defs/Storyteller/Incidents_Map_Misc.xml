@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- =========================== Good ============================-->
+  <IncidentDef>
+    <defName>VolcanoVolcanicEruption</defName>
+    <label>volcanic eruption</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>IncidentWorker_MakeGameCondition</workerClass>
+    <gameCondition>VolcanicWinter</gameCondition>
+    <letterLabel>Volcanic eruption</letterLabel>
+    <letterText>A nearby volcano has erupted and begun spewing ash into the atmosphere.\n\nAsh in the atmosphere will obscure the sun. Temperatures will drop and plants will suffer for lack of sunlight. It could pass in a few days, or it might take a couple weeks.</letterText>
+    <letterDef>ThreatSmall</letterDef>
+    <baseChance>5.00</baseChance>
+    <earliestDay>7</earliestDay>
+    <minRefireDays>30</minRefireDays>
+    <minDifficulty>2</minDifficulty>
+    <durationDays>
+      <min>4.5</min>
+      <max>20</max>
+    </durationDays>
+    <allowedBiomes>
+      <li>Volcano</li>
+    </allowedBiomes>
+    <tale>VolcanicWinter</tale>
+  </IncidentDef>
+  <IncidentDef>
+    <defName>PoisonSpores</defName>
+    <label>poison spores</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>IncidentWorker_MakeGameCondition</workerClass>
+    <gameCondition>Spores</gameCondition>
+    <letterLabel>Toxic Spores</letterLabel>
+    <letterText>The poisonous flora releases a cloud of toxic spores over this entire region.\n\nAny person or creature not under a roof will be slowly sickened by them as they settle out of the atmosphere.\n\nIt will last for anywhere between a few days to over a season.</letterText>
+    <letterDef>ThreatSmall</letterDef>
+    <baseChance>0.95</baseChance>
+    <earliestDay>0</earliestDay>
+    <minRefireDays>7</minRefireDays>
+    <minDifficulty>0</minDifficulty>
+    <durationDays>
+      <min>7.0</min>
+      <max>14.5</max>
+    </durationDays>
+    <allowedBiomes>
+      <li>PoisonForest</li>
+    </allowedBiomes>
+    <tale>ToxicFallout</tale>
+  </IncidentDef>
+</Defs>
