@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Good -->
+  <VolcanoVolcanicEruption.label>火山爆发</VolcanoVolcanicEruption.label>
+  <VolcanoVolcanicEruption.letterText>附近的一处火山爆发了并向大气中喷射出大量的火山灰。
+  
+  火山灰在大气中遮蔽了太阳。气温下降、植物会缺乏阳光而枯萎，火山灰有可能在数日内散去，或持续几个星期。</VolcanoVolcanicEruption.letterText>
+  <VolcanoVolcanicEruption.letterLabel>火山爆发</VolcanoVolcanicEruption.letterLabel>
+  <PoisonSpores.label>剧毒孢子</PoisonSpores.label>
+  <PoisonSpores.letterText>有毒植被释放出来巨量毒性孢子聚积成毒云弥漫了整个地区。
+  
+  在有毒孢子们飞离此地的大气之前，任何不在屋顶下的人类和动物都会慢慢被空气中的有毒孢子云致病。毒性孢子云会持续几天或超过一个月。</PoisonSpores.letterText>
+  <PoisonSpores.letterLabel>剧毒孢子</PoisonSpores.letterLabel>
+</LanguageData>

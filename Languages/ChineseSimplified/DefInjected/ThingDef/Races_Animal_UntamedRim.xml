@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PoisonDeer.label>耐毒鹿</PoisonDeer.label>
+  <PoisonDeer.description>一种中型的素食动物。一般在不被打扰时性情温顺。长久以来他适应了毒物森林的毒性，变成了一只有耐毒性的鹿</PoisonDeer.description>
+  <PoisonDeer_Leather.label>耐毒鹿皮</PoisonDeer_Leather.label>
+  <PoisonDeer_Leather.description>耐毒鹿的皮</PoisonDeer_Leather.description>
+  <PoisonDeer_Leather.stuffProps.stuffAdjective>耐毒鹿皮</PoisonDeer_Leather.stuffProps.stuffAdjective>
+  <PoisonDeer_Meat.label>耐毒鹿肉</PoisonDeer_Meat.label>
+  <PoisonDeer_Meat.description>耐毒鹿肉</PoisonDeer_Meat.description>
+  <PoisonDeer_Corpse.label>耐毒鹿尸体</PoisonDeer_Corpse.label>
+  <PoisonDeer_Corpse.description>耐毒鹿尸体</PoisonDeer_Corpse.description>
+  <PoisonRat.label>耐毒老鼠</PoisonRat.label>
+  <PoisonRat.description>一种以污染厨房及传播疾病而闻名的啮齿动物。几乎什么都吃，几乎在哪儿都能生存下来。长久以来这些老鼠适应了毒物森林的毒性，变成了一只有耐毒性的老鼠</PoisonRat.description>
+  <PoisonRat_Leather.label>耐毒老鼠皮</PoisonRat_Leather.label>
+  <PoisonRat_Leather.description>耐毒老鼠皮</PoisonRat_Leather.description>
+  <PoisonRat_Leather.stuffProps.stuffAdjective>耐毒老鼠皮</PoisonRat_Leather.stuffProps.stuffAdjective>
+  <PoisonRat_Meat.label>耐毒老鼠肉</PoisonRat_Meat.label>
+  <PoisonRat_Meat.description>耐毒老鼠肉</PoisonRat_Meat.description>
+  <PoisonRat_Corpse.label>耐毒老鼠尸体</PoisonRat_Corpse.label>
+  <PoisonRat_Corpse.description>耐毒老鼠尸体</PoisonRat_Corpse.description>
+  <MutantCow.label>变异牛</MutantCow.label>
+  <MutantCow.description>一种很常见的家畜。唯独不同是这一只它变异了，但它依旧可以产生大量的牛奶，或被宰杀成为美味食物。</MutantCow.description>
+  <MutantCow_Leather.label>变异牛皮</MutantCow_Leather.label>
+  <MutantCow_Leather.description>变异牛皮</MutantCow_Leather.description>
+  <MutantCow_Leather.stuffProps.stuffAdjective>变异牛皮</MutantCow_Leather.stuffProps.stuffAdjective>
+  <MutantCow_Meat.label>变异牛肉</MutantCow_Meat.label>
+  <MutantCow_Meat.description>变异牛肉</MutantCow_Meat.description>
+  <MutantCow_Corpse.label>变异牛尸体</MutantCow_Corpse.label>
+  <MutantCow_Corpse.description>变异牛尸体</MutantCow_Corpse.description>
+  <PoisonButterfly.label>蝴蝶</PoisonButterfly.label>
+  <PoisonButterfly.description>蝴蝶，美哉。一种长有巨大鳞片状翅膀的飞行昆虫。蝴蝶是毛毛虫经过完全变态之后的生命形态。</PoisonButterfly.description>
+  <PoisonButterfly.tools.1.label>头部</PoisonButterfly.tools.1.label>
+  <PoisonButterfly_Leather.label>蝴蝶皮</PoisonButterfly_Leather.label>
+  <PoisonButterfly_Leather.description>蝴蝶皮</PoisonButterfly_Leather.description>
+  <PoisonButterfly_Leather.stuffProps.stuffAdjective>蝴蝶皮</PoisonButterfly_Leather.stuffProps.stuffAdjective>
+  <!-- Use Meat From: Megaspider -->
+  <PoisonButterfly_Corpse.label>蝴蝶尸体</PoisonButterfly_Corpse.label>
+  <PoisonButterfly_Corpse.description>蝴蝶尸体</PoisonButterfly_Corpse.description>
+</LanguageData>

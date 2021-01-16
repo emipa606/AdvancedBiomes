@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PoisonSoil.label>毒性土地</PoisonSoil.label>
+  <PoisonMarshyTerrain.label>湿软的沼泽地</PoisonMarshyTerrain.label>
+  <PoisonSoilRich.label>肥沃的土地</PoisonSoilRich.label>
+  <PoisonMud.label>淤泥地</PoisonMud.label>
+  <PoisonMarsh.label>湿地沼泽</PoisonMarsh.label>
+  <PoisonMossyTerrain.label>覆有苔藓的土地</PoisonMossyTerrain.label>
+</LanguageData>

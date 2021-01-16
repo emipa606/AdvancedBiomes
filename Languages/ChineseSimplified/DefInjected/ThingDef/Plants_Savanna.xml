@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PlantTallYellowGrass.label>高草</PlantTallYellowGrass.label>
+  <PlantTallYellowGrass.description>野生的高草，从它上面经过会明显的减缓移动速度。</PlantTallYellowGrass.description>
+  <SavannaTreeAcacia.label>金合欢树</SavannaTreeAcacia.label>
+  <SavannaTreeAcacia.description>金合欢树原生于世界各地的亚热带地区，它们即使在最恶劣的气候下都生存。</SavannaTreeAcacia.description>
+  <SavannaBush.label>低矮灌木</SavannaBush.label>
+  <SavannaBush.description>一个矮小的灌木丛。没什么太多可说的。</SavannaBush.description>
+  <SavannaTreeBaobab.label>猴面包树</SavannaTreeBaobab.label>
+  <SavannaTreeBaobab.description>原生于热带稀树草原上的一种树干特别粗大的树。</SavannaTreeBaobab.description>
+</LanguageData>

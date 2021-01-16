@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Threats -->
+  <!--[Core] <Ambush.label>伏击</Ambush.label>-->
+  <!--[Core] <Ambush.letterText>{0}被来自{2}的{1}的伏击了！</Ambush.letterText>-->
+  <!--[Core] <Ambush.letterLabel>远行队遭遇伏击</Ambush.letterLabel>-->
+  <!--[Core] <ManhunterAmbush.label>猎杀人类伏击</ManhunterAmbush.label>-->
+  <!--[Core] <ManhunterAmbush.letterText>{0}被猎杀人类的{1}伏击了!</ManhunterAmbush.letterText>-->
+  <!--[Core] <ManhunterAmbush.letterLabel>远行队遭遇伏击（猎杀人类）</ManhunterAmbush.letterLabel>-->
+  <!-- Good -->
+  <!--[Core] <CaravanMeeting.label>远行队相遇</CaravanMeeting.label>-->
+  <!-- Bad -->
+  <!--[Core] <CaravanDemand.label>打劫</CaravanDemand.label>-->
+</LanguageData>

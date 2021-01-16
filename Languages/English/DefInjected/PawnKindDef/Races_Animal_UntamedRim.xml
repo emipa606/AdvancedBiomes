@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PoisonDeer.label>deer</PoisonDeer.label>
   <PoisonDeer.labelPlural>deer</PoisonDeer.labelPlural>
   <PoisonDeer.lifeStages.0.label>deer</PoisonDeer.lifeStages.0.label>
@@ -25,7 +24,6 @@
   <PoisonDeer.labelMalePlural>male deer</PoisonDeer.labelMalePlural>
   <PoisonDeer.labelFemale>doe</PoisonDeer.labelFemale>
   <PoisonDeer.labelFemalePlural>female deer</PoisonDeer.labelFemalePlural>
-
   <PoisonRat.label>rat</PoisonRat.label>
   <PoisonRat.labelPlural>rats</PoisonRat.labelPlural>
   <PoisonRat.lifeStages.0.label>rat</PoisonRat.lifeStages.0.label>
@@ -50,7 +48,6 @@
   <PoisonRat.labelMalePlural>male rats</PoisonRat.labelMalePlural>
   <PoisonRat.labelFemale>female rat</PoisonRat.labelFemale>
   <PoisonRat.labelFemalePlural>female rats</PoisonRat.labelFemalePlural>
-
   <MutantCow.label>cow</MutantCow.label>
   <MutantCow.labelPlural>cows</MutantCow.labelPlural>
   <MutantCow.lifeStages.0.label>calf</MutantCow.lifeStages.0.label>
@@ -75,7 +72,6 @@
   <MutantCow.labelMalePlural>bulls</MutantCow.labelMalePlural>
   <MutantCow.labelFemale>cow</MutantCow.labelFemale>
   <MutantCow.labelFemalePlural>cows</MutantCow.labelFemalePlural>
-
   <PoisonButterfly.label>butterfly</PoisonButterfly.label>
   <PoisonButterfly.labelPlural>butterflies</PoisonButterfly.labelPlural>
   <PoisonButterfly.lifeStages.0.label>butterfly</PoisonButterfly.lifeStages.0.label>
@@ -100,6 +96,4 @@
   <PoisonButterfly.labelMalePlural>male butterflies</PoisonButterfly.labelMalePlural>
   <PoisonButterfly.labelFemale>butterfly</PoisonButterfly.labelFemale>
   <PoisonButterfly.labelFemalePlural>female butterflies</PoisonButterfly.labelFemalePlural>
-
-
 </LanguageData>

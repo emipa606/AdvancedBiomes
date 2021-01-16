@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <EggButterflyFertilized.label>蝴蝶卵（已受精）</EggButterflyFertilized.label>
+  <EggButterflyFertilized.description>已受精的蝴蝶卵。如果一切顺利应该可以孵化出蝴蝶宝宝，可以生吃，但是最好烹饪后食用。</EggButterflyFertilized.description>
+  <Silk.label>丝线</Silk.label>
+  <Silk.description>某种动物产的丝。</Silk.description>
+  <Silk.stuffProps.stuffAdjective>丝线</Silk.stuffProps.stuffAdjective>
+</LanguageData>

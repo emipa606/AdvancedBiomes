@@ -20,48 +20,75 @@
   <loadAfter>
     <li>brrainz.harmony</li>
   </loadAfter>
-  <description>Update of Hey my team rules!s mod
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Hey my team rules!s mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1338280929
 
-[img]https://i.imgur.com/GYswkZ7.png[/img]
+- Some features might not function since I had to decompile the source and some of the transpiling harmony-code I could not figure out.
+- Added mod-options for changing the probability for the added biomes during world generation.
+- Added fish-definitions for Vanilla Fishing Expanded, thank you LilithDarkmoon!
 
-Support-chat:
-https://invite.gg/mlie
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
-Non-steam version:
-https://github.com/emipa606/AdvancedBiomes
-
-Some features might not function since I had to decompile the source and some of the transpiling harmony-code I could not figure out.
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/AdvancedBiomes][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+[/table]
 	
---- Original Description ---
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+	
 Terraforming has always been more art than science. The process often resulted in an unstable biosphere. Poisonous forests, lakes of lava, and unregulated weapons testing have left scars across the landscape. These areas pose a hightened threat to colonists, only the desperate or foolish would attempt to live there.
 
 Advanced Biomes adds 5 new biomes to RimWorld, complete with custom weather, plants and animals.
 
-Poison Forest: A thick, poisonous forest. The stale air carries millions of fiberous spores. The terrain is soggy with scum and muck. Spiney thickets of poplars cover poison briar and plump fungi.
-Poison Spores Weather. Colonists will gradually build up toxicity while outdoors. Let them stay inside every few days to reduce the toxicity.
-New butterflies, mushrooms and blue deer.
+[b]Poison Forest[/b]: A thick, poisonous forest. The stale air carries millions of fiberous spores. The terrain is soggy with scum and muck. Spiney thickets of poplars cover poison briar and plump fungi.
+[list]
+[*]Poison Spores Weather. Colonists will gradually build up toxicity while outdoors. Let them stay inside every few days to reduce the toxicity.
+[*]New butterflies, mushrooms and blue deer.
+[/list]
 
-Savanna: A savanna is a rolling grassland scattered with shrubs and isolated trees, which can be found between a tropical rainforest and desert biome. Not enough rain falls on a savanna to support forests.
-Big animals, tall grass and few trees makes this ideal for hunting and ranged combat.
-New acacia and baobab trees.
+[b]Savanna[/b]: A savanna is a rolling grassland scattered with shrubs and isolated trees, which can be found between a tropical rainforest and desert biome. Not enough rain falls on a savanna to support forests.
+[list]
+[*]Big animals, tall grass and few trees makes this ideal for hunting and ranged combat.
+[*]New acacia and baobab trees.
+[/list]
 
-Volcano: A volcano is a rupture in the crust of a planet, that allows hot lava, volcanic ash, and gases to escape from a magma chamber below the surface.
-Pools of lava give off tons of heat and light up the night.
-Volcanic eruptions block the sun for a few days.
+[b]Volcano[/b]: A volcano is a rupture in the crust of a planet, that allows hot lava, volcanic ash, and gases to escape from a magma chamber below the surface.
+[list]
+[*]Pools of lava give off tons of heat and light up the night.
+[*]Volcanic eruptions block the sun for a few days.
+[/list]
 
-Wetland: A wetland is a land area that is saturated with water, either permanently or seasonally, such that it takes on the characteristics of a distinct ecosystem.
-Water makes it difficult to find places to build here.
-New sword fern, ivy, cedar trees, and mangrove trees.
+[b]Wetland[/b]: A wetland is a land area that is saturated with water, either permanently or seasonally, such that it takes on the characteristics of a distinct ecosystem.
+[list]
+[*]Water makes it difficult to find places to build here.
+[*]New sword fern, ivy, cedar trees, and mangrove trees.
+[/list]
 
-Wasteland: A highly radioactive desert. Nuclear contamination from weapons testing, war or meltdowns has permanently altered the landscape.
-Pools of radioactive waste light up the night.
-Hardly any trees, and nothing to eat but mutant animals.
+[b]Wasteland[/b]: A highly radioactive desert. Nuclear contamination from weapons testing, war or meltdowns has permanently altered the landscape.
+[list]
+[*]Pools of radioactive waste light up the night.
+[*]Hardly any trees, and nothing to eat but mutant animals.
+[/list]
 
 Advanced Biomes will be updated periodically, please leave a comment if you have a problem or suggestion.
 
 Special thanks to Spdskatr for letting me use his active terrain mod.
 Please remember to rate this up if you like the mod!
 
-For 1.0: https://www.dropbox.com/s/m8kv0s4ofkpfxb3/Advanced%20Biomes%201.0.zip?dl=0</description>
+For 1.0: https://www.dropbox.com/s/m8kv0s4ofkpfxb3/Advanced%20Biomes%201.0.zip?dl=0
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+

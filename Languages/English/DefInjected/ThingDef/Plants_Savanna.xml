@@ -1,17 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PlantTallYellowGrass.label>tall grass</PlantTallYellowGrass.label>
   <PlantTallYellowGrass.description>Wild tall grass. Significantly slows down anyone moving over it.</PlantTallYellowGrass.description>
-
   <SavannaTreeAcacia.label>acacia tree</SavannaTreeAcacia.label>
   <SavannaTreeAcacia.description>Native to subtropical regions throughout the world, the acacia trees grow in the harshest climates.</SavannaTreeAcacia.description>
-
   <SavannaBush.label>bush</SavannaBush.label>
   <SavannaBush.description>A short shrub. Does not typically talk.</SavannaBush.description>
-
   <SavannaTreeBaobab.label>baobab tree</SavannaTreeBaobab.label>
   <SavannaTreeBaobab.description>A large round tree native to tropical savannas.</SavannaTreeBaobab.description>
-
-
 </LanguageData>

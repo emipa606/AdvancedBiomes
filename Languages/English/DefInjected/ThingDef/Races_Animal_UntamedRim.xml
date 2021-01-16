@@ -1,18 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <PoisonDeer.label>deer</PoisonDeer.label>
   <PoisonDeer.description>A medium-sized herding herbivore. Generally peaceful unless disturbed.</PoisonDeer.description>
-
   <PoisonRat.label>rat</PoisonRat.label>
   <PoisonRat.description>A rodent famous for soiling kitchens and spreading disease. Eats almost anything; lives almost anywhere.</PoisonRat.description>
-
   <MutantCow.label>cow</MutantCow.label>
   <MutantCow.description>A very common domestic animal. It can produce large amounts of milk, or be slaughtered for delicious food.</MutantCow.description>
-
   <PoisonButterfly.label>butterfly</PoisonButterfly.label>
   <PoisonButterfly.description>Butterflies are beautiful, flying insects with large scaly wings. Butterflies are caterpillers which have completed metamorphasis.</PoisonButterfly.description>
   <PoisonButterfly.tools.1.label>head</PoisonButterfly.tools.1.label>
-
-
 </LanguageData>

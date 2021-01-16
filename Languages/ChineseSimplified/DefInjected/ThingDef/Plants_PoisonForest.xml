@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PoisonPlantTallGrass.label>高草</PoisonPlantTallGrass.label>
+  <PoisonPlantTallGrass.description>野生的高草。从它上面经过将会减缓移动速度。</PoisonPlantTallGrass.description>
+  <PoisonPlantTreeTeak.label>柚木</PoisonPlantTreeTeak.label>
+  <PoisonPlantTreeTeak.description>一种生长在温暖气候下的非常坚硬的硬材（阔叶林的木材）树木。因为柚木具有卓越的耐用性和防水性，在古代常被用来建造帆船的龙骨。</PoisonPlantTreeTeak.description>
+  <PoisonPlantTreeCecropia.label>伞树科树木</PoisonPlantTreeCecropia.label>
+  <PoisonPlantTreeCecropia.description>伞树科树木在热带雨林中是一种非常常见的树木，它们长得非常快， 但几乎无法产出可以用的木材。</PoisonPlantTreeCecropia.description>
+  <PoisonPlantRaspberry.label>覆盆子</PoisonPlantRaspberry.label>
+  <PoisonPlantRaspberry.description>一个长有覆盆子的浓密灌木丛，覆盆子可以用来做菜，但是生吃也是一个非常不错的选择。</PoisonPlantRaspberry.description>
+  <PoisonPlantBush.label>低矮灌木</PoisonPlantBush.label>
+  <PoisonPlantBush.description>一个矮小的灌木丛。没什么太多可说的。</PoisonPlantBush.description>
+  <PoisonPlantDandelion.label>毒雾森林蒲公英</PoisonPlantDandelion.label>
+  <PoisonPlantDandelion.description>一种长成一大簇的黄色小花，因为繁殖迅速常被当作野草，实际上也是一种比较好看的花卉。这种蒲公英显然已经适应了毒物森林的毒性环境。</PoisonPlantDandelion.description>
+  <PoisonMushroom.label>野蘑菇</PoisonMushroom.label>
+  <PoisonMushroom.description>一种常见的野生菌类，看起来肉肉的，还很有嚼劲儿。</PoisonMushroom.description>
+  <PoisonAlocasia.label>毒性海芋</PoisonAlocasia.label>
+  <PoisonAlocasia.description>一种热带雨林的植物，它那巨大的叶片是公认的热带毒雾森林的标志。</PoisonAlocasia.description>
+  <PoisonBrambles.label>毒性黑莓荆棘丛</PoisonBrambles.label>
+  <PoisonBrambles.description>一种热带雨林的植物，它那宽大的叶子是公认的毒雾森林的标志。</PoisonBrambles.description>
+  <PoisonRafflesia.label>毒性大王花</PoisonRafflesia.label>
+  <PoisonRafflesia.description>一种热带雨林的植物，它那宽大的花瓣是公认的毒雾森林的标志。</PoisonRafflesia.description>
+  <PoisonShrub.label>有毒的灌木</PoisonShrub.label>
+  <PoisonShrub.description>一个矮小的灌木丛。没什么太多可说的。</PoisonShrub.description>
+  <PoisonTreeCypress.label>柏树</PoisonTreeCypress.label>
+  <PoisonTreeCypress.description>柏树在热带雨林中是一种非常常见的树木。它们长得非常快， 但几乎无法产出可以用的木材。</PoisonTreeCypress.description>
+  <PoisonTreePalm.label>棕榈树</PoisonTreePalm.label>
+  <PoisonTreePalm.description>一种热带乔木，树干光秃秃的，树顶部有一簇一簇宽大的叶片。不幸的是，这种棕榈树并不能结出可口的椰子。</PoisonTreePalm.description>
+  <PoisonTreeWillow.label>柳树</PoisonTreeWillow.label>
+  <PoisonTreeWillow.description>世界上长得最快的绿荫树种之一。 柳树有一个美丽茂密的叶冠为人们提供阴凉。但柳树并不能产出太多可用的木材。</PoisonTreeWillow.description>
+</LanguageData>
