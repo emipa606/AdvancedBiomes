@@ -8,7 +8,7 @@ namespace ActiveTerrain
 		// Token: 0x0600003B RID: 59 RVA: 0x00002C31 File Offset: 0x00000E31
 		public TerrainCompProperties_PowerTrader()
 		{
-			this.compClass = typeof(TerrainComp_PowerTrader);
+			compClass = typeof(TerrainComp_PowerTrader);
 		}
 
 		// Token: 0x04000015 RID: 21

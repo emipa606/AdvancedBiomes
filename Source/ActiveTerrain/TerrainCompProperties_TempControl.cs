@@ -8,7 +8,7 @@ namespace ActiveTerrain
 		// Token: 0x0600003C RID: 60 RVA: 0x00002C4B File Offset: 0x00000E4B
 		public TerrainCompProperties_TempControl()
 		{
-			this.compClass = typeof(TerrainComp_TempControl);
+			compClass = typeof(TerrainComp_TempControl);
 		}
 
 		// Token: 0x04000017 RID: 23

@@ -23,7 +23,7 @@ namespace ActiveTerrain
 		{
 			Map value = Traverse.Create(__instance).Field("map").GetValue<Map>();
 			TerrainDef terrainDef = value.terrainGrid.TerrainAt(c);
-			bool flag = terrainDef is SpecialTerrain;
+			var flag = terrainDef is SpecialTerrain;
 			if (flag)
 			{
 				value.GetComponent<SpecialTerrainList>().Notify_RemovedTerrainAt(c);
@@ -34,7 +34,7 @@ namespace ActiveTerrain
 		private static void Postfix(IntVec3 c, TerrainDef newTerr, TerrainGrid __instance)
 		{
 			SpecialTerrain special;
-			bool flag = (special = (newTerr as SpecialTerrain)) != null;
+			var flag = (special = newTerr as SpecialTerrain) != null;
 			if (flag)
 			{
 				SpecialTerrainList component = Traverse.Create(__instance).Field("map").GetValue<Map>().GetComponent<SpecialTerrainList>();

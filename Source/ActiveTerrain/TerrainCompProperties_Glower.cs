@@ -9,7 +9,7 @@ namespace ActiveTerrain
 		// Token: 0x0600003D RID: 61 RVA: 0x00002C8C File Offset: 0x00000E8C
 		public TerrainCompProperties_Glower()
 		{
-			this.compClass = typeof(TerrainComp_Glower);
+			compClass = typeof(TerrainComp_Glower);
 		}
 
 		// Token: 0x0400001C RID: 28

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiomesPlus", "BiomesPlus\BiomesPlus.csproj", "{A6449DFF-905F-411A-A320-46425D82CD89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActiveTerrain", "ActiveTerrain\ActiveTerrain.csproj", "{52C8274B-2599-4C6A-88DA-A7261A9D1E67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{A6449DFF-905F-411A-A320-46425D82CD89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6449DFF-905F-411A-A320-46425D82CD89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6449DFF-905F-411A-A320-46425D82CD89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52C8274B-2599-4C6A-88DA-A7261A9D1E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52C8274B-2599-4C6A-88DA-A7261A9D1E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52C8274B-2599-4C6A-88DA-A7261A9D1E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52C8274B-2599-4C6A-88DA-A7261A9D1E67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF1BBE16-5B4B-4355-8023-8D0C7AFDEE35}
 	EndGlobalSection
 EndGlobal

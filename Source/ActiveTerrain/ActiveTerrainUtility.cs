@@ -21,14 +21,14 @@ namespace ActiveTerrain
 			foreach (IntVec3 c in room.Cells)
 			{
 				Building firstBuilding = c.GetFirstBuilding(room.Map);
-				bool flag = firstBuilding != null && firstBuilding.Powered();
+				var flag = firstBuilding != null && firstBuilding.Powered();
 				if (flag)
 				{
 					CompTempControl comp = firstBuilding.GetComp<CompTempControl>();
-					bool flag2 = comp != null;
+					var flag2 = comp != null;
 					if (flag2)
 					{
-						bool flag3 = (comp.AnalyzeType() & targetType) > TempControlType.None;
+						var flag3 = (comp.AnalyzeType() & targetType) > TempControlType.None;
 						if (flag3)
 						{
 							return comp;
@@ -42,14 +42,14 @@ namespace ActiveTerrain
 		// Token: 0x06000005 RID: 5 RVA: 0x00002140 File Offset: 0x00000340
 		public static TempControlType AnalyzeType(this CompTempControl tempControl)
 		{
-			float energyPerSecond = tempControl.Props.energyPerSecond;
+			var energyPerSecond = tempControl.Props.energyPerSecond;
 			return (energyPerSecond > 0f) ? TempControlType.Heater : ((energyPerSecond < 0f) ? TempControlType.Cooler : TempControlType.None);
 		}
 
 		// Token: 0x06000006 RID: 6 RVA: 0x00002178 File Offset: 0x00000378
 		public static TempControlType AnalyzeType(this TerrainComp_TempControl tempControl)
 		{
-			float energyPerSecond = tempControl.Props.energyPerSecond;
+			var energyPerSecond = tempControl.Props.energyPerSecond;
 			return (energyPerSecond > 0f) ? TempControlType.Heater : ((energyPerSecond < 0f) ? TempControlType.Cooler : TempControlType.None);
 		}
 
@@ -71,9 +71,9 @@ namespace ActiveTerrain
 		public static void RenderPulsingNeedsPowerOverlay(IntVec3 loc)
 		{
 			Vector3 vector = loc.ToVector3ShiftedWithAltitude(AltitudeLayer.MapDataOverlay);
-			float num = (Time.realtimeSinceStartup + 397f * (float)loc.HashCodeToMod(37)) * 4f;
-			float num2 = ((float)Math.Sin((double)num) + 1f) * 0.5f;
-			num2 = 0.3f + num2 * 0.7f;
+			var num = (Time.realtimeSinceStartup + (397f * (float)loc.HashCodeToMod(37))) * 4f;
+			var num2 = ((float)Math.Sin((double)num) + 1f) * 0.5f;
+			num2 = 0.3f + (num2 * 0.7f);
 			Material material = FadedMaterialPool.FadedVersionOf(ActiveTerrainUtility.NeedsPowerMat, num2);
 			Graphics.DrawMesh(MeshPool.plane08, vector, Quaternion.identity, material, 0);
 		}
@@ -81,20 +81,20 @@ namespace ActiveTerrain
 		// Token: 0x0600000A RID: 10 RVA: 0x00002274 File Offset: 0x00000474
 		public static CompPowerTraderFloor TryFindNearestPowerConduitFloor(IntVec3 center, Map map)
 		{
-			CellRect cellRect = CellRect.CenteredOn(center, 6);
+			var cellRect = CellRect.CenteredOn(center, 6);
 			Building building = null;
-			float num = float.MaxValue;
-			for (int i = cellRect.minZ; i <= cellRect.maxZ; i++)
+			var num = float.MaxValue;
+			for (var i = cellRect.minZ; i <= cellRect.maxZ; i++)
 			{
-				for (int j = cellRect.minX; j <= cellRect.maxX; j++)
+				for (var j = cellRect.minX; j <= cellRect.maxX; j++)
 				{
-					IntVec3 intVec = new IntVec3(j, 0, i);
+					var intVec = new IntVec3(j, 0, i);
 					Building transmitter = intVec.GetTransmitter(map);
-					bool flag = transmitter != null && transmitter.GetComp<CompPowerTraderFloor>() != null;
+					var flag = transmitter != null && transmitter.GetComp<CompPowerTraderFloor>() != null;
 					if (flag)
 					{
-						int lengthHorizontalSquared = (intVec - center).LengthHorizontalSquared;
-						bool flag2 = num > (float)lengthHorizontalSquared;
+						var lengthHorizontalSquared = (intVec - center).LengthHorizontalSquared;
+						var flag2 = num > (float)lengthHorizontalSquared;
 						if (flag2)
 						{
 							building = transmitter;
@@ -103,13 +103,13 @@ namespace ActiveTerrain
 					}
 				}
 			}
-			return (building != null) ? building.GetComp<CompPowerTraderFloor>() : null;
+			return building?.GetComp<CompPowerTraderFloor>();
 		}
 
 		// Token: 0x0600000B RID: 11 RVA: 0x00002348 File Offset: 0x00000548
 		public static TerrainInstance MakeTerrainInstance(this SpecialTerrain tDef, Map map, IntVec3 loc)
 		{
-			TerrainInstance terrainInstance = (TerrainInstance)Activator.CreateInstance(tDef.terrainInstanceClass);
+			var terrainInstance = (TerrainInstance)Activator.CreateInstance(tDef.terrainInstanceClass);
 			terrainInstance.def = tDef;
 			terrainInstance.Map = map;
 			terrainInstance.Position = loc;

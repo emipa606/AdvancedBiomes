@@ -27,7 +27,7 @@ namespace BiomesPlus
 			{
 				result = 12f;
 			}
-			result = result * (LoadedModManager.GetMod<BiomesPlusMod>().GetSettings<BiomesPlusSettings>().Wasteland / 100);
+			result *= LoadedModManager.GetMod<BiomesPlusMod>().GetSettings<BiomesPlusSettings>().Wasteland / 100;
 			return result;
 		}
 	}

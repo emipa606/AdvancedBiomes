@@ -12,7 +12,7 @@ namespace ActiveTerrain
 		[HarmonyPriority(600)]
 		private static void Prefix(IntVec3 c, TerrainGrid __instance)
 		{
-			bool flag = __instance.TerrainAt(c) is SpecialTerrain;
+			var flag = __instance.TerrainAt(c) is SpecialTerrain;
 			if (flag)
 			{
 				SpecialTerrainList component = Traverse.Create(__instance).Field("map").GetValue<Map>().GetComponent<SpecialTerrainList>();

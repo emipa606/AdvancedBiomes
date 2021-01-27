@@ -11,11 +11,11 @@ namespace BiomesPlus
 		// Token: 0x06000010 RID: 16 RVA: 0x000024E0 File Offset: 0x000006E0
 		public GameCondition_Spores()
 		{
-			ColorInt colorInt = new ColorInt(216, 255, 0);
+			var colorInt = new ColorInt(216, 255, 0);
 			Color toColor = colorInt.ToColor;
-			ColorInt colorInt2 = new ColorInt(234, 200, 255);
-			this.ToxicFalloutColors = new SkyColorSet(toColor, colorInt2.ToColor, new Color(1f, 1f, 1f), 0.85f);
-			this.overlays = new List<SkyOverlay>
+			var colorInt2 = new ColorInt(234, 200, 255);
+			ToxicFalloutColors = new SkyColorSet(toColor, colorInt2.ToColor, new Color(1f, 1f, 1f), SkyGlow);
+			overlays = new List<SkyOverlay>
 			{
 				new WeatherOverlay_Spores()
 			};
@@ -32,18 +32,18 @@ namespace BiomesPlus
 		public override void GameConditionTick()
 		{
 			List<Map> affectedMaps = base.AffectedMaps;
-			if (Find.TickManager.TicksGame % 3451 == 0)
+			if (Find.TickManager.TicksGame % CheckInterval == 0)
 			{
-				for (int i = 0; i < affectedMaps.Count; i++)
+				for (var i = 0; i < affectedMaps.Count; i++)
 				{
-					this.DoPawnsPoisonDamage(affectedMaps[i]);
+					DoPawnsPoisonDamage(affectedMaps[i]);
 				}
 			}
-			for (int j = 0; j < this.overlays.Count; j++)
+			for (var j = 0; j < overlays.Count; j++)
 			{
-				for (int k = 0; k < affectedMaps.Count; k++)
+				for (var k = 0; k < affectedMaps.Count; k++)
 				{
-					this.overlays[j].TickOverlay(affectedMaps[k]);
+					overlays[j].TickOverlay(affectedMaps[k]);
 				}
 			}
 		}
@@ -52,16 +52,16 @@ namespace BiomesPlus
 		private void DoPawnsPoisonDamage(Map map)
 		{
 			List<Pawn> allPawnsSpawned = map.mapPawns.AllPawnsSpawned;
-			for (int i = 0; i < allPawnsSpawned.Count; i++)
+			for (var i = 0; i < allPawnsSpawned.Count; i++)
 			{
 				Pawn pawn = allPawnsSpawned[i];
 				if (!pawn.Position.Roofed(map) && pawn.def.race.IsFlesh)
 				{
-					float num = 0.028758334f;
+					var num = 0.028758334f;
 					num *= pawn.GetStatValue(StatDefOf.ToxicSensitivity, true);
 					if (num != 0f)
 					{
-						float num2 = Mathf.Lerp(0.85f, 1.15f, Rand.ValueSeeded(pawn.thingIDNumber ^ 74374237));
+						var num2 = Mathf.Lerp(0.85f, 1.15f, Rand.ValueSeeded(pawn.thingIDNumber ^ 74374237));
 						num *= num2;
 						HealthUtility.AdjustSeverity(pawn, GameCondition_Spores.HediffDefOf.PoisonBuildup, num);
 					}
@@ -88,7 +88,7 @@ namespace BiomesPlus
 		private SkyColorSet ToxicFalloutColors;
 
 		// Token: 0x04000009 RID: 9
-		private List<SkyOverlay> overlays;
+		private readonly List<SkyOverlay> overlays;
 
 		// Token: 0x0200000A RID: 10
 		[DefOf]
@@ -118,55 +118,25 @@ namespace BiomesPlus
 		// Token: 0x0200000C RID: 12
 		public static class Util_PoisonForestBiome
 		{
-			// Token: 0x17000001 RID: 1
-			// (get) Token: 0x06000014 RID: 20 RVA: 0x000026FC File Offset: 0x000008FC
-			public static BiomeDef PoisonForestBiomeDef
-			{
-				get
-				{
-					return BiomeDef.Named("PoisonForest");
-				}
-			}
+            // Token: 0x17000001 RID: 1
+            // (get) Token: 0x06000014 RID: 20 RVA: 0x000026FC File Offset: 0x000008FC
+            public static BiomeDef PoisonForestBiomeDef => BiomeDef.Named("PoisonForest");
 
-			// Token: 0x17000002 RID: 2
-			// (get) Token: 0x06000015 RID: 21 RVA: 0x00002718 File Offset: 0x00000918
-			public static BiomeDef SavannaBiomeDef
-			{
-				get
-				{
-					return BiomeDef.Named("Savanna");
-				}
-			}
+            // Token: 0x17000002 RID: 2
+            // (get) Token: 0x06000015 RID: 21 RVA: 0x00002718 File Offset: 0x00000918
+            public static BiomeDef SavannaBiomeDef => BiomeDef.Named("Savanna");
 
-			// Token: 0x17000003 RID: 3
-			// (get) Token: 0x06000016 RID: 22 RVA: 0x00002734 File Offset: 0x00000934
-			public static BiomeDef WetlandBiomeDef
-			{
-				get
-				{
-					return BiomeDef.Named("Wetland");
-				}
-			}
+            // Token: 0x17000003 RID: 3
+            // (get) Token: 0x06000016 RID: 22 RVA: 0x00002734 File Offset: 0x00000934
+            public static BiomeDef WetlandBiomeDef => BiomeDef.Named("Wetland");
 
-			// Token: 0x17000004 RID: 4
-			// (get) Token: 0x06000017 RID: 23 RVA: 0x00002750 File Offset: 0x00000950
-			public static BiomeDef VolcanoBiomeDef
-			{
-				get
-				{
-					return BiomeDef.Named("Volcano");
-				}
-			}
+            // Token: 0x17000004 RID: 4
+            // (get) Token: 0x06000017 RID: 23 RVA: 0x00002750 File Offset: 0x00000950
+            public static BiomeDef VolcanoBiomeDef => BiomeDef.Named("Volcano");
 
-			// Token: 0x17000005 RID: 5
-			// (get) Token: 0x06000018 RID: 24 RVA: 0x0000276C File Offset: 0x0000096C
-			public static GameConditionDef PoisonForestEnvironmentGameConditionDef
-			{
-				get
-				{
-					return GameConditionDef.Named("Spores");
-				}
-			}
-		}
+            // Token: 0x17000005 RID: 5
+            // (get) Token: 0x06000018 RID: 24 RVA: 0x0000276C File Offset: 0x0000096C
+            public static GameConditionDef PoisonForestEnvironmentGameConditionDef => GameConditionDef.Named("Spores");
+        }
 	}
 }

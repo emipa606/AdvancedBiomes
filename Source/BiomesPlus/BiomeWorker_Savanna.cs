@@ -25,9 +25,9 @@ namespace BiomesPlus
 			}
 			else
 			{
-				result = 22.5f + (tile.temperature - 20f) * 1.8f + (tile.rainfall - 600f) / 85f;
+				result = 22.5f + ((tile.temperature - 20f) * 1.8f) + ((tile.rainfall - 600f) / 85f);
 			}
-			result = result * (LoadedModManager.GetMod<BiomesPlusMod>().GetSettings<BiomesPlusSettings>().Savanna / 100);
+			result *= LoadedModManager.GetMod<BiomesPlusMod>().GetSettings<BiomesPlusSettings>().Savanna / 100;
 			return result;
 		}
 	}

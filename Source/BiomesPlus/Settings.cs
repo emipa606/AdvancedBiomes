@@ -12,6 +12,7 @@ namespace BiomesPlus
         public float Volcano = 100f;
         public float Wasteland = 100f;
         public float Wetland = 100f;
+        public bool VolcanoVariety = false;
 
         /// <summary>
         /// Saving and loading the values
@@ -24,6 +25,7 @@ namespace BiomesPlus
             Scribe_Values.Look(ref Volcano, "Volcano", 100f, false);
             Scribe_Values.Look(ref Wasteland, "Wasteland", 100f, false);
             Scribe_Values.Look(ref Wetland, "Wetland", 100f, false);
+            Scribe_Values.Look(ref VolcanoVariety, "VolcanoVariety", false, false);
         }
     }
 }

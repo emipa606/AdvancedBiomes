@@ -29,9 +29,9 @@ namespace BiomesPlus
 			}
 			else
 			{
-				result = 16f + (tile.temperature - 7f) + (tile.rainfall - 600f) / 155f;
+				result = 16f + (tile.temperature - 7f) + ((tile.rainfall - 600f) / 155f);
 			}
-			result = result * (LoadedModManager.GetMod<BiomesPlusMod>().GetSettings<BiomesPlusSettings>().Wetland / 100);
+			result *= LoadedModManager.GetMod<BiomesPlusMod>().GetSettings<BiomesPlusSettings>().Wetland / 100;
 			return result;
 		}
 	}

@@ -11,7 +11,7 @@ namespace BiomesPlus
 		// Token: 0x06000001 RID: 1 RVA: 0x00002068 File Offset: 0x00000268
 		public static List<Material> MatsFromTexturesInFolder(string dirPath)
 		{
-			string text = "Textures/" + dirPath;
+			var text = "Textures/" + dirPath;
 			return (from Texture2D tex in Resources.LoadAll(text, typeof(Texture2D))
 			select MaterialPool.MatFrom(tex)).ToList<Material>();
 		}

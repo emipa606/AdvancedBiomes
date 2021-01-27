@@ -10,16 +10,16 @@ namespace ActiveTerrain
 		// Token: 0x06000012 RID: 18 RVA: 0x00002510 File Offset: 0x00000710
 		public T GetCompProperties<T>() where T : TerrainCompProperties
 		{
-			for (int i = 0; i < this.terrainComps.Count; i++)
+			for (var i = 0; i < terrainComps.Count; i++)
 			{
 				T result;
-				bool flag = (result = (this.terrainComps[i] as T)) != null;
+				var flag = (result = terrainComps[i] as T) != null;
 				if (flag)
 				{
 					return result;
 				}
 			}
-			return default(T);
+			return default;
 		}
 
 		// Token: 0x04000009 RID: 9

@@ -25,9 +25,9 @@ namespace BiomesPlus
 			}
 			else
 			{
-				result = 26f + (tile.temperature - 20f) * 2f + (tile.rainfall - 600f) / 200f;
+				result = 26f + ((tile.temperature - 20f) * 2f) + ((tile.rainfall - 600f) / 200f);
 			}
-			result = result * (LoadedModManager.GetMod<BiomesPlusMod>().GetSettings<BiomesPlusSettings>().PoisonForest / 100);
+			result *= LoadedModManager.GetMod<BiomesPlusMod>().GetSettings<BiomesPlusSettings>().PoisonForest / 100;
 			return result;
 		}
 	}

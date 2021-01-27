@@ -16,14 +16,14 @@ namespace ActiveTerrain
 		public override void ExposeData()
 		{
 			base.ExposeData();
-			Scribe_Collections.Look<IntVec3, TerrainInstance>(ref this.terrains, "terrains", LookMode.Value, LookMode.Deep);
+			Scribe_Collections.Look<IntVec3, TerrainInstance>(ref terrains, "terrains", LookMode.Value, LookMode.Deep);
 		}
 
 		// Token: 0x06000026 RID: 38 RVA: 0x00002968 File Offset: 0x00000B68
 		public override void MapComponentTick()
 		{
 			base.MapComponentTick();
-			foreach (KeyValuePair<IntVec3, TerrainInstance> keyValuePair in this.terrains)
+			foreach (KeyValuePair<IntVec3, TerrainInstance> keyValuePair in terrains)
 			{
 				keyValuePair.Value.Tick();
 			}
@@ -33,30 +33,30 @@ namespace ActiveTerrain
 		public override void FinalizeInit()
 		{
 			base.FinalizeInit();
-			this.RefreshAllCurrentTerrain();
-			this.CallPostLoad();
+			RefreshAllCurrentTerrain();
+			CallPostLoad();
 		}
 
 		// Token: 0x06000028 RID: 40 RVA: 0x000029E8 File Offset: 0x00000BE8
 		public void CallPostLoad()
 		{
-			foreach (IntVec3 key in this.terrains.Keys)
+			foreach (IntVec3 key in terrains.Keys)
 			{
-				this.terrains[key].PostLoad();
+				terrains[key].PostLoad();
 			}
 		}
 
 		// Token: 0x06000029 RID: 41 RVA: 0x00002A50 File Offset: 0x00000C50
 		public void RefreshAllCurrentTerrain()
 		{
-			foreach (IntVec3 intVec in this.map)
+			foreach (IntVec3 intVec in map)
 			{
-				TerrainDef terrainDef = this.map.terrainGrid.TerrainAt(intVec);
+				TerrainDef terrainDef = map.terrainGrid.TerrainAt(intVec);
 				SpecialTerrain special;
-				bool flag = (special = (terrainDef as SpecialTerrain)) != null;
+				var flag = (special = terrainDef as SpecialTerrain) != null;
 				if (flag)
 				{
-					this.RegisterAt(special, intVec);
+					RegisterAt(special, intVec);
 				}
 			}
 		}
@@ -64,18 +64,18 @@ namespace ActiveTerrain
 		// Token: 0x0600002A RID: 42 RVA: 0x00002ACC File Offset: 0x00000CCC
 		public void RegisterAt(SpecialTerrain special, int i)
 		{
-			this.RegisterAt(special, this.map.cellIndices.IndexToCell(i));
+			RegisterAt(special, map.cellIndices.IndexToCell(i));
 		}
 
 		// Token: 0x0600002B RID: 43 RVA: 0x00002AE8 File Offset: 0x00000CE8
 		public void RegisterAt(SpecialTerrain special, IntVec3 cell)
 		{
-			bool flag = !this.terrains.ContainsKey(cell);
+			var flag = !terrains.ContainsKey(cell);
 			if (flag)
 			{
-				TerrainInstance terrainInstance = special.MakeTerrainInstance(this.map, cell);
+				TerrainInstance terrainInstance = special.MakeTerrainInstance(map, cell);
 				terrainInstance.Init();
-				this.terrains.Add(cell, terrainInstance);
+				terrains.Add(cell, terrainInstance);
 			}
 		}
 
@@ -83,7 +83,7 @@ namespace ActiveTerrain
 		public override void MapComponentUpdate()
 		{
 			base.MapComponentUpdate();
-			foreach (KeyValuePair<IntVec3, TerrainInstance> keyValuePair in this.terrains)
+			foreach (KeyValuePair<IntVec3, TerrainInstance> keyValuePair in terrains)
 			{
 				keyValuePair.Value.Update();
 			}
@@ -92,8 +92,8 @@ namespace ActiveTerrain
 		// Token: 0x0600002D RID: 45 RVA: 0x00002B98 File Offset: 0x00000D98
 		public void Notify_RemovedTerrainAt(IntVec3 c)
 		{
-			TerrainInstance terrainInstance = this.terrains[c];
-			this.terrains.Remove(c);
+			TerrainInstance terrainInstance = terrains[c];
+			terrains.Remove(c);
 			terrainInstance.PostRemove();
 		}
 

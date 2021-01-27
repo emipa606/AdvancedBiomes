@@ -28,10 +28,7 @@ namespace BiomesPlus
                 }
                 return settings;
             }
-            set
-            {
-                settings = value;
-            }
+            set => settings = value;
         }
 
         /// <summary>
@@ -50,7 +47,7 @@ namespace BiomesPlus
         /// <param name="rect"></param>
         public override void DoSettingsWindowContents(Rect rect)
         {
-            Listing_Standard listing_Standard = new Listing_Standard();
+            var listing_Standard = new Listing_Standard();
             listing_Standard.Begin(rect);
             listing_Standard.Label("Increase or lower the probability during world-generation, 100% is the standard value");
             listing_Standard.Gap();
@@ -68,6 +65,8 @@ namespace BiomesPlus
             listing_Standard.Gap();
             listing_Standard.Label("Wetland: " + Settings.Wetland + "%");
             Settings.Wetland = Widgets.HorizontalSlider(listing_Standard.GetRect(20), Settings.Wetland, 0, 200f, false, null, null, null, 1f);
+            listing_Standard.GapLine();
+            listing_Standard.CheckboxLabeled("Enable volcano variety", ref Settings.VolcanoVariety, "Allows volcano tiles to generate on small and large hills along side the normal mountainous and impassible tiles, allows volcano tiles to generate on elevations higher than 750");
             listing_Standard.End();
             Settings.Write();
         }

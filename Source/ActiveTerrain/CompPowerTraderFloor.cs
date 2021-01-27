@@ -12,28 +12,28 @@ namespace ActiveTerrain
 		public override void SetUpPowerVars()
 		{
 			base.SetUpPowerVars();
-			this.UpdatePowerOutput();
+			UpdatePowerOutput();
 		}
 
 		// Token: 0x06000077 RID: 119 RVA: 0x000039B8 File Offset: 0x00001BB8
 		public virtual void ReceiveTerrainComp(TerrainComp_PowerTrader comp)
 		{
-			this.acceptedComps.Add(comp);
-			this.UpdatePowerOutput();
+			acceptedComps.Add(comp);
+			UpdatePowerOutput();
 		}
 
 		// Token: 0x06000078 RID: 120 RVA: 0x000039CF File Offset: 0x00001BCF
 		public virtual void Notify_TerrainCompRemoved(TerrainComp_PowerTrader comp)
 		{
-			this.acceptedComps.Remove(comp);
-			this.UpdatePowerOutput();
+			acceptedComps.Remove(comp);
+			UpdatePowerOutput();
 		}
 
 		// Token: 0x06000079 RID: 121 RVA: 0x000039E8 File Offset: 0x00001BE8
 		public void UpdatePowerOutput()
 		{
-			float curPowerDemand = this.CurPowerDemand;
-			float powerOutput = -base.Props.basePowerConsumption + curPowerDemand;
+			var curPowerDemand = CurPowerDemand;
+			var powerOutput = -base.Props.basePowerConsumption + curPowerDemand;
 			base.PowerOutput = powerOutput;
 		}
 
@@ -43,12 +43,12 @@ namespace ActiveTerrain
 		{
 			get
 			{
-				float num = 0f;
-				foreach (TerrainComp_PowerTrader terrainComp_PowerTrader in this.acceptedComps)
+				var num = 0f;
+				foreach (TerrainComp_PowerTrader terrainComp_PowerTrader in acceptedComps)
 				{
 					num += terrainComp_PowerTrader.PowerOutput;
 				}
-				return this.cachedCurPowerDemand = num;
+				return cachedCurPowerDemand = num;
 			}
 		}
 
@@ -57,8 +57,8 @@ namespace ActiveTerrain
 		{
 			return base.CompInspectStringExtra() + "FloorWire_InspectStringPart".Translate(new object[]
 			{
-				this.acceptedComps.Count,
-				-this.cachedCurPowerDemand
+				acceptedComps.Count,
+				-cachedCurPowerDemand
 			});
 		}
 
