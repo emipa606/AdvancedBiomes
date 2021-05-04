@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PlantTallYellowGrass.label>hautes herbes</PlantTallYellowGrass.label>
+  <PlantTallYellowGrass.description>Herbes hautes sauvages. Ralentit considérablement quiconque se déplace dessus.</PlantTallYellowGrass.description>
+  <SavannaTreeAcacia.label>acacia</SavannaTreeAcacia.label>
+  <SavannaTreeAcacia.description>Originaires des régions subtropicales du monde entier, les acacias poussent dans les climats les plus rudes.</SavannaTreeAcacia.description>
+  <SavannaBush.label>buisson</SavannaBush.label>
+  <SavannaBush.description>Un petit arbuste.</SavannaBush.description>
+  <SavannaTreeBaobab.label>baobab</SavannaTreeBaobab.label>
+  <SavannaTreeBaobab.description>Un grand arbre rond originaire des savanes tropicales.</SavannaTreeBaobab.description>
+</LanguageData>

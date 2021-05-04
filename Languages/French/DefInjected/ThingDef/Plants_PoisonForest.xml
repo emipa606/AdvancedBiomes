@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PoisonPlantTallGrass.label>hautes herbes</PoisonPlantTallGrass.label>
+  <PoisonPlantTallGrass.description>Herbes hautes sauvages. Ralentit quiconque bouge dessus.</PoisonPlantTallGrass.description>
+  <PoisonPlantTreeTeak.label>teck empoisonné</PoisonPlantTreeTeak.label>
+  <PoisonPlantTreeTeak.description>Un bois dur exceptionnellement fort qui pousse dans les climats chauds. Parce que le bois de teck est si durable et résistant à l'eau, il a été utilisé pour former la quille des voiliers en bois dans les temps anciens.</PoisonPlantTreeTeak.description>
+  <PoisonPlantTreeCecropia.label>cecropia empoisonné</PoisonPlantTreeCecropia.label>
+  <PoisonPlantTreeCecropia.description>L'un des arbres les plus courants de la forêt tropicale.Le cécropia pousse très vite, mais donne peu de bois utilisable.</PoisonPlantTreeCecropia.description>
+  <PoisonPlantRaspberry.label>framboisier empoisonné</PoisonPlantRaspberry.label>
+  <PoisonPlantRaspberry.description>Une plante sauvage touffue qui donne de délicieuses baies. Les baies peuvent être cuites, mais elles sont également bonnes à manger même cruesw.</PoisonPlantRaspberry.description>
+  <PoisonPlantBush.label>Buisson empoisonné</PoisonPlantBush.label>
+  <PoisonPlantBush.description>Un petit arbuste. Ne parle généralement pas.</PoisonPlantBush.description>
+  <PoisonPlantDandelion.label>pissenlits empoisonnés</PoisonPlantDandelion.label>
+  <PoisonPlantDandelion.description>Une petite fleur jaune qui pousse en grandes grappes. Bien qu'il soit souvent considéré comme une mauvaise herbe, les pissenlits en fleurs sont assez beaux.</PoisonPlantDandelion.description>
+  <PoisonMushroom.label>Champignon sauvage empoisonné</PoisonMushroom.label>
+  <PoisonMushroom.description>Un champignon sauvage commun. Il a l'air charnu et comestible.</PoisonMushroom.description>
+  <PoisonAlocasia.label>alocasia empoisonnée</PoisonAlocasia.label>
+  <PoisonAlocasia.description>Une plante tropicale. Ses feuilles extrêmement larges sont un signifiant communément reconnu des forêts tropicales.</PoisonAlocasia.description>
+  <PoisonBrambles.label>ronces empoisonnées</PoisonBrambles.label>
+  <PoisonBrambles.description>Une plante tropicale. Ses feuilles extrêmement larges sont un signifiant communément reconnu des forêts tropicales.</PoisonBrambles.description>
+  <PoisonRafflesia.label>rafflesia empoisonnée</PoisonRafflesia.label>
+  <PoisonRafflesia.description>Une plante tropicale. Ses feuilles extrêmement larges sont un signifiant communément reconnu des forêts tropicales.</PoisonRafflesia.description>
+  <PoisonShrub.label>arbuste empoisonné</PoisonShrub.label>
+  <PoisonShrub.description>Un petit arbuste. Ne parle généralement pas.</PoisonShrub.description>
+  <PoisonTreeCypress.label>cyprès empoisonné</PoisonTreeCypress.label>
+  <PoisonTreeCypress.description>L'un des arbres les plus courants de la forêt tropicale. Le cyprès pousse très vite, mais donne peu de bois utilisable.</PoisonTreeCypress.description>
+  <PoisonTreePalm.label>palmier empoisonné</PoisonTreePalm.label>
+  <PoisonTreePalm.description>Un arbre tropical avec un grand tronc nu surmonté d'une grappe de feuilles très larges. Malheureusement, cette variété ne produit pas de noix de coco comestibles.</PoisonTreePalm.description>
+  <PoisonTreeWillow.label>Saule pleureur empoisonné</PoisonTreeWillow.label>
+  <PoisonTreeWillow.description>L'un des arbres d'ombrage à la croissance la plus rapide, le saule offre une belle canopée feuillue. Il ne produit pas beaucoup de bois utilisable.</PoisonTreeWillow.description>
+</LanguageData>

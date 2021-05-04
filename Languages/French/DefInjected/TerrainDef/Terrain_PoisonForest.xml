@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PoisonSoil.label>sol empoisonné</PoisonSoil.label>
+  <PoisonMarshyTerrain.label>sol marécageux</PoisonMarshyTerrain.label>
+  <PoisonSoilRich.label>sol fertile</PoisonSoilRich.label>
+  <PoisonMud.label>boue</PoisonMud.label>
+  <PoisonMarsh.label>marécageux</PoisonMarsh.label>
+  <PoisonMossyTerrain.label>saleté recouverte de lichen</PoisonMossyTerrain.label>
+</LanguageData>

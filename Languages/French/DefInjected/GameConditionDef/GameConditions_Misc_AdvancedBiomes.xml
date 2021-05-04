@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Spores.label>spores toxiques</Spores.label>
+  <Spores.description>La flore vénéneuse libère un nuage de spores toxiques sur toute cette région. Toute personne ou créature qui n'est pas sous un toit sera lentement écoeurée au fur et à mesure qu'elle s'installe hors de l'atmosphère..</Spores.description>
+  <Spores.endMessage>Les pires spores toxiques se sont installées.</Spores.endMessage>
+</LanguageData>

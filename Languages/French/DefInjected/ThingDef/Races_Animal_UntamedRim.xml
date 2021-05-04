@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PoisonDeer.label>cerf</PoisonDeer.label>
+  <PoisonDeer.description>Herbivore d'élevage de taille moyenne. Généralement paisible à moins d'être dérangé.</PoisonDeer.description>
+  <PoisonRat.label>rat</PoisonRat.label>
+  <PoisonRat.description>Un rongeur célèbre pour salir les cuisines et propager des maladies. Mange presque tout; vit presque partout.</PoisonRat.description>
+  <MutantCow.label>vache</MutantCow.label>
+  <MutantCow.description>Un animal domestique très commun. Il peut produire de grandes quantités de lait ou être abattu pour une nourriture délicieuse.</MutantCow.description>
+  <PoisonButterfly.label>papillon</PoisonButterfly.label>
+  <PoisonButterfly.description>Les papillons sont de beaux insectes volants avec de grandes ailes écailleuses. Les papillons sont des chenilles qui ont terminé la métamorphasie.</PoisonButterfly.description>
+  <PoisonButterfly.tools.1.label>tête</PoisonButterfly.tools.1.label>
+</LanguageData>

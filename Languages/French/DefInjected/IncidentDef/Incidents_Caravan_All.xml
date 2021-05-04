@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Threats -->
+  <Ambush.label>embuscade</Ambush.label>
+  <Ambush.letterText>{0} a été pris en embuscade par {1} de {2}!</Ambush.letterText>
+  <Ambush.letterLabel>Embuscade sur la caravane</Ambush.letterLabel>
+  <ManhunterAmbush.label>embuscade de chasseur d'hommes</ManhunterAmbush.label>
+  <ManhunterAmbush.letterText>{0} a été pris en embuscade par des chasseurs d'homme {1}!</ManhunterAmbush.letterText>
+  <ManhunterAmbush.letterLabel>Embuscade sur la caravane</ManhunterAmbush.letterLabel>
+  <!-- Good -->
+  <CaravanMeeting.label>rencontre de caravanes</CaravanMeeting.label>
+  <!-- Bad -->
+  <CaravanDemand.label>demande de paiement</CaravanDemand.label>
+</LanguageData>

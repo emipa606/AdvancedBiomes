@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Good -->
+  <VolcanoVolcanicEruption.label>éruption volcanique</VolcanoVolcanicEruption.label>
+  <VolcanoVolcanicEruption.letterText>Un volcan à proximité est entré en éruption et a commencé à cracher des cendres dans l'atmosphère. \n\nLa présence de cendres dans l'atmosphère obscurcira le soleil. Les températures chuteront et les plantes souffriront faute de soleil. Cela pourrait passer dans quelques jours, ou cela pourrait prendre un quelques semaines.</VolcanoVolcanicEruption.letterText>
+  <VolcanoVolcanicEruption.letterLabel>éruption volcanique</VolcanoVolcanicEruption.letterLabel>
+  <PoisonSpores.label>spores de poison</PoisonSpores.label>
+  <PoisonSpores.letterText>La flore vénéneuse libère un nuage de spores toxiques sur toute cette région. \n\nToute personne ou créature qui n'est pas sous un toit sera lentement écœurée par elle lorsqu'elle s'installera hors de l'atmosphère. \n\nCela durera n'importe où entre quelques jours à plus d'une saison.</PoisonSpores.letterText>
+  <PoisonSpores.letterLabel>Spores toxiques</PoisonSpores.letterLabel>
+</LanguageData>
