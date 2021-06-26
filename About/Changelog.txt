@@ -1,5 +1,8 @@
 # Changelog for AdvancedBiomes
 
+1.0.9.0 - Fixed the melee-tools for the animals
+
+
 1.0.8.0 - Added french translation, thanks qux!
 
 
