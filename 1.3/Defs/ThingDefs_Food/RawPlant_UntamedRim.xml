@@ -11,8 +11,13 @@
       <MarketValue>1.5</MarketValue>
     </statBases>
     <ingestible>
-      <foodType>VegetableOrFruit</foodType>
+      <foodType>Fungus</foodType>
     </ingestible>
+    <ingredient>
+      <mergeCompatibilityTags>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Fungus</li>
+      </mergeCompatibilityTags>
+    </ingredient>
     <comps>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>25</daysToRotStart>
