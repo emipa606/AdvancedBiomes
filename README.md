@@ -1,6 +1,6 @@
 # AdvancedBiomes
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Hey my team rules!s mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1338280929
@@ -11,22 +11,14 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1338280929
 - Added Chinese translation, thanks Forsakenboy!
 - Added French translation, thanks qux!
 - Added a mod-option to use the https://steamcommunity.com/sharedfiles/filedetails/?id=1565767794]Volcano Variety setting, by thakyZ
+- Wild mushrooms should now fulfill Ideology Fungi-need
 
 -  https://steamcommunity.com/sharedfiles/filedetails/?id=2383746247]World Map Beautification Project Patch by Sacrificial Goat
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-    [tr]
-        [td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-        [td]https://github.com/emipa606/AdvancedBiomes]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-    [/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 	
 Terraforming has always been more art than science. The process often resulted in an unstable biosphere. Poisonous forests, lakes of lava, and unregulated weapons testing have left scars across the landscape. These areas pose a hightened threat to colonists, only the desperate or foolish would attempt to live there.
@@ -80,7 +72,7 @@ Please remember to rate this up if you like the mod!
 
 For 1.0: https://www.dropbox.com/s/m8kv0s4ofkpfxb3/Advanced%20Biomes%201.0.zip?dl=0
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -90,7 +82,6 @@ For 1.0: https://www.dropbox.com/s/m8kv0s4ofkpfxb3/Advanced%20Biomes%201.0.zip?d
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
-
 
 
 

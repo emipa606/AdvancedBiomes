@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <HugsLib.UpdateFeatureDef Abstract="true" Name="UpdateFeatureBase">
+  <HugsLib.UpdateFeatureDef Abstract="true" Name="AdvancedBiomes_UpdateFeatureBase">
     <modNameReadable>AdvancedBiomes</modNameReadable>
     <linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2052116426</linkUrl>
   </HugsLib.UpdateFeatureDef>
-  <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+  <HugsLib.UpdateFeatureDef ParentName="AdvancedBiomes_UpdateFeatureBase">
     <defName>AdvancedBiomes_1_0_2_0</defName>
     <assemblyVersion>1.0.2.0</assemblyVersion>
     <content>There are now options for the mod that allows increasing or decreasing the probability for the added biomes during world generation.

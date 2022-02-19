@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Advanced Biomes (Continued)</name>
   <packageId>Mlie.AdvancedBiomes</packageId>
@@ -21,7 +21,7 @@
   <loadAfter>
     <li>brrainz.harmony</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Hey my team rules!s mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1338280929
 
@@ -31,10 +31,11 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1338280929
 - Added Chinese translation, thanks Forsakenboy!
 - Added French translation, thanks qux!
 - Added a mod-option to use the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1565767794]Volcano Variety[/url] setting, by thakyZ
+- Wild mushrooms should now fulfill Ideology Fungi-need
 
 - [url= https://steamcommunity.com/sharedfiles/filedetails/?id=2383746247]World Map Beautification Project Patch[/url] by Sacrificial Goat
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
     [tr]
@@ -43,7 +44,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1338280929
     [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 	
 Terraforming has always been more art than science. The process often resulted in an unstable biosphere. Poisonous forests, lakes of lava, and unregulated weapons testing have left scars across the landscape. These areas pose a hightened threat to colonists, only the desperate or foolish would attempt to live there.
 
@@ -86,7 +87,7 @@ Please remember to rate this up if you like the mod!
 
 For 1.0: https://www.dropbox.com/s/m8kv0s4ofkpfxb3/Advanced%20Biomes%201.0.zip?dl=0
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -95,6 +96,5 @@ For 1.0: https://www.dropbox.com/s/m8kv0s4ofkpfxb3/Advanced%20Biomes%201.0.zip?d
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
-
 </description>
 </ModMetaData>
