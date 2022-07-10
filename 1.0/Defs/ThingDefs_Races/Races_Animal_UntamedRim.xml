@@ -349,7 +349,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>MutantCow</defName>
     <label>cow</label>
-    <race>Cow</race>
+    <race>MutantCow</race>
     <combatPower>55</combatPower>
     <ecoSystemWeight>0.5</ecoSystemWeight>
     <labelMale>bull</labelMale>

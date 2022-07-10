@@ -1,5 +1,8 @@
 # Changelog for AdvancedBiomes
 
+1.3.4 - Fixed an issue where the Mutant Cow used the normal Cow-race instead of the custom racedef
+
+
 1.3.3 - Fixed the corpse graphics of the poison butterfly
 
 

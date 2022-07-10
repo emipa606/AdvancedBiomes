@@ -411,7 +411,7 @@
     <defName>MutantCow</defName>
     <label>cow</label>
     <labelMale>bull</labelMale>
-    <race>Cow</race>
+    <race>MutantCow</race>
     <combatPower>55</combatPower>
     <ecoSystemWeight>0.5</ecoSystemWeight>
     <lifeStages>
