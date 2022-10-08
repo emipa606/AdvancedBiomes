@@ -1,13 +1,11 @@
-﻿using RimWorld;
+using RimWorld;
 using RimWorld.Planet;
 using Verse;
 
 namespace BiomesPlus
 {
-    // Token: 0x02000004 RID: 4
     public class BiomeWorker_Savanna : BiomeWorker
     {
-        // Token: 0x06000006 RID: 6 RVA: 0x00002204 File Offset: 0x00000404
         public override float GetScore(Tile tile, int tileID)
         {
             float result;

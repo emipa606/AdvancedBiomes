@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AdB.CurrentModVersion.label>Installed mod-version: {0}</AdB.CurrentModVersion.label>
+  <AdB.Probability.label>Increase or lower the probability during world-generation, 100% is the standard value</AdB.Probability.label>
+  <AdB.PoisonForest.label>PoisonForest: {0}</AdB.PoisonForest.label>
+  <AdB.Savanna.label>Savanna: {0}</AdB.Savanna.label>
+  <AdB.Volcano.label>Volcano: {0}</AdB.Volcano.label>
+  <AdB.Wasteland.label>Wasteland: {0}</AdB.Wasteland.label>
+  <AdB.Wetland.label>Wetland: {0}</AdB.Wetland.label>
+  <AdB.VolcanoVariety.label>Enable volcano variety</AdB.VolcanoVariety.label>
+  <AdB.VolcanoVariety.tooltip>Allows volcano tiles to generate on small and large hills along side the normal mountainous and impassible tiles, allows volcano tiles to generate on elevations higher than 750</AdB.VolcanoVariety.tooltip>
+</LanguageData>

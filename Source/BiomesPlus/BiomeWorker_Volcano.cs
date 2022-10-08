@@ -1,13 +1,11 @@
-﻿using RimWorld;
+using RimWorld;
 using RimWorld.Planet;
 using Verse;
 
 namespace BiomesPlus
 {
-    // Token: 0x02000006 RID: 6
     public class BiomeWorker_Volcano : BiomeWorker
     {
-        // Token: 0x0600000A RID: 10 RVA: 0x00002354 File Offset: 0x00000554
         public override float GetScore(Tile tile, int tileID)
         {
             float result;

@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Reflection;
 using System.Reflection.Emit;
 using HarmonyLib;
@@ -6,11 +6,9 @@ using Verse;
 
 namespace ActiveTerrain
 {
-    // Token: 0x02000007 RID: 7
     [HarmonyPatch(typeof(MouseoverReadout), "MouseoverReadoutOnGUI", null)]
     internal static class _MouseoverReadout
     {
-        // Token: 0x06000010 RID: 16 RVA: 0x00002484 File Offset: 0x00000684
         private static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> original)
         {
             foreach (var instr in original)
@@ -43,7 +41,6 @@ namespace ActiveTerrain
             }
         }
 
-        // Token: 0x06000011 RID: 17 RVA: 0x00002494 File Offset: 0x00000694
         public static string HandleLabelQuery(TerrainDef def, IntVec3 loc, Map map)
         {
             string result;
