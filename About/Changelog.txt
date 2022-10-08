@@ -1,5 +1,8 @@
 # Changelog for AdvancedBiomes
 
+1.4.2 - Removed a wayward other mod-folder in the source
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 
