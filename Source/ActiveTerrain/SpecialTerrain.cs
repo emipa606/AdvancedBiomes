@@ -2,26 +2,25 @@ using System;
 using System.Collections.Generic;
 using Verse;
 
-namespace ActiveTerrain
+namespace ActiveTerrain;
+
+public class SpecialTerrain : TerrainDef
 {
-    public class SpecialTerrain : TerrainDef
+    public readonly List<TerrainCompProperties> terrainComps = new List<TerrainCompProperties>();
+
+    public readonly Type terrainInstanceClass = typeof(TerrainInstance);
+
+    public T GetCompProperties<T>() where T : TerrainCompProperties
     {
-        public readonly List<TerrainCompProperties> terrainComps = new List<TerrainCompProperties>();
-
-        public readonly Type terrainInstanceClass = typeof(TerrainInstance);
-
-        public T GetCompProperties<T>() where T : TerrainCompProperties
+        foreach (var terrainCompProperties in terrainComps)
         {
-            foreach (var terrainCompProperties in terrainComps)
+            T result;
+            if ((result = terrainCompProperties as T) != null)
             {
-                T result;
-                if ((result = terrainCompProperties as T) != null)
-                {
-                    return result;
-                }
+                return result;
             }
-
-            return default;
         }
+
+        return default;
     }
 }

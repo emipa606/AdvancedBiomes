@@ -1,9 +1,8 @@
 using System;
 
-namespace ActiveTerrain
+namespace ActiveTerrain;
+
+public class TerrainCompProperties
 {
-    public class TerrainCompProperties
-    {
-        public Type compClass;
-    }
+    public Type compClass;
 }

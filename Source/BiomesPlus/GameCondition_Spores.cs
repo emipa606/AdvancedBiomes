@@ -70,7 +70,7 @@ public class GameCondition_Spores : GameCondition
             }
 
             var num = 0.028758334f;
-            num /= pawn.GetStatValue(StatDefOf.ToxicResistance);
+            num *= 1 - pawn.GetStatValue(StatDefOf.ToxicResistance);
             if (num == 0f)
             {
                 continue;

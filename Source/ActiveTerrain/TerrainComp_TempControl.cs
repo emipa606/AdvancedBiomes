@@ -2,157 +2,156 @@ using RimWorld;
 using UnityEngine;
 using Verse;
 
-namespace ActiveTerrain
+namespace ActiveTerrain;
+
+public class TerrainComp_TempControl : TerrainComp_HeatPush
 {
-    public class TerrainComp_TempControl : TerrainComp_HeatPush
+    public bool operatingAtHighPower;
+
+    [Unsaved] private CompTempControl parentTempControl;
+
+    public new TerrainCompProperties_TempControl Props => (TerrainCompProperties_TempControl)props;
+
+    public float AmbientTemperature => GenTemperature.GetTemperatureForCell(parent.Position, parent.Map);
+
+    public float PowerConsumptionNow
     {
-        public bool operatingAtHighPower;
-
-        [Unsaved] private CompTempControl parentTempControl;
-
-        public new TerrainCompProperties_TempControl Props => (TerrainCompProperties_TempControl) props;
-
-        public float AmbientTemperature => GenTemperature.GetTemperatureForCell(parent.Position, parent.Map);
-
-        public float PowerConsumptionNow
+        get
         {
-            get
-            {
-                var basePowerConsumption = parent.def.GetCompProperties<TerrainCompProperties_PowerTrader>()
-                    .basePowerConsumption;
-                return operatingAtHighPower
-                    ? basePowerConsumption
-                    : basePowerConsumption * Props.lowPowerConsumptionFactor;
-            }
+            var basePowerConsumption = parent.def.GetCompProperties<TerrainCompProperties_PowerTrader>()
+                .basePowerConsumption;
+            return operatingAtHighPower
+                ? basePowerConsumption
+                : basePowerConsumption * Props.lowPowerConsumptionFactor;
         }
+    }
 
-        public virtual CompTempControl HeaterToConformTo
+    public virtual CompTempControl HeaterToConformTo
+    {
+        get
         {
-            get
+            CompTempControl result;
+            if (parentTempControl != null && parentTempControl.parent.Spawned)
             {
-                CompTempControl result;
-                if (parentTempControl != null && parentTempControl.parent.Spawned)
+                parentTempControl = null;
+                result = parentTempControl;
+            }
+            else
+            {
+                var room = parent.Position.GetRoom(parent.Map);
+                if (room == null)
                 {
-                    parentTempControl = null;
-                    result = parentTempControl;
+                    result = null;
                 }
                 else
                 {
-                    var room = parent.Position.GetRoom(parent.Map);
-                    if (room == null)
-                    {
-                        result = null;
-                    }
-                    else
-                    {
-                        result = parentTempControl = room.GetTempControl(this.AnalyzeType());
-                    }
+                    result = parentTempControl = room.GetTempControl(this.AnalyzeType());
                 }
-
-                return result;
             }
-        }
 
-        private float TargetTemperature
+            return result;
+        }
+    }
+
+    private float TargetTemperature
+    {
+        get
         {
-            get
+            var heaterToConformTo = HeaterToConformTo;
+            return heaterToConformTo?.targetTemperature ?? 21f;
+        }
+    }
+
+    protected override float PushAmount
+    {
+        get
+        {
+            bool compPowerOn;
+            if (Props.reliesOnPower)
             {
-                var heaterToConformTo = HeaterToConformTo;
-                return heaterToConformTo?.targetTemperature ?? 21f;
+                var comp = parent.GetComp<TerrainComp_PowerTrader>();
+                compPowerOn = comp == null || comp.PowerOn;
             }
-        }
-
-        protected override float PushAmount
-        {
-            get
+            else
             {
-                bool compPowerOn;
-                if (Props.reliesOnPower)
+                compPowerOn = true;
+            }
+
+            float result;
+            if (compPowerOn)
+            {
+                var ambientTemperature = AmbientTemperature;
+                var num = ambientTemperature < 20f ? 1f :
+                    ambientTemperature > 120f ? 0f : Mathf.InverseLerp(120f, 20f, ambientTemperature);
+                var energyLimit = Props.energyPerSecond * num * 4.16666651f;
+                var num2 = GenTemperature.ControlTemperatureTempChange(parent.Position, parent.Map, energyLimit,
+                    TargetTemperature);
+                var comp2 = parent.GetComp<TerrainComp_PowerTrader>();
+                if (!Mathf.Approximately(num2, 0f) && parent.Position.GetRoom(parent.Map) != null)
                 {
-                    var comp = parent.GetComp<TerrainComp_PowerTrader>();
-                    compPowerOn = comp == null || comp.PowerOn;
+                    GenTemperature.PushHeat(parent.Position, parent.Map, num2);
                 }
-                else
+
+                if (comp2 != null)
                 {
-                    compPowerOn = true;
+                    comp2.PowerOutput =
+                        !Mathf.Approximately(num2, 0f) && parent.Position.GetRoom(parent.Map) != null
+                            ? -comp2.Props.basePowerConsumption
+                            : -comp2.Props.basePowerConsumption * Props.lowPowerConsumptionFactor;
                 }
 
-                float result;
-                if (compPowerOn)
-                {
-                    var ambientTemperature = AmbientTemperature;
-                    var num = ambientTemperature < 20f ? 1f :
-                        ambientTemperature > 120f ? 0f : Mathf.InverseLerp(120f, 20f, ambientTemperature);
-                    var energyLimit = Props.energyPerSecond * num * 4.16666651f;
-                    var num2 = GenTemperature.ControlTemperatureTempChange(parent.Position, parent.Map, energyLimit,
-                        TargetTemperature);
-                    var comp2 = parent.GetComp<TerrainComp_PowerTrader>();
-                    if (!Mathf.Approximately(num2, 0f) && parent.Position.GetRoom(parent.Map) != null)
-                    {
-                        GenTemperature.PushHeat(parent.Position, parent.Map, num2);
-                    }
-
-                    if (comp2 != null)
-                    {
-                        comp2.PowerOutput =
-                            !Mathf.Approximately(num2, 0f) && parent.Position.GetRoom(parent.Map) != null
-                                ? -comp2.Props.basePowerConsumption
-                                : -comp2.Props.basePowerConsumption * Props.lowPowerConsumptionFactor;
-                    }
-
-                    operatingAtHighPower =
-                        !Mathf.Approximately(num2, 0f) && parent.Position.GetRoom(parent.Map) != null;
-                    result = !Mathf.Approximately(num2, 0f) && parent.Position.GetRoom(parent.Map) != null ? num2 : 0f;
-                }
-                else
-                {
-                    operatingAtHighPower = false;
-                    result = 0f;
-                }
-
-                return result;
+                operatingAtHighPower =
+                    !Mathf.Approximately(num2, 0f) && parent.Position.GetRoom(parent.Map) != null;
+                result = !Mathf.Approximately(num2, 0f) && parent.Position.GetRoom(parent.Map) != null ? num2 : 0f;
             }
-        }
-
-        public override void CompTick()
-        {
-            base.CompTick();
-            if (!Props.cleansSnow || Find.TickManager.TicksGame % 60 != this.HashCodeToMod(60))
+            else
             {
-                return;
+                operatingAtHighPower = false;
+                result = 0f;
             }
 
-            CleanSnow();
-            UpdatePowerConsumption();
+            return result;
         }
+    }
 
-        protected virtual void CleanSnow()
+    public override void CompTick()
+    {
+        base.CompTick();
+        if (!Props.cleansSnow || Find.TickManager.TicksGame % 60 != this.HashCodeToMod(60))
         {
-            var depth = parent.Map.snowGrid.GetDepth(parent.Position);
-            if (Mathf.Approximately(0f, depth))
-            {
-                return;
-            }
-
-            operatingAtHighPower = true;
-            var newDepth = Mathf.Max(depth - Props.snowMeltAmountPerSecond, 0f);
-            parent.Map.snowGrid.SetDepth(parent.Position, newDepth);
+            return;
         }
 
-        private void UpdatePowerConsumption()
+        CleanSnow();
+        UpdatePowerConsumption();
+    }
+
+    protected virtual void CleanSnow()
+    {
+        var depth = parent.Map.snowGrid.GetDepth(parent.Position);
+        if (Mathf.Approximately(0f, depth))
         {
-            var comp = parent.GetComp<TerrainComp_PowerTrader>();
-            if (comp != null)
-            {
-                comp.PowerOutput = -PowerConsumptionNow;
-            }
+            return;
         }
 
-        public override string TransformLabel(string label)
+        operatingAtHighPower = true;
+        var newDepth = Mathf.Max(depth - Props.snowMeltAmountPerSecond, 0f);
+        parent.Map.snowGrid.SetDepth(parent.Position, newDepth);
+    }
+
+    private void UpdatePowerConsumption()
+    {
+        var comp = parent.GetComp<TerrainComp_PowerTrader>();
+        if (comp != null)
         {
-            return base.TransformLabel(label) + " " + (operatingAtHighPower
-                ? "HeatedFloor_HighPower".Translate()
-                : "HeatedFloor_LowPower".Translate());
+            comp.PowerOutput = -PowerConsumptionNow;
         }
+    }
+
+    public override string TransformLabel(string label)
+    {
+        return $"{base.TransformLabel(label)} " + (operatingAtHighPower
+            ? "HeatedFloor_HighPower".Translate()
+            : "HeatedFloor_LowPower".Translate());
     }
 }

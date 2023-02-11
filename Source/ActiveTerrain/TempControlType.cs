@@ -1,16 +1,15 @@
 using System;
 
-namespace ActiveTerrain
+namespace ActiveTerrain;
+
+[Flags]
+public enum TempControlType : byte
 {
-    [Flags]
-    public enum TempControlType : byte
-    {
-        None,
+    None,
 
-        Heater,
+    Heater,
 
-        Cooler,
+    Cooler,
 
-        Both
-    }
+    Both
 }

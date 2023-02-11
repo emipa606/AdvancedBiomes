@@ -8,7 +8,7 @@
       <MoveSpeed>4.84</MoveSpeed>
       <ComfyTemperatureMin>-30</ComfyTemperatureMin>
       <MarketValue>200</MarketValue>
-      <ToxicResistance>0</ToxicResistance>
+      <ToxicResistance>1</ToxicResistance>
     </statBases>
     <tools>
       <li>
@@ -167,7 +167,7 @@
       <MoveSpeed>3.6</MoveSpeed>
       <ComfyTemperatureMin>-30</ComfyTemperatureMin>
       <MarketValue>60</MarketValue>
-      <ToxicResistance>0</ToxicResistance>
+      <ToxicResistance>1</ToxicResistance>
     </statBases>
     <tools>
       <li>
@@ -511,7 +511,7 @@
       <MoveSpeed>4.84</MoveSpeed>
       <ComfyTemperatureMin>-30</ComfyTemperatureMin>
       <MarketValue>200</MarketValue>
-      <ToxicResistance>0</ToxicResistance>
+      <ToxicResistance>1</ToxicResistance>
     </statBases>
     <comps>
       <li Class="CompProperties_Milkable">

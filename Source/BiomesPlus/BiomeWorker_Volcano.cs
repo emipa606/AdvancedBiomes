@@ -2,38 +2,40 @@ using RimWorld;
 using RimWorld.Planet;
 using Verse;
 
-namespace BiomesPlus
+namespace BiomesPlus;
+
+public class BiomeWorker_Volcano : BiomeWorker
 {
-    public class BiomeWorker_Volcano : BiomeWorker
+    public override float GetScore(Tile tile, int tileID)
     {
-        public override float GetScore(Tile tile, int tileID)
+        float result;
+        if ((tile.hilliness != Hilliness.Mountainous) & (tile.hilliness != Hilliness.Impassable))
         {
-            float result;
-            if ((tile.hilliness != Hilliness.Mountainous) & (tile.hilliness != Hilliness.Impassable))
-            {
-                result = -100f;
-            }
-            else if (tile.elevation <= 0f)
-            {
-                result = -100f;
-            }
-            else if (tile.elevation > 1000f)
-            {
-                result = 0f;
-            }
-            else
-            {
-                result = 22.5f + ((tile.temperature - 20f) * 2.2f) + ((tile.rainfall - 600f) / 100f);
-            }
-
-            if (LoadedModManager.GetMod<BiomesPlusMod>().GetSettings<BiomesPlusSettings>().VolcanoVariety &&
-                result == -100f && tile.elevation > 750f && tile.hilliness > Hilliness.Flat)
-            {
-                result = 22.5f + ((tile.temperature - 20f) * 2.2f) + ((tile.rainfall - 600f) / 100f);
-            }
-
-            result *= LoadedModManager.GetMod<BiomesPlusMod>().GetSettings<BiomesPlusSettings>().Volcano / 100;
-            return result;
+            result = -100f;
         }
+        else
+        {
+            switch (tile.elevation)
+            {
+                case <= 0f:
+                    result = -100f;
+                    break;
+                case > 1000f:
+                    result = 0f;
+                    break;
+                default:
+                    result = 22.5f + ((tile.temperature - 20f) * 2.2f) + ((tile.rainfall - 600f) / 100f);
+                    break;
+            }
+        }
+
+        if (LoadedModManager.GetMod<BiomesPlusMod>().GetSettings<BiomesPlusSettings>().VolcanoVariety &&
+            result == -100f && tile.elevation > 750f && tile.hilliness > Hilliness.Flat)
+        {
+            result = 22.5f + ((tile.temperature - 20f) * 2.2f) + ((tile.rainfall - 600f) / 100f);
+        }
+
+        result *= LoadedModManager.GetMod<BiomesPlusMod>().GetSettings<BiomesPlusSettings>().Volcano / 100;
+        return result;
     }
 }
