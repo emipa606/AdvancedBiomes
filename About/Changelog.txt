@@ -1,5 +1,8 @@
 # Changelog for AdvancedBiomes
 
+1.4.4 - Added patch for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2012735237]Fertile Fields[/url], via Luneyl
+
+
 1.4.3 - Hopefully fixed the poison issues.
 Used DeepL to update translations for ChineseSimplified, French, German, Russian
 
