@@ -3,13 +3,9 @@ using Verse;
 
 namespace ActiveTerrain;
 
-public class SpecialTerrainList : MapComponent
+public class SpecialTerrainList(Map map) : MapComponent(map)
 {
     public Dictionary<IntVec3, TerrainInstance> terrains = new Dictionary<IntVec3, TerrainInstance>();
-
-    public SpecialTerrainList(Map map) : base(map)
-    {
-    }
 
     public override void ExposeData()
     {

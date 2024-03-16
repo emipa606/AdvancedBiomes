@@ -38,7 +38,7 @@ public class TerrainComp_Glower : TerrainComp
         }
 
         currentlyOn = shouldBeLitNow;
-        parent.Map.mapDrawer.MapMeshDirty(parent.Position, MapMeshFlag.Things);
+        parent.Map.mapDrawer.MapMeshDirty(parent.Position, MapMeshFlagDefOf.Things);
         (currentlyOn
             ? parent.Map.glowGrid.RegisterGlower
             : new Action<CompGlower>(parent.Map.glowGrid.DeRegisterGlower))(AsThingComp);

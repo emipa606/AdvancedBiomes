@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- All the differences between Advanced Biomes and vanilla Defs/Storyteller/Incidents_Caravan_All.xml are:
+	Advanced Biomes is adding its biomes to the caravan events.
+	Advanced Biomes (Continued) is using a comp which is obselete (according to vanilla code). 
+
+	Advanced Biomes: 	WorldObjectCompProperties_TimedForcedExit
+	Vanilla:			WorldObjectCompProperties_TimedDetectionRaids
+	
+	So just adding the new biomes to the caravan events is necessary.				
+-->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <!-- achieving the changes made in Defs/Storyteller/Incidents_Caravan_All.xml -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/IncidentDef[defName = "Ambush"]/mtbDaysByBiome</xpath>
+        <value>
+          <PoisonForest>60</PoisonForest>
+          <Savanna>20</Savanna>
+          <Wetland>20</Wetland>
+          <Volcano>30</Volcano>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/IncidentDef[defName = "ManhunterAmbush"]/mtbDaysByBiome</xpath>
+        <value>
+          <PoisonForest>60</PoisonForest>
+          <Savanna>20</Savanna>
+          <Wetland>20</Wetland>
+          <Volcano>30</Volcano>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/IncidentDef[defName = "CaravanMeeting"]/mtbDaysByBiome</xpath>
+        <value>
+          <PoisonForest>80</PoisonForest>
+          <Savanna>10</Savanna>
+          <Wetland>10</Wetland>
+          <Volcano>15</Volcano>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/IncidentDef[defName = "CaravanDemand"]/mtbDaysByBiome</xpath>
+        <value>
+          <PoisonForest>60</PoisonForest>
+          <Savanna>20</Savanna>
+          <Wetland>20</Wetland>
+          <Volcano>30</Volcano>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

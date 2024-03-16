@@ -6,7 +6,7 @@ namespace ActiveTerrain;
 
 public class TerrainInstance : IExposable
 {
-    public List<TerrainComp> comps = new List<TerrainComp>();
+    public readonly List<TerrainComp> comps = [];
 
     public SpecialTerrain def;
 

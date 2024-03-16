@@ -27,10 +27,7 @@ public class GameCondition_Spores : GameCondition
         var toColor = colorInt.ToColor;
         var colorInt2 = new ColorInt(234, 200, 255);
         ToxicFalloutColors = new SkyColorSet(toColor, colorInt2.ToColor, new Color(1f, 1f, 1f), SkyGlow);
-        overlays = new List<SkyOverlay>
-        {
-            new WeatherOverlay_Spores()
-        };
+        overlays = [new WeatherOverlay_Spores()];
     }
 
     public override void Init()

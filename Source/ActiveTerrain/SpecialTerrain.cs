@@ -6,7 +6,7 @@ namespace ActiveTerrain;
 
 public class SpecialTerrain : TerrainDef
 {
-    public readonly List<TerrainCompProperties> terrainComps = new List<TerrainCompProperties>();
+    public readonly List<TerrainCompProperties> terrainComps = [];
 
     public readonly Type terrainInstanceClass = typeof(TerrainInstance);
 

@@ -27,7 +27,7 @@ public class TerrainComp_PowerTrader : TerrainComp
 
     public TerrainCompProperties_PowerTrader Props => (TerrainCompProperties_PowerTrader)props;
 
-    public bool PowerOn => ConnectParent != null && ConnectParent.PowerOn;
+    public bool PowerOn => ConnectParent is { PowerOn: true };
 
     public virtual float PowerOutput
     {

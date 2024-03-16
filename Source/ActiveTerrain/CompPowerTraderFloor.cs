@@ -6,7 +6,7 @@ namespace ActiveTerrain;
 
 public class CompPowerTraderFloor : CompPowerTrader
 {
-    public readonly List<TerrainComp_PowerTrader> acceptedComps = new List<TerrainComp_PowerTrader>();
+    public readonly List<TerrainComp_PowerTrader> acceptedComps = [];
 
     private float cachedCurPowerDemand;
 
@@ -45,7 +45,7 @@ public class CompPowerTraderFloor : CompPowerTrader
     public void UpdatePowerOutput()
     {
         var curPowerDemand = CurPowerDemand;
-        var powerOutput = -Props.basePowerConsumption + curPowerDemand;
+        var powerOutput = -Props.PowerConsumption + curPowerDemand;
         PowerOutput = powerOutput;
     }
 
