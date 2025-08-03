@@ -1,4 +1,6 @@
 using System;
+using System.Reflection;
+using HarmonyLib;
 using RimWorld;
 using UnityEngine;
 using Verse;
@@ -8,8 +10,15 @@ namespace ActiveTerrain;
 [StaticConstructorOnStartup]
 public static class ActiveTerrainUtility
 {
-    public static readonly Material NeedsPowerMat =
+    private static readonly Material NeedsPowerMat =
         MaterialPool.MatFrom("UI/Overlays/NeedsPower", ShaderDatabase.MetaOverlay);
+
+    static ActiveTerrainUtility()
+    {
+        new Harmony("com.spdskatr.activeterrain.patches").PatchAll(Assembly.GetExecutingAssembly());
+        Log.Message(
+            "Active Terrain Framework initialized. This mod uses Harmony (all patches are non-destructive): Verse.TerrainGrid.SetTerrain, Verse.TerrainGrid.RemoveTopLayer, Verse.MouseoverReadout.MouseoverReadoutOnGUI");
+    }
 
     public static int HashCodeToMod(this object obj, int mod)
     {

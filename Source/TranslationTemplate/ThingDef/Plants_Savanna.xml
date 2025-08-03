@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: tall grass -->
+  <PlantTallYellowGrass.label>tall grass</PlantTallYellowGrass.label>
+  <!-- EN: Wild tall grass. Significantly slows down anyone moving over it. -->
+  <PlantTallYellowGrass.description>Wild tall grass. Significantly slows down anyone moving over it.</PlantTallYellowGrass.description>
+  <!-- EN: bush -->
+  <SavannaBush.label>bush</SavannaBush.label>
+  <!-- EN: A short shrub. Does not typically talk. -->
+  <SavannaBush.description>A short shrub. Does not typically talk.</SavannaBush.description>
+  <!-- EN: acacia tree -->
+  <SavannaTreeAcacia.label>acacia tree</SavannaTreeAcacia.label>
+  <!-- EN: Native to subtropical regions throughout the world, the acacia trees grow in the harshest climates. -->
+  <SavannaTreeAcacia.description>Native to subtropical regions throughout the world, the acacia trees grow in the harshest climates.</SavannaTreeAcacia.description>
+  <!-- EN: baobab tree -->
+  <SavannaTreeBaobab.label>baobab tree</SavannaTreeBaobab.label>
+  <!-- EN: A large round tree native to tropical savannas. -->
+  <SavannaTreeBaobab.description>A large round tree native to tropical savannas.</SavannaTreeBaobab.description>
+</LanguageData>

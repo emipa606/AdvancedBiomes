@@ -2,9 +2,9 @@ using Verse;
 
 namespace ActiveTerrain;
 
-public class TerrainComp_PowerTrader : TerrainComp
+public sealed class TerrainComp_PowerTrader : TerrainComp
 {
-    public readonly int tickInterval = 50;
+    private readonly int tickInterval = 50;
 
     private CompPowerTraderFloor connectParentInt;
 
@@ -12,7 +12,7 @@ public class TerrainComp_PowerTrader : TerrainComp
 
     private float powerOutputInt;
 
-    public CompPowerTraderFloor ConnectParent
+    private CompPowerTraderFloor ConnectParent
     {
         get => connectParentInt;
         set
@@ -29,7 +29,7 @@ public class TerrainComp_PowerTrader : TerrainComp
 
     public bool PowerOn => ConnectParent is { PowerOn: true };
 
-    public virtual float PowerOutput
+    public float PowerOutput
     {
         get => powerOutputInt;
         set

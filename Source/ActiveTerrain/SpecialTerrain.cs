@@ -21,6 +21,6 @@ public class SpecialTerrain : TerrainDef
             }
         }
 
-        return default;
+        return null;
     }
 }

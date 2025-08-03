@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: obsidian -->
+  <VolcanoObsidian.label>obsidian</VolcanoObsidian.label>
+  <!-- EN: ashy soil -->
+  <VolcanoSoil.label>ashy soil</VolcanoSoil.label>
+  <!-- EN: rich volcanic soil -->
+  <VolcanoSoilRich.label>rich volcanic soil</VolcanoSoilRich.label>
+</LanguageData>

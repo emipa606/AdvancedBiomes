@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: poison buildup -->
+  <PoisonBuildup.label>poison buildup</PoisonBuildup.label>
+  <!-- EN: poison buildup -->
+  <PoisonBuildup.description>poison buildup</PoisonBuildup.description>
+  <!-- EN: initial-hidden -->
+  <PoisonBuildup.stages.initialhidden.label>initial-hidden</PoisonBuildup.stages.initialhidden.label>
+  <!-- EN: initial -->
+  <PoisonBuildup.stages.initial.label>initial</PoisonBuildup.stages.initial.label>
+  <!-- EN: minor -->
+  <PoisonBuildup.stages.minor.label>minor</PoisonBuildup.stages.minor.label>
+  <!-- EN: moderate -->
+  <PoisonBuildup.stages.moderate.label>moderate</PoisonBuildup.stages.moderate.label>
+  <!-- EN: serious -->
+  <PoisonBuildup.stages.serious.label>serious</PoisonBuildup.stages.serious.label>
+  <!-- EN: extreme -->
+  <PoisonBuildup.stages.extreme.label>extreme</PoisonBuildup.stages.extreme.label>
+</LanguageData>

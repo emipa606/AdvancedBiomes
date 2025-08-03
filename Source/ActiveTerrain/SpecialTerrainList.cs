@@ -5,7 +5,7 @@ namespace ActiveTerrain;
 
 public class SpecialTerrainList(Map map) : MapComponent(map)
 {
-    public Dictionary<IntVec3, TerrainInstance> terrains = new Dictionary<IntVec3, TerrainInstance>();
+    public Dictionary<IntVec3, TerrainInstance> terrains = new();
 
     public override void ExposeData()
     {
@@ -25,11 +25,11 @@ public class SpecialTerrainList(Map map) : MapComponent(map)
     public override void FinalizeInit()
     {
         base.FinalizeInit();
-        RefreshAllCurrentTerrain();
-        CallPostLoad();
+        refreshAllCurrentTerrain();
+        callPostLoad();
     }
 
-    public void CallPostLoad()
+    private void callPostLoad()
     {
         foreach (var key in terrains.Keys)
         {
@@ -37,7 +37,7 @@ public class SpecialTerrainList(Map map) : MapComponent(map)
         }
     }
 
-    public void RefreshAllCurrentTerrain()
+    private void refreshAllCurrentTerrain()
     {
         foreach (var intVec in map)
         {

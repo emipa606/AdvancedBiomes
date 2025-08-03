@@ -7,7 +7,7 @@ namespace BiomesPlus;
 
 public static class MaterialLoader
 {
-    public static List<Material> MatsFromTexturesInFolder(string dirPath)
+    private static List<Material> MatsFromTexturesInFolder(string dirPath)
     {
         var text = $"Textures/{dirPath}";
         return (from Texture2D tex in Resources.LoadAll(text, typeof(Texture2D))

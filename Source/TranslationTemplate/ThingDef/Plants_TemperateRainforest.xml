@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: sword fern -->
+  <SwordFern.label>sword fern</SwordFern.label>
+  <!-- EN: Sword fern populates the understory of moist coniferous forests at low elevations. It grows best in a well-drained acidic soil of rich humus and small stones. -->
+  <SwordFern.description>Sword fern populates the understory of moist coniferous forests at low elevations. It grows best in a well-drained acidic soil of rich humus and small stones.</SwordFern.description>
+  <!-- EN: redcedar tree -->
+  <TreeCedar.label>redcedar tree</TreeCedar.label>
+  <!-- EN: Native to the temperate rainforests, redcedar is a riprarian tree, growing in many forested swamps and streambanks. -->
+  <TreeCedar.description>Native to the temperate rainforests, redcedar is a riprarian tree, growing in many forested swamps and streambanks.</TreeCedar.description>
+</LanguageData>

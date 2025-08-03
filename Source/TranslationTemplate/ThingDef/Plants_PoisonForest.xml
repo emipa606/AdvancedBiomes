@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: poison alocasia -->
+  <PoisonAlocasia.label>poison alocasia</PoisonAlocasia.label>
+  <!-- EN: A tropical plant. Its extremely broad leaves are a commonly-recognized signifier of tropical forests. -->
+  <PoisonAlocasia.description>A tropical plant. Its extremely broad leaves are a commonly-recognized signifier of tropical forests.</PoisonAlocasia.description>
+  <!-- EN: poison brambles -->
+  <PoisonBrambles.label>poison brambles</PoisonBrambles.label>
+  <!-- EN: A tropical plant. Its extremely broad leaves are a commonly-recognized signifier of tropical forests. -->
+  <PoisonBrambles.description>A tropical plant. Its extremely broad leaves are a commonly-recognized signifier of tropical forests.</PoisonBrambles.description>
+  <!-- EN: wild mushroom -->
+  <PoisonMushroom.label>wild mushroom</PoisonMushroom.label>
+  <!-- EN: An common wild fungus. It looks fleshy and edible. -->
+  <PoisonMushroom.description>An common wild fungus. It looks fleshy and edible.</PoisonMushroom.description>
+  <!-- EN: bush -->
+  <PoisonPlantBush.label>bush</PoisonPlantBush.label>
+  <!-- EN: A short shrub. Does not typically talk. -->
+  <PoisonPlantBush.description>A short shrub. Does not typically talk.</PoisonPlantBush.description>
+  <!-- EN: dandelions -->
+  <PoisonPlantDandelion.label>dandelions</PoisonPlantDandelion.label>
+  <!-- EN: A tiny yellow flower which grows in large clusters. Though it is often considered a weed, dandelions in bloom are quite beautiful. -->
+  <PoisonPlantDandelion.description>A tiny yellow flower which grows in large clusters. Though it is often considered a weed, dandelions in bloom are quite beautiful.</PoisonPlantDandelion.description>
+  <!-- EN: raspberry bush -->
+  <PoisonPlantRaspberry.label>raspberry bush</PoisonPlantRaspberry.label>
+  <!-- EN: A bushy wild plant which yields delicious berries. Berries can be cooked, but they're also good to eat even when raw. -->
+  <PoisonPlantRaspberry.description>A bushy wild plant which yields delicious berries. Berries can be cooked, but they're also good to eat even when raw.</PoisonPlantRaspberry.description>
+  <!-- EN: tall grass -->
+  <PoisonPlantTallGrass.label>tall grass</PoisonPlantTallGrass.label>
+  <!-- EN: Wild tall grass. Slows down anyone moving over it. -->
+  <PoisonPlantTallGrass.description>Wild tall grass. Slows down anyone moving over it.</PoisonPlantTallGrass.description>
+  <!-- EN: cecropia tree -->
+  <PoisonPlantTreeCecropia.label>cecropia tree</PoisonPlantTreeCecropia.label>
+  <!-- EN: One of the most common rainforest trees. Cecropia grows very fast, but yields little usable wood. -->
+  <PoisonPlantTreeCecropia.description>One of the most common rainforest trees. Cecropia grows very fast, but yields little usable wood.</PoisonPlantTreeCecropia.description>
+  <!-- EN: teak tree -->
+  <PoisonPlantTreeTeak.label>teak tree</PoisonPlantTreeTeak.label>
+  <!-- EN: An exceptionally strong hardwood tree that grows in warm climates. Because teak wood is so durable and water-resistant, it was used to form the keel of wooden sailing ships in ancient times. -->
+  <PoisonPlantTreeTeak.description>An exceptionally strong hardwood tree that grows in warm climates. Because teak wood is so durable and water-resistant, it was used to form the keel of wooden sailing ships in ancient times.</PoisonPlantTreeTeak.description>
+  <!-- EN: poison rafflesia -->
+  <PoisonRafflesia.label>poison rafflesia</PoisonRafflesia.label>
+  <!-- EN: A tropical plant. Its extremely broad leaves are a commonly-recognized signifier of tropical forests. -->
+  <PoisonRafflesia.description>A tropical plant. Its extremely broad leaves are a commonly-recognized signifier of tropical forests.</PoisonRafflesia.description>
+  <!-- EN: poison shrub -->
+  <PoisonShrub.label>poison shrub</PoisonShrub.label>
+  <!-- EN: A short shrub. Does not typically talk. -->
+  <PoisonShrub.description>A short shrub. Does not typically talk.</PoisonShrub.description>
+  <!-- EN: cypress tree -->
+  <PoisonTreeCypress.label>cypress tree</PoisonTreeCypress.label>
+  <!-- EN: One of the most common rainforest trees. Cypress grows very fast, but yields little usable wood. -->
+  <PoisonTreeCypress.description>One of the most common rainforest trees. Cypress grows very fast, but yields little usable wood.</PoisonTreeCypress.description>
+  <!-- EN: palm tree -->
+  <PoisonTreePalm.label>palm tree</PoisonTreePalm.label>
+  <!-- EN: A tropical tree with a tall, naked trunk topped by a cluster of very broad leaves. Unfortunately, this variety doesn't produce any edible coconuts. -->
+  <PoisonTreePalm.description>A tropical tree with a tall, naked trunk topped by a cluster of very broad leaves. Unfortunately, this variety doesn't produce any edible coconuts.</PoisonTreePalm.description>
+  <!-- EN: willow tree -->
+  <PoisonTreeWillow.label>willow tree</PoisonTreeWillow.label>
+  <!-- EN: One of the fastest growing shade trees, willows provide a beautiful, leafy canopy. It doesn't yield much usable wood. -->
+  <PoisonTreeWillow.description>One of the fastest growing shade trees, willows provide a beautiful, leafy canopy. It doesn't yield much usable wood.</PoisonTreeWillow.description>
+</LanguageData>

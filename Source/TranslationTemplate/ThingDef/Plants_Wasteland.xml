@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: dead tree -->
+  <TreeDead.label>dead tree</TreeDead.label>
+  <!-- EN: A sick tree. It barely manages to survive. -->
+  <TreeDead.description>A sick tree. It barely manages to survive.</TreeDead.description>
+</LanguageData>

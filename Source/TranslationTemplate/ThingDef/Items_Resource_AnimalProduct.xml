@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: butterfly egg (fert.) -->
+  <EggButterflyFertilized.label>butterfly egg (fert.)</EggButterflyFertilized.label>
+  <!-- EN: Fertilized butterfly egg. If all goes well, it should hatch into a baby butterfly. It can be eaten raw, but it's much better cooked. -->
+  <EggButterflyFertilized.description>Fertilized butterfly egg. If all goes well, it should hatch into a baby butterfly. It can be eaten raw, but it's much better cooked.</EggButterflyFertilized.description>
+  <!-- EN: butterfly egg (unfert.) -->
+  <EggButterflyUnFertilized.label>butterfly egg (unfert.)</EggButterflyUnFertilized.label>
+  <!-- EN: Unfertilized butterfly egg. It can be eaten raw, but it's much better cooked. -->
+  <EggButterflyUnFertilized.description>Unfertilized butterfly egg. It can be eaten raw, but it's much better cooked.</EggButterflyUnFertilized.description>
+  <!-- EN: silk -->
+  <Silk.label>silk</Silk.label>
+  <!-- EN: Silk from an animal. -->
+  <Silk.description>Silk from an animal.</Silk.description>
+</LanguageData>

@@ -4,17 +4,17 @@ using Verse;
 
 namespace ActiveTerrain;
 
-public class TerrainComp_Glower : TerrainComp
+public sealed class TerrainComp_Glower : TerrainComp
 {
-    [Unsaved] protected bool currentlyOn;
+    [Unsaved] private bool currentlyOn;
 
     [Unsaved] private CompGlower instanceGlowerComp;
 
-    public CompGlower AsThingComp => instanceGlowerComp ?? (instanceGlowerComp = (CompGlower)this);
+    private CompGlower AsThingComp => instanceGlowerComp ?? (instanceGlowerComp = (CompGlower)this);
 
-    public TerrainCompProperties_Glower Props => (TerrainCompProperties_Glower)props;
+    private TerrainCompProperties_Glower Props => (TerrainCompProperties_Glower)props;
 
-    public virtual bool ShouldBeLitNow
+    private bool ShouldBeLitNow
     {
         get
         {
@@ -23,13 +23,13 @@ public class TerrainComp_Glower : TerrainComp
         }
     }
 
-    public float OverlightRadius { get; set; }
+    private float OverlightRadius { get; set; }
 
-    public float GlowRadius { get; set; }
+    private float GlowRadius { get; set; }
 
-    public ColorInt Color { get; set; }
+    private ColorInt Color { get; set; }
 
-    public void UpdateLit()
+    private void updateLit()
     {
         var shouldBeLitNow = ShouldBeLitNow;
         if (currentlyOn == shouldBeLitNow)
@@ -49,13 +49,13 @@ public class TerrainComp_Glower : TerrainComp
         base.ReceiveCompSignal(sig);
         if (sig == CompSignals.PowerTurnedOff || sig == CompSignals.PowerTurnedOn)
         {
-            UpdateLit();
+            updateLit();
         }
     }
 
     public override void PostPostLoad()
     {
-        UpdateLit();
+        updateLit();
         var shouldBeLitNow = ShouldBeLitNow;
         if (shouldBeLitNow)
         {

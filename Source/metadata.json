@@ -2,7 +2,7 @@
   "Continued": true,
   "CanAdd": "2",
   "CanRemove": "1",
-  "PreviewVersion": "1.5",
+  "PreviewVersion": "1.6",
   "SocialImageSet": true,
   "SearchTags": [
     " radiation",
@@ -14,5 +14,6 @@
   "Assemblies": true,
   "LinesOfCode": 50069,
   "LinesOfXML": 90653,
-  "CodeBaseSize": 81
+  "CodeBaseSize": 81,
+  "LastXmlCleaning": "2025-08-03T11:19:40.2697562+02:00"
 }

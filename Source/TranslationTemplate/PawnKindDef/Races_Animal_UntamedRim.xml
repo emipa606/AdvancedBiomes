@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: cow -->
+  <MutantCow.label>cow</MutantCow.label>
+  <!-- EN: bull -->
+  <MutantCow.labelMale>bull</MutantCow.labelMale>
+  <!-- EN: calf -->
+  <MutantCow.lifeStages.calf.label>calf</MutantCow.lifeStages.calf.label>
+  <!-- EN: calves -->
+  <MutantCow.lifeStages.calf.labelPlural>calves</MutantCow.lifeStages.calf.labelPlural>
+  <!-- EN: butterfly -->
+  <PoisonButterfly.label>butterfly</PoisonButterfly.label>
+  <!-- EN: butterfly -->
+  <PoisonButterfly.labelFemale>butterfly</PoisonButterfly.labelFemale>
+  <!-- EN: butterfly -->
+  <PoisonButterfly.labelMale>butterfly</PoisonButterfly.labelMale>
+  <!-- EN: butterflies -->
+  <PoisonButterfly.labelPlural>butterflies</PoisonButterfly.labelPlural>
+  <!-- EN: deer -->
+  <PoisonDeer.label>deer</PoisonDeer.label>
+  <!-- EN: doe -->
+  <PoisonDeer.labelFemale>doe</PoisonDeer.labelFemale>
+  <!-- EN: buck -->
+  <PoisonDeer.labelMale>buck</PoisonDeer.labelMale>
+  <!-- EN: deer -->
+  <PoisonDeer.labelPlural>deer</PoisonDeer.labelPlural>
+  <!-- EN: rat -->
+  <PoisonRat.label>rat</PoisonRat.label>
+</LanguageData>

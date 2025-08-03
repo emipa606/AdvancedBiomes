@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: poison spores -->
+  <PoisonSpores.label>poison spores</PoisonSpores.label>
+  <!-- EN: Toxic Spores -->
+  <PoisonSpores.letterLabel>Toxic Spores</PoisonSpores.letterLabel>
+  <!-- EN: The poisonous flora releases a cloud of toxic spores over this entire region.\n\nAny person or creature not under a roof will be slowly sickened by them as they settle out of the atmosphere.\n\nIt will last for anywhere between a few days to over a season. -->
+  <PoisonSpores.letterText>The poisonous flora releases a cloud of toxic spores over this entire region.
+
+Any person or creature not under a roof will be slowly sickened by them as they settle out of the atmosphere.
+
+It will last for anywhere between a few days to over a season.</PoisonSpores.letterText>
+  <!-- EN: volcanic eruption -->
+  <VolcanoVolcanicEruption.label>volcanic eruption</VolcanoVolcanicEruption.label>
+  <!-- EN: Volcanic eruption -->
+  <VolcanoVolcanicEruption.letterLabel>Volcanic eruption</VolcanoVolcanicEruption.letterLabel>
+  <!-- EN: A nearby volcano has erupted and begun spewing ash into the atmosphere.\n\nAsh in the atmosphere will obscure the sun. Temperatures will drop and plants will suffer for lack of sunlight. It could pass in a few days, or it might take a couple weeks. -->
+  <VolcanoVolcanicEruption.letterText>A nearby volcano has erupted and begun spewing ash into the atmosphere.
+
+Ash in the atmosphere will obscure the sun. Temperatures will drop and plants will suffer for lack of sunlight. It could pass in a few days, or it might take a couple weeks.</VolcanoVolcanicEruption.letterText>
+</LanguageData>

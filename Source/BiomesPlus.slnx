@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Configurations>
+    <BuildType Name="Release" />
+  </Configurations>
+  <Project Path="ActiveTerrain/ActiveTerrain.csproj" />
+  <Project Path="BiomesPlus/BiomesPlus.csproj" />
+</Solution>

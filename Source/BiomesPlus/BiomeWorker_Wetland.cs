@@ -6,7 +6,7 @@ namespace BiomesPlus;
 
 public class BiomeWorker_Wetland : BiomeWorker
 {
-    public override float GetScore(Tile tile, int tileID)
+    public override float GetScore(BiomeDef biome, Tile tile, PlanetTile planetTile)
     {
         float result;
         if (tile.hilliness != Hilliness.Flat)

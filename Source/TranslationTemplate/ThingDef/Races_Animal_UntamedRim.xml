@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: cow -->
+  <MutantCow.label>cow</MutantCow.label>
+  <!-- EN: A very common domestic animal. It can produce large amounts of milk, or be slaughtered for delicious food. -->
+  <MutantCow.description>A very common domestic animal. It can produce large amounts of milk, or be slaughtered for delicious food.</MutantCow.description>
+  <!-- EN: head -->
+  <MutantCow.tools.head.label>head</MutantCow.tools.head.label>
+  <!-- EN: left hoof -->
+  <MutantCow.tools.left_hoof.label>left hoof</MutantCow.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <MutantCow.tools.right_hoof.label>right hoof</MutantCow.tools.right_hoof.label>
+  <!-- EN: butterfly -->
+  <PoisonButterfly.label>butterfly</PoisonButterfly.label>
+  <!-- EN: Butterflies are beautiful, flying insects with large scaly wings. Butterflies are caterpillers which have completed metamorphasis. -->
+  <PoisonButterfly.description>Butterflies are beautiful, flying insects with large scaly wings. Butterflies are caterpillers which have completed metamorphasis.</PoisonButterfly.description>
+  <!-- EN: butterfly meat -->
+  <PoisonButterfly.race.meatLabel>butterfly meat</PoisonButterfly.race.meatLabel>
+  <!-- EN: head -->
+  <PoisonButterfly.tools.head.label>head</PoisonButterfly.tools.head.label>
+  <!-- EN: deer -->
+  <PoisonDeer.label>deer</PoisonDeer.label>
+  <!-- EN: A medium-sized herding herbivore. Generally peaceful unless disturbed. -->
+  <PoisonDeer.description>A medium-sized herding herbivore. Generally peaceful unless disturbed.</PoisonDeer.description>
+  <!-- EN: left hoof -->
+  <PoisonDeer.tools.left_hoof.label>left hoof</PoisonDeer.tools.left_hoof.label>
+  <!-- EN: right hoof -->
+  <PoisonDeer.tools.right_hoof.label>right hoof</PoisonDeer.tools.right_hoof.label>
+  <!-- EN: teeth -->
+  <PoisonDeer.tools.teeth.label>teeth</PoisonDeer.tools.teeth.label>
+  <!-- EN: head -->
+  <PoisonDeer.tools.head.label>head</PoisonDeer.tools.head.label>
+  <!-- EN: rat -->
+  <PoisonRat.label>rat</PoisonRat.label>
+  <!-- EN: A rodent famous for soiling kitchens and spreading disease. Eats almost anything; lives almost anywhere. -->
+  <PoisonRat.description>A rodent famous for soiling kitchens and spreading disease. Eats almost anything; lives almost anywhere.</PoisonRat.description>
+  <!-- EN: left claw -->
+  <PoisonRat.tools.left_claw.label>left claw</PoisonRat.tools.left_claw.label>
+  <!-- EN: right claw -->
+  <PoisonRat.tools.right_claw.label>right claw</PoisonRat.tools.right_claw.label>
+  <!-- EN: head -->
+  <PoisonRat.tools.head.label>head</PoisonRat.tools.head.label>
+</LanguageData>

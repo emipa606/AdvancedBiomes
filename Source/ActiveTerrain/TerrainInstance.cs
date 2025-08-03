@@ -4,9 +4,9 @@ using Verse;
 
 namespace ActiveTerrain;
 
-public class TerrainInstance : IExposable
+public sealed class TerrainInstance : IExposable
 {
-    public readonly List<TerrainComp> comps = [];
+    private readonly List<TerrainComp> comps = [];
 
     public SpecialTerrain def;
 
@@ -26,7 +26,7 @@ public class TerrainInstance : IExposable
         set => positionInt = value;
     }
 
-    public virtual string Label
+    public string Label
     {
         get
         {
@@ -40,14 +40,14 @@ public class TerrainInstance : IExposable
         }
     }
 
-    public virtual void ExposeData()
+    public void ExposeData()
     {
         Scribe_References.Look(ref mapInt, "map");
         Scribe_Values.Look(ref positionInt, "pos");
         Scribe_Defs.Look(ref def, "def");
         if (Scribe.mode == LoadSaveMode.LoadingVars)
         {
-            InitializeComps();
+            initializeComps();
         }
 
         foreach (var terrainComp in comps)
@@ -56,9 +56,9 @@ public class TerrainInstance : IExposable
         }
     }
 
-    public virtual void Init()
+    public void Init()
     {
-        InitializeComps();
+        initializeComps();
     }
 
     public T GetComp<T>() where T : TerrainComp
@@ -72,10 +72,10 @@ public class TerrainInstance : IExposable
             }
         }
 
-        return default;
+        return null;
     }
 
-    public void InitializeComps()
+    private void initializeComps()
     {
         foreach (var terrainCompProperties in def.terrainComps)
         {
@@ -86,7 +86,7 @@ public class TerrainInstance : IExposable
         }
     }
 
-    public virtual void Tick()
+    public void Tick()
     {
         foreach (var terrainComp in comps)
         {
@@ -94,7 +94,7 @@ public class TerrainInstance : IExposable
         }
     }
 
-    public virtual void Update()
+    public void Update()
     {
         foreach (var terrainComp in comps)
         {
@@ -102,7 +102,7 @@ public class TerrainInstance : IExposable
         }
     }
 
-    public virtual void PostPlacedDown()
+    public void PostPlacedDown()
     {
         foreach (var terrainComp in comps)
         {
@@ -110,7 +110,7 @@ public class TerrainInstance : IExposable
         }
     }
 
-    public virtual void PostRemove()
+    public void PostRemove()
     {
         foreach (var terrainComp in comps)
         {
@@ -118,7 +118,7 @@ public class TerrainInstance : IExposable
         }
     }
 
-    public virtual void PostLoad()
+    public void PostLoad()
     {
         foreach (var terrainComp in comps)
         {
@@ -126,7 +126,7 @@ public class TerrainInstance : IExposable
         }
     }
 
-    public virtual void BroadcastCompSignal(string sig)
+    public void BroadcastCompSignal(string sig)
     {
         foreach (var terrainComp in comps)
         {

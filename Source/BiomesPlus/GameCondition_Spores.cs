@@ -43,7 +43,7 @@ public class GameCondition_Spores : GameCondition
         {
             foreach (var map in affectedMaps)
             {
-                DoPawnsPoisonDamage(map);
+                doPawnsPoisonDamage(map);
             }
         }
 
@@ -51,12 +51,12 @@ public class GameCondition_Spores : GameCondition
         {
             foreach (var map in affectedMaps)
             {
-                skyOverlay.TickOverlay(map);
+                skyOverlay.TickOverlay(map, 1f);
             }
         }
     }
 
-    private void DoPawnsPoisonDamage(Map map)
+    private static void doPawnsPoisonDamage(Map map)
     {
         var allPawnsSpawned = map.mapPawns.AllPawnsSpawned;
         foreach (var pawn in allPawnsSpawned)
@@ -78,35 +78,35 @@ public class GameCondition_Spores : GameCondition
             HealthUtility.AdjustSeverity(pawn, HediffDefOf.PoisonBuildup, num);
         }
     }
+}
 
-    [DefOf]
-    public static class BiomeDefOf
-    {
-        public static BiomeDef PoisonForest;
+[DefOf]
+public static class BiomeDefOf
+{
+    public static BiomeDef PoisonForest;
 
-        public static BiomeDef Savanna;
+    public static BiomeDef Savanna;
 
-        public static BiomeDef Wetland;
+    public static BiomeDef Wetland;
 
-        public static BiomeDef Volcano;
-    }
+    public static BiomeDef Volcano;
+}
 
-    [DefOf]
-    public static class HediffDefOf
-    {
-        public static HediffDef PoisonBuildup;
-    }
+[DefOf]
+public static class HediffDefOf
+{
+    public static HediffDef PoisonBuildup;
+}
 
-    public static class Util_PoisonForestBiome
-    {
-        public static BiomeDef PoisonForestBiomeDef => BiomeDef.Named("PoisonForest");
+public static class Util_PoisonForestBiome
+{
+    public static BiomeDef PoisonForestBiomeDef => BiomeDef.Named("PoisonForest");
 
-        public static BiomeDef SavannaBiomeDef => BiomeDef.Named("Savanna");
+    public static BiomeDef SavannaBiomeDef => BiomeDef.Named("Savanna");
 
-        public static BiomeDef WetlandBiomeDef => BiomeDef.Named("Wetland");
+    public static BiomeDef WetlandBiomeDef => BiomeDef.Named("Wetland");
 
-        public static BiomeDef VolcanoBiomeDef => BiomeDef.Named("Volcano");
+    public static BiomeDef VolcanoBiomeDef => BiomeDef.Named("Volcano");
 
-        public static GameConditionDef PoisonForestEnvironmentGameConditionDef => GameConditionDef.Named("Spores");
-    }
+    public static GameConditionDef PoisonForestEnvironmentGameConditionDef => GameConditionDef.Named("Spores");
 }

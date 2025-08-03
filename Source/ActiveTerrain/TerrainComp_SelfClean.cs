@@ -5,15 +5,15 @@ namespace ActiveTerrain;
 
 public class TerrainComp_SelfClean : TerrainComp
 {
-    public float cleanProgress = float.NaN;
+    private float cleanProgress = float.NaN;
 
-    public Filth currentFilth;
+    private Filth currentFilth;
 
     public TerrainCompProperties_SelfClean Props => (TerrainCompProperties_SelfClean)props;
 
     protected virtual bool CanClean => true;
 
-    public void StartClean()
+    private void StartClean()
     {
         if (currentFilth == null)
         {
@@ -43,12 +43,12 @@ public class TerrainComp_SelfClean : TerrainComp
         }
     }
 
-    public virtual void DoCleanWork()
+    protected virtual void DoCleanWork()
     {
         if (currentFilth == null)
         {
             cleanProgress = float.NaN;
-            if (!FindFilth())
+            if (!findFilth())
             {
                 return;
             }
@@ -65,11 +65,11 @@ public class TerrainComp_SelfClean : TerrainComp
         }
         else
         {
-            FinishClean();
+            finishClean();
         }
     }
 
-    public bool FindFilth()
+    private bool findFilth()
     {
         bool result;
         if (currentFilth != null)
@@ -93,7 +93,7 @@ public class TerrainComp_SelfClean : TerrainComp
         return result;
     }
 
-    public void FinishClean()
+    private void finishClean()
     {
         if (currentFilth == null)
         {

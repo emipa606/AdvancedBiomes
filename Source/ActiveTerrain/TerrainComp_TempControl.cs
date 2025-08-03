@@ -4,17 +4,17 @@ using Verse;
 
 namespace ActiveTerrain;
 
-public class TerrainComp_TempControl : TerrainComp_HeatPush
+public sealed class TerrainComp_TempControl : TerrainComp_HeatPush
 {
-    public bool operatingAtHighPower;
+    private bool operatingAtHighPower;
 
     [Unsaved] private CompTempControl parentTempControl;
 
-    public new TerrainCompProperties_TempControl Props => (TerrainCompProperties_TempControl)props;
+    public TerrainCompProperties_TempControl Props => (TerrainCompProperties_TempControl)props;
 
-    public float AmbientTemperature => GenTemperature.GetTemperatureForCell(parent.Position, parent.Map);
+    private float AmbientTemperature => GenTemperature.GetTemperatureForCell(parent.Position, parent.Map);
 
-    public float PowerConsumptionNow
+    private float PowerConsumptionNow
     {
         get
         {
@@ -26,7 +26,7 @@ public class TerrainComp_TempControl : TerrainComp_HeatPush
         }
     }
 
-    public virtual CompTempControl HeaterToConformTo
+    private CompTempControl HeaterToConformTo
     {
         get
         {
@@ -126,7 +126,7 @@ public class TerrainComp_TempControl : TerrainComp_HeatPush
         UpdatePowerConsumption();
     }
 
-    protected virtual void CleanSnow()
+    private void CleanSnow()
     {
         var depth = parent.Map.snowGrid.GetDepth(parent.Position);
         if (Mathf.Approximately(0f, depth))

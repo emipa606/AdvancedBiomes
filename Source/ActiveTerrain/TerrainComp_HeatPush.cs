@@ -4,7 +4,7 @@ namespace ActiveTerrain;
 
 public class TerrainComp_HeatPush : TerrainComp
 {
-    public TerrainCompProperties_HeatPush Props => (TerrainCompProperties_HeatPush)props;
+    private TerrainCompProperties_HeatPush Props => (TerrainCompProperties_HeatPush)props;
 
     protected virtual bool ShouldPushHeat => true;
 

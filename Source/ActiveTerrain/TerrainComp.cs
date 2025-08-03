@@ -4,7 +4,7 @@ public class TerrainComp
 {
     public TerrainInstance parent;
 
-    public TerrainCompProperties props;
+    protected TerrainCompProperties props;
 
     public virtual void Initialize(TerrainCompProperties props)
     {

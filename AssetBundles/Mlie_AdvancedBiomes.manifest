@@ -1,0 +1,92 @@
+ManifestFileVersion: 0
+CRC: 3160790001
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0ba38dc3b31d94c9fb7692db17ae0739
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 0ba38dc3b31d94c9fb7692db17ae0739
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Terrain/PoisonMud.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/YellowGrass/YellowGrass.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonRaspberryPlant/RaspberryBushA.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Biomes/Savanna.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonTreeCypress/TreeCypressB.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonTreeWillow/TreeWillowB.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Animal/Cow/Bull_north.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonShrub/ShrubLowB.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Animal/Caterpiller/caterpiller_south.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Weather/Overlays/PoisonFogWorld.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/SwordFern/SwordFernA.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/TreeCedar/TreeCedarA.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Biomes/Wetland.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/PlantFoodRaw/PoisonMushroom.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Terrain/Lava.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/TreeDead/TreeDeadA.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Animal/Butterfly/butterfly_east.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonDandelion/Dandelion.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Animal/Cow/Bull_east.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Terrain/VolcanoSoilRich.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Biomes/Volcano.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonMushroom/PoisonMushroomPlantB.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Terrain/PoisonMossy.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/SavannaBush/SavannaBush.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/TreeDead/TreeDeadB.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Terrain/NuclearWaste.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Animal/Cow/Cow_south.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Animal/Cow/CowPack_north.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Terrain/PoisonSoilRich.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Terrain/PoisonSoil.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonMushroom/PoisonMushroomPlantC.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonDandelion/DandelionB.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Animal/Cow/CowPack_south.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Animal/Cow/Cow_east.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Terrain/PoisonMarsh.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Terrain/PoisonMarshyTerrain.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonTreeTeak/PoisonTreeTeakA.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/TreeAcacia/TreeAcaciaA.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonAlocasia/AlocasiaB.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Animal/Caterpiller/caterpiller_north.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Animal/Caterpiller/caterpiller_east.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Animal/Cow/Cow_north.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonMushroom/PoisonMushroomPlantD.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonTreeTeak/PoisonTreeTeakB.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonBrambles/BramblesA.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonBrambles/BramblesB.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Animal/Cow/BullPack_north.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Terrain/WastelandAsphalt.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Terrain/SavannaSoilRich.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonShrub/ShrubLowA.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Animal/Butterfly/butterfly_south.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonTreePalm/TreePalmA.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonDandelion/DandelionC.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Biomes/PoisonForest.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonBush/Bush.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonMushroom/PoisonMushroomPlantA.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Terrain/SavannaSoil.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonTreeCypress/TreeCypressA.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Terrain/VolcanoSoil.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Animal/Cow/BullPack_south.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Animal/Butterfly/butterfly_north.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/TreeMangrove/TreeMangroveA.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/TreeAcacia/TreeAcaciaB.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Animal/Cow/Bull_south.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/TreeBaobab/TreeBaobabA.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonRafflesia/RafflesiaA.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Biomes/Wasteland.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Animal/Cow/BullPack_east.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonTreeCecropia/PoisonTreeCecropiaA.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonAlocasia/AlocasiaA.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonTreeWillow/TreeWillowA.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Plant/PoisonGrass/PoisonGrass.png
+- Assets/Data/Mlie.AdvancedBiomes/Textures/Animal/Cow/CowPack_east.png
+Dependencies: []
