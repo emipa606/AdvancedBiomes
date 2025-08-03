@@ -4,7 +4,7 @@
     <defName>Lava</defName>
     <label>lava</label>
     <terrainInstanceClass>ActiveTerrain.TerrainInstance</terrainInstanceClass>
-    <texturePath>Surfaces/Lava</texturePath>
+    <texturePath>Terrain/Lava</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>395</renderPrecedence>
     <pathCost>300</pathCost>

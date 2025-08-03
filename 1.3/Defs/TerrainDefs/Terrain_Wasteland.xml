@@ -3,7 +3,7 @@
   <TerrainDef>
     <defName>WastelandAsphalt</defName>
     <label>broken asphalt</label>
-    <texturePath>Surfaces/WastelandAsphalt</texturePath>
+    <texturePath>Terrain/WastelandAsphalt</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>320</renderPrecedence>
     <pathCost>2</pathCost>

@@ -2,5 +2,17 @@
   "Continued": true,
   "CanAdd": "2",
   "CanRemove": "1",
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.5",
+  "SocialImageSet": true,
+  "SearchTags": [
+    " radiation",
+    " lava",
+    " toxicity"
+  ],
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 50069,
+  "LinesOfXML": 90653,
+  "CodeBaseSize": 81
 }

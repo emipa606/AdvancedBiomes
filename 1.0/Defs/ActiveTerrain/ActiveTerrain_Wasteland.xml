@@ -4,7 +4,7 @@
     <defName>NuclearWaste</defName>
     <label>nuclear waste</label>
     <terrainInstanceClass>ActiveTerrain.TerrainInstance</terrainInstanceClass>
-    <texturePath>Surfaces/NuclearWaste</texturePath>
+    <texturePath>Terrain/NuclearWaste</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>395</renderPrecedence>
     <pathCost>300</pathCost>

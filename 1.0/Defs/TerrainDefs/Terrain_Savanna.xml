@@ -3,7 +3,7 @@
   <TerrainDef>
     <defName>SavannaSoil</defName>
     <label>soil</label>
-    <texturePath>Surfaces/SavannaSoil</texturePath>
+    <texturePath>Terrain/SavannaSoil</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>340</renderPrecedence>
     <pathCost>2</pathCost>
@@ -26,7 +26,7 @@
   <TerrainDef>
     <defName>SavannaSoilRich</defName>
     <label>rich soil</label>
-    <texturePath>Surfaces/SavannaSoilRich</texturePath>
+    <texturePath>Terrain/SavannaSoilRich</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>335</renderPrecedence>
     <pathCost>2</pathCost>

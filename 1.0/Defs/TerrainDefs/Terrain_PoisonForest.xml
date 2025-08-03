@@ -3,7 +3,7 @@
   <TerrainDef>
     <defName>PoisonSoil</defName>
     <label>poison soil</label>
-    <texturePath>Surfaces/PoisonSoil</texturePath>
+    <texturePath>Terrain/PoisonSoil</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>340</renderPrecedence>
     <pathCost>2</pathCost>
@@ -26,7 +26,7 @@
   <TerrainDef>
     <defName>PoisonMarshyTerrain</defName>
     <label>marshy soil</label>
-    <texturePath>Surfaces/PoisonMarshyTerrain</texturePath>
+    <texturePath>Terrain/PoisonMarshyTerrain</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>337</renderPrecedence>
     <pathCost>15</pathCost>
@@ -50,7 +50,7 @@
   <TerrainDef>
     <defName>PoisonSoilRich</defName>
     <label>rich soil</label>
-    <texturePath>Surfaces/PoisonSoilRich</texturePath>
+    <texturePath>Terrain/PoisonSoilRich</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>335</renderPrecedence>
     <pathCost>2</pathCost>
@@ -72,7 +72,7 @@
   <TerrainDef>
     <defName>PoisonMud</defName>
     <label>mud</label>
-    <texturePath>Surfaces/PoisonMud</texturePath>
+    <texturePath>Terrain/PoisonMud</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>330</renderPrecedence>
     <pathCost>12</pathCost>
@@ -108,7 +108,7 @@
   <TerrainDef>
     <defName>PoisonMossyTerrain</defName>
     <label>lichen-covered dirt</label>
-    <texturePath>Surfaces/PoisonMossy</texturePath>
+    <texturePath>Terrain/PoisonMossy</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>315</renderPrecedence>
     <pathCost>3</pathCost>
