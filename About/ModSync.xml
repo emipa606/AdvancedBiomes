@@ -2,7 +2,7 @@
 <ModSyncNinjaData>
   <ID>72a850bc-80b0-4f8d-be6b-e635efadf866</ID>
   <ModName>Advanced Biomes (Continued)</ModName>
-  <Version>1.5.0</Version>
+  <Version>1.5.1</Version>
   <SaveBreaking>False</SaveBreaking>
   <Host name="Github">
     <Owner>emipa606</Owner>
@@ -12,3 +12,4 @@
     <Branch>master</Branch>
   </Host>
 </ModSyncNinjaData>
+
