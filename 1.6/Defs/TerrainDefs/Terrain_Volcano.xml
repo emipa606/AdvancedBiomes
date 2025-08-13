@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <TerrainDef>
+  <TerrainDef ParentName="NaturalTerrainBase">
     <defName>VolcanoSoil</defName>
     <label>ashy soil</label>
     <texturePath>Terrain/VolcanoSoil</texturePath>
@@ -25,7 +25,7 @@
       <li>Unnatural</li>
     </filthAcceptanceMask>
   </TerrainDef>
-  <TerrainDef>
+  <TerrainDef ParentName="NaturalTerrainBase">
     <defName>VolcanoSoilRich</defName>
     <label>rich volcanic soil</label>
     <texturePath>Terrain/SavannaSoilRich</texturePath>
@@ -49,7 +49,7 @@
       <li>Unnatural</li>
     </filthAcceptanceMask>
   </TerrainDef>
-  <TerrainDef>
+  <TerrainDef ParentName="NaturalTerrainBase">
     <defName>VolcanoObsidian</defName>
     <label>obsidian</label>
     <texturePath>Terrain/VolcanoSoilRich</texturePath>

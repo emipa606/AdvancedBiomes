@@ -1,4 +1,4 @@
-# [Advanced Biomes (Continued)]()
+# [Advanced Biomes (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3541022508)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -86,4 +86,6 @@ For 1.0: https://www.dropbox.com/s/m8kv0s4ofkpfxb3/Advanced%20Biomes%201.0.zip?d
 -  If you have the solution for a problem, please post it to the GitHub repository.
 -  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
-  | tags:  radiation,  lava,  toxicity
+  | tags:  radiation,  lava,  toxicity 
+
+[![Image](https://img.shields.io/github/v/release/emipa606/AdvancedBiomes?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3541022508) | tags:  radiation,  lava,  toxicity

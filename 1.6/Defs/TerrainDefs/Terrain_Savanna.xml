@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <TerrainDef>
+  <TerrainDef ParentName="NaturalTerrainBase">
     <defName>SavannaSoil</defName>
     <label>soil</label>
     <texturePath>Terrain/SavannaSoil</texturePath>
@@ -25,7 +25,7 @@
       <li>Unnatural</li>
     </filthAcceptanceMask>
   </TerrainDef>
-  <TerrainDef>
+  <TerrainDef ParentName="NaturalTerrainBase">
     <defName>SavannaSoilRich</defName>
     <label>rich soil</label>
     <texturePath>Terrain/SavannaSoilRich</texturePath>

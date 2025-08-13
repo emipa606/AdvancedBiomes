@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <TerrainDef>
+  <TerrainDef ParentName="NaturalTerrainBase">
     <defName>PoisonSoil</defName>
     <label>poison soil</label>
     <texturePath>Terrain/PoisonSoil</texturePath>
@@ -25,7 +25,7 @@
       <li>Unnatural</li>
     </filthAcceptanceMask>
   </TerrainDef>
-  <TerrainDef>
+  <TerrainDef ParentName="NaturalTerrainBase">
     <defName>PoisonMarshyTerrain</defName>
     <label>marshy soil</label>
     <texturePath>Terrain/PoisonMarshyTerrain</texturePath>
@@ -51,7 +51,7 @@
       <li>Unnatural</li>
     </filthAcceptanceMask>
   </TerrainDef>
-  <TerrainDef>
+  <TerrainDef ParentName="NaturalTerrainBase">
     <defName>PoisonSoilRich</defName>
     <label>rich soil</label>
     <texturePath>Terrain/PoisonSoilRich</texturePath>
@@ -75,7 +75,7 @@
       <li>Unnatural</li>
     </filthAcceptanceMask>
   </TerrainDef>
-  <TerrainDef>
+  <TerrainDef ParentName="NaturalTerrainBase">
     <defName>PoisonMud</defName>
     <label>mud</label>
     <texturePath>Terrain/PoisonMud</texturePath>
@@ -94,7 +94,7 @@
     <avoidWander>true</avoidWander>
     <driesTo>Soil</driesTo>
   </TerrainDef>
-  <TerrainDef>
+  <TerrainDef ParentName="NaturalTerrainBase">
     <defName>PoisonMarsh</defName>
     <label>marsh</label>
     <texturePath>Terrain/Surfaces/Marsh</texturePath>
@@ -113,7 +113,7 @@
     <avoidWander>true</avoidWander>
     <driesTo>Soil</driesTo>
   </TerrainDef>
-  <TerrainDef>
+  <TerrainDef ParentName="NaturalTerrainBase">
     <defName>PoisonMossyTerrain</defName>
     <label>lichen-covered dirt</label>
     <texturePath>Terrain/PoisonMossy</texturePath>
@@ -131,6 +131,7 @@
       <li>Heavy</li>
       <li>GrowSoil</li>
       <li>Diggable</li>
+      <li>Walkable</li>
     </affordances>
     <filthAcceptanceMask>
       <li>Unnatural</li>

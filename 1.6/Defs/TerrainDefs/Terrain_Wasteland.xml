@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <TerrainDef>
+  <TerrainDef ParentName="NaturalTerrainBase">
     <defName>WastelandAsphalt</defName>
     <label>broken asphalt</label>
     <texturePath>Terrain/WastelandAsphalt</texturePath>
