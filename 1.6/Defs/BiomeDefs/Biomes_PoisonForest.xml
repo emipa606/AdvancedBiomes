@@ -8,11 +8,32 @@
     <animalDensity>0.8</animalDensity>
     <plantDensity>0.85</plantDensity>
     <settlementSelectionWeight>0.0</settlementSelectionWeight>
+    <campSelectionWeight>0.9</campSelectionWeight>
     <movementDifficulty>2</movementDifficulty>
+    <lakeBeachTerrain>Marsh</lakeBeachTerrain>
+    <mudTerrain>Marsh</mudTerrain>
+    <riverbankTerrain>Riverbank</riverbankTerrain>
+    <riverbankSizeRange>6~8</riverbankSizeRange>
     <texture>Biomes/PoisonForest</texture>
     <forageability>1</forageability>
     <foragedFood>RawBerries</foragedFood>
     <wildPlantRegrowDays>15</wildPlantRegrowDays>
+    <maxFishPopulation>600</maxFishPopulation>
+    <fishTypes>
+      <freshwater_Common>
+        <Fish_Bass>1</Fish_Bass>
+      </freshwater_Common>
+      <freshwater_Uncommon>
+        <Fish_Catfish>1</Fish_Catfish>
+      </freshwater_Uncommon>
+      <saltwater_Common>
+        <Fish_Bluefish>1</Fish_Bluefish>
+      </saltwater_Common>
+      <saltwater_Uncommon>
+        <Fish_Marlin>1</Fish_Marlin>
+        <Fish_Flounder>1</Fish_Flounder>
+      </saltwater_Uncommon>
+    </fishTypes>
     <soundsAmbient>
       <li>AmbientNightInsects_Jungle</li>
       <li>AmbientDayInsects_Jungle</li>

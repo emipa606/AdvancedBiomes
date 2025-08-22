@@ -5,14 +5,39 @@
     <label>volcano</label>
     <description>A volcano is a rupture in the crust of a planet, that allows hot lava, volcanic ash, and gases to escape from a magma chamber below the surface.</description>
     <workerClass>BiomesPlus.BiomeWorker_Volcano</workerClass>
+    <allowFarmingCamps>false</allowFarmingCamps>
     <animalDensity>0.25</animalDensity>
     <plantDensity>0.16</plantDensity>
     <settlementSelectionWeight>0.5</settlementSelectionWeight>
     <movementDifficulty>2</movementDifficulty>
+    <lakeBeachTerrain>Gravel</lakeBeachTerrain>
+    <riverbankTerrain>Riverbank</riverbankTerrain>
+    <riverbankSizeRange>6~8</riverbankSizeRange>
+    <texture>Biomes/Volcano</texture>
     <forageability>1</forageability>
     <foragedFood>RawBerries</foragedFood>
     <wildPlantRegrowDays>15</wildPlantRegrowDays>
-    <texture>Biomes/Volcano</texture>
+    <geyserCountFactor>1.5</geyserCountFactor>
+    <maxFishPopulation>480</maxFishPopulation>
+    <fishTypes>
+      <freshwater_Common>
+        <Fish_Bass>1</Fish_Bass>
+      </freshwater_Common>
+      <freshwater_Uncommon>
+        <Fish_Catfish>1</Fish_Catfish>
+      </freshwater_Uncommon>
+      <saltwater_Common>
+        <Fish_Bluefish>1</Fish_Bluefish>
+      </saltwater_Common>
+      <saltwater_Uncommon>
+        <Fish_Flounder>1</Fish_Flounder>
+        <Fish_Marlin>1</Fish_Marlin>
+      </saltwater_Uncommon>
+      <rareCatchesSetMaker>RareFishingCatches_Hot</rareCatchesSetMaker>
+    </fishTypes>
+    <soundsAmbient>
+      <li>Ambient_NightInsects_Standard</li>
+    </soundsAmbient>
     <diseaseMtbDays>80</diseaseMtbDays>
     <diseases>
       <li>

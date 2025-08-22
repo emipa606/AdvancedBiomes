@@ -8,11 +8,34 @@
     <animalDensity>4.0</animalDensity>
     <plantDensity>0.85</plantDensity>
     <settlementSelectionWeight>0.5</settlementSelectionWeight>
+    <campSelectionWeight>0.9</campSelectionWeight>
     <movementDifficulty>2</movementDifficulty>
+    <coastalBeachTerrain>Mud</coastalBeachTerrain>
+    <lakeBeachTerrain>Mud</lakeBeachTerrain>
+    <riverbankTerrain>Mud</riverbankTerrain>
+    <riverbankSizeRange>6~12</riverbankSizeRange>
+    <texture>Biomes/Wetland</texture>
     <forageability>1</forageability>
     <foragedFood>RawBerries</foragedFood>
     <wildPlantRegrowDays>15</wildPlantRegrowDays>
-    <texture>Biomes/Wetland</texture>
+    <maxFishPopulation>780</maxFishPopulation>
+    <fishTypes MayRequire="Ludeon.RimWorld.Odyssey">
+      <freshwater_Common>
+        <Fish_Tilapia MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Tilapia>
+      </freshwater_Common>
+      <freshwater_Uncommon>
+        <Fish_Catfish MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Catfish>
+        <Fish_Piranha MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Piranha>
+      </freshwater_Uncommon>
+      <saltwater_Common>
+        <Fish_Bluefish MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Bluefish>
+      </saltwater_Common>
+      <saltwater_Uncommon>
+        <Fish_Tuna MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Tuna>
+        <Fish_Flounder MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Flounder>
+      </saltwater_Uncommon>
+      <rareCatchesSetMaker MayRequire="Ludeon.RimWorld.Odyssey">RareFishingCatches_Tropical</rareCatchesSetMaker>
+    </fishTypes>
     <soundsAmbient>
       <li>AmbientNightInsects_Jungle</li>
       <li>AmbientDayInsects_Jungle</li>
