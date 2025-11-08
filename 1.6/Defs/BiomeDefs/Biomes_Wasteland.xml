@@ -22,12 +22,12 @@
     <diseaseMtbDays>90</diseaseMtbDays>
     <pollutionOffset>0.05</pollutionOffset>
     <maxFishPopulation>0</maxFishPopulation>
-    <waterShallowTerrain>ToxicWaterShallow</waterShallowTerrain>
-    <waterDeepTerrain>ToxicWaterDeep</waterDeepTerrain>
-    <oceanShallowTerrain>ToxicWaterOceanShallow</oceanShallowTerrain>
-    <oceanDeepTerrain>ToxicWaterOceanDeep</oceanDeepTerrain>
-    <waterMovingShallowTerrain>ToxicWaterMovingShallow</waterMovingShallowTerrain>
-    <waterMovingChestDeepTerrain>ToxicWaterMovingChestDeep</waterMovingChestDeepTerrain>
+    <waterShallowTerrain MayRequire="Ludeon.Rimworld.Odyssey">ToxicWaterShallow</waterShallowTerrain>
+    <waterDeepTerrain MayRequire="Ludeon.Rimworld.Odyssey">ToxicWaterDeep</waterDeepTerrain>
+    <oceanShallowTerrain MayRequire="Ludeon.Rimworld.Odyssey">ToxicWaterOceanShallow</oceanShallowTerrain>
+    <oceanDeepTerrain MayRequire="Ludeon.Rimworld.Odyssey">ToxicWaterOceanDeep</oceanDeepTerrain>
+    <waterMovingShallowTerrain MayRequire="Ludeon.Rimworld.Odyssey">ToxicWaterMovingShallow</waterMovingShallowTerrain>
+    <waterMovingChestDeepTerrain MayRequire="Ludeon.Rimworld.Odyssey">ToxicWaterMovingChestDeep</waterMovingChestDeepTerrain>
     <soundsAmbient>
       <li>Ambient_NightInsects_Standard</li>
     </soundsAmbient>
@@ -93,7 +93,7 @@
       <RainyThunderstorm>1</RainyThunderstorm>
       <SnowGentle>1.5</SnowGentle>
       <GrayPall MayRequire="Ludeon.RimWorld.Anomaly">1</GrayPall>
-      <ToxRain>1</ToxRain>
+      <ToxRain MayRequire="Ludeon.Rimworld.Odyssey">1</ToxRain>
       <SnowHard>1</SnowHard>
     </baseWeatherCommonalities>
     <wildPlants>
@@ -101,9 +101,9 @@
       <Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">2</Plant_GrayGrass>
       <Plant_Ripthorn MayRequire="Ludeon.RimWorld.Biotech">0.8</Plant_Ripthorn>
       <Plant_Witchwood MayRequire="Ludeon.RimWorld.Biotech">0.5</Plant_Witchwood>
-      <Plant_Berry_Leafless>0.02</Plant_Berry_Leafless>
-      <Plant_Bush_Leafless>0.6</Plant_Bush_Leafless>
-      <Plant_Brambles_Leafless>1.0</Plant_Brambles_Leafless>
+      <Plant_Berry_Leafless MayRequire="Ludeon.Rimworld.Odyssey">0.02</Plant_Berry_Leafless>
+      <Plant_Bush_Leafless MayRequire="Ludeon.Rimworld.Odyssey">0.6</Plant_Bush_Leafless>
+      <Plant_Brambles_Leafless MayRequire="Ludeon.Rimworld.Odyssey">1.0</Plant_Brambles_Leafless>
       <TreeDead>1</TreeDead>
       <Plant_Agave>0.05</Plant_Agave>
     </wildPlants>
@@ -114,7 +114,7 @@
       <Dromedary>0.15</Dromedary>
       <MutantCow>0.15</MutantCow>
       <Fox_Fennec>0.04</Fox_Fennec>
-      <Crow>0.5</Crow>
+      <Crow MayRequire="Ludeon.Rimworld.Odyssey">0.5</Crow>
     </wildAnimals>
     <pollutionWildAnimals MayRequire="Ludeon.RimWorld.Biotech">
       <Toxalope MayRequire="Ludeon.RimWorld.Biotech">0.4</Toxalope>
@@ -124,16 +124,16 @@
       <Boomrat>0.4</Boomrat>
       <Boomalope>0.1</Boomalope>
       <Warg>0.05</Warg>
-      <MonitorLizard>0.5</MonitorLizard>
+      <MonitorLizard MayRequire="Ludeon.Rimworld.Odyssey">0.5</MonitorLizard>
     </pollutionWildAnimals>
     <allowedPackAnimals>
       <li>Muffalo</li>
       <li>Dromedary</li>
     </allowedPackAnimals>
     <extraGenSteps>
-      <li>CratersLarge</li>
-      <li>CratersMedium</li>
-      <li>CratersSmall</li>
+      <li MayRequire="Ludeon.Rimworld.Odyssey">CratersLarge</li>
+      <li MayRequire="Ludeon.Rimworld.Odyssey">CratersMedium</li>
+      <li MayRequire="Ludeon.Rimworld.Odyssey">CratersSmall</li>
     </extraGenSteps>
   </BiomeDef>
 </Defs>

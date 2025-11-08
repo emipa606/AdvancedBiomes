@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Poison Forest -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName = "PoisonSoil"]/affordances</xpath>
+    <value>
+      <li>SoilF</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName = "PoisonMarshyTerrain"]/affordances</xpath>
+    <value>
+      <li>SoilMarshy</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName = "PoisonSoilRich"]/affordances</xpath>
+    <value>
+      <li>SoilF</li>
+      <li>SoilRich</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName = "PoisonMud"]</xpath>
+    <value>
+      <affordances>
+        <li>Mud</li>
+      </affordances>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName = "PoisonMarsh"]</xpath>
+    <value>
+      <affordances>
+        <li>Marsh</li>
+      </affordances>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName = "PoisonMossyTerrain"]/affordances</xpath>
+    <value>
+      <li>SoilF</li>
+    </value>
+  </Operation>
+  <!-- Savanna -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName = "SavannaSoil"]/affordances</xpath>
+    <value>
+      <li>SoilF</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName = "SavannaSoilRich"]/affordances</xpath>
+    <value>
+      <li>SoilF</li>
+      <li>SoilRich</li>
+    </value>
+  </Operation>
+  <!-- Volcano -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName = "VolcanoSoil"]/affordances</xpath>
+    <value>
+      <li>SoilF</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName = "VolcanoSoilRich"]/affordances</xpath>
+    <value>
+      <li>SoilF</li>
+      <li>SoilRich</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName = "VolcanoObsidian"]/affordances</xpath>
+    <value>
+      <li>RoughStone</li>
+    </value>
+  </Operation>
+  <!-- Lava -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ActiveTerrain.SpecialTerrain[defName = "Lava"]/changeable</xpath>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ActiveTerrain.SpecialTerrain[defName = "Lava"]/affordances</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ActiveTerrain.SpecialTerrain[defName = "Lava"]</xpath>
+      <value>
+        <affordances />
+      </value>
+    </nomatch>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ActiveTerrain.SpecialTerrain[defName = "Lava"]/affordances</xpath>
+    <value>
+      <li>WaterDeep</li>
+    </value>
+  </Operation>
+  <!-- Wasteland -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TerrainDef[defName = "WastelandAsphalt"]/affordances</xpath>
+    <value>
+      <li>RoughStone</li>
+    </value>
+  </Operation>
+  <!-- NuclearWaste -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ActiveTerrain.SpecialTerrain[defName = "NuclearWaste"]/changeable</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ActiveTerrain.SpecialTerrain[defName = "NuclearWaste"]/affordances</xpath>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ActiveTerrain.SpecialTerrain[defName = "NuclearWaste"]</xpath>
+      <value>
+        <affordances />
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ActiveTerrain.SpecialTerrain[defName = "NuclearWaste"]/affordances</xpath>
+    <value>
+      <li>WaterDeep</li>
+    </value>
+  </Operation>
+
+</Patch>

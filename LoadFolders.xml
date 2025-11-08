@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+	<v1.6>
+		<li>/</li>
+		<li>1.6</li>
+		<li IfModActive="jamaicancastle.rf.fertilefields">1.6/Mods/FertileFields</li>
+		<li IfModActive="ludeon.rimworld.odyssey">1.6/Mods/Odyssey</li>
+	</v1.6>
+</loadFolders>
