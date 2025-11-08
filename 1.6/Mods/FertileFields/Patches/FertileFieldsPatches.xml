@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-
   <!-- Poison Forest -->
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/TerrainDef[defName = "PoisonSoil"]/affordances</xpath>
@@ -90,7 +89,6 @@
       </value>
     </nomatch>
   </Operation>
-
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ActiveTerrain.SpecialTerrain[defName = "Lava"]/affordances</xpath>
     <value>
@@ -108,7 +106,6 @@
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ActiveTerrain.SpecialTerrain[defName = "NuclearWaste"]/changeable</xpath>
   </Operation>
-
   <Operation Class="PatchOperationConditional">
     <xpath>Defs/ActiveTerrain.SpecialTerrain[defName = "NuclearWaste"]/affordances</xpath>
     <nomatch Class="PatchOperationAdd">
@@ -124,5 +121,4 @@
       <li>WaterDeep</li>
     </value>
   </Operation>
-
 </Patch>

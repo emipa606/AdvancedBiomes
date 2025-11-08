@@ -1,5 +1,8 @@
 # Changelog for AdvancedBiomes
 
+1.6.3 - Updated Odyssey fixes. Fixed Fertile Fields patch. Thanks to Halicade!
+
+
 1.6.2 - Updated biomedefs to have fish and some other fitting properties
 
 

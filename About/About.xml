@@ -18,7 +18,7 @@
   <loadAfter>
     <li>brrainz.harmony</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+  <description>[img]https://i.postimg.cc/1X4HT06h/Info.png[/img]
 Update of Hey my team rules!s mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1338280929
 
@@ -35,20 +35,20 @@ To avoid doubling the size of the mod, it was re-released using only Asset Bundl
 
 - [url= https://steamcommunity.com/sharedfiles/filedetails/?id=2383746247]World Map Beautification Project Patch[/url] by Sacrificial Goat
 
-[img]https://i.imgur.com/pufA0kM.png[/img]
+[img]https://i.postimg.cc/8csH3dWV/Notice.png[/img]
 
 [table]
     [tr]
-        [td][url=https://discord.gg/h5TY6DA][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
-        [td][url=https://github.com/emipa606/AdvancedBiomes][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+        [td][url=https://discord.gg/h5TY6DA][img]https://i.postimg.cc/T1h9SjbF/Discord.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/AdvancedBiomes][img]https://i.postimg.cc/fykKF7X4/Github.png[/img][/url][/td]
     [/tr]
     [tr]
-        [td][img]https://i.imgur.com/kbYsPSO.png[/img][/td]
-        [td][img]https://i.imgur.com/6KqTKks.png[/img][/td]
+        [td][img]https://i.postimg.cc/90zpSP9s/Add-May-Work.png[/img][/td]
+        [td][img]https://i.postimg.cc/6qS0N7L6/Unsafe-To-Remove.png[/img][/td]
     [/tr]
 [/table]
 	
-[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[img]https://i.postimg.cc/hvhrw8xB/Original-Description.png[/img]
 	
 Terraforming has always been more art than science. The process often resulted in an unstable biosphere. Poisonous forests, lakes of lava, and unregulated weapons testing have left scars across the landscape. These areas pose a hightened threat to colonists, only the desperate or foolish would attempt to live there.
 
@@ -91,11 +91,11 @@ Please remember to rate this up if you like the mod!
 
 For 1.0: https://www.dropbox.com/s/m8kv0s4ofkpfxb3/Advanced%20Biomes%201.0.zip?dl=0
 
-[img]https://i.imgur.com/PwoNOj4.png[/img]
+[img]https://i.postimg.cc/x8qR7GH9/Reporting-Issues.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] Always post your log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url]
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
@@ -103,5 +103,5 @@ For 1.0: https://www.dropbox.com/s/m8kv0s4ofkpfxb3/Advanced%20Biomes%201.0.zip?d
 [/list]  | tags:  radiation,  lava,  toxicity 
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3541022508][img]https://img.shields.io/github/v/release/emipa606/AdvancedBiomes?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  radiation,  lava,  toxicity</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.2</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.3</modVersion>
 </ModMetaData>
