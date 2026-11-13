@@ -1,12 +1,12 @@
-# [Advanced Biomes (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3541022508)
+# [Advanced Biomes (Continued)]()
 
 ![Image](https://i.postimg.cc/1X4HT06h/Info.png)
 
 Update of Hey my team rules!s mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1338280929
 
-**The release of RimWorld 1.6 added improved support for [Asset Bundles](https://github.com/emipa606/AssetBuilder/blob/main/README.md)**.
-To avoid doubling the size of the mod, it was re-released using only Asset Bundles, you can find the previous version of this mod [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2052116426).
+**The release of RimWorld 1.7 added a system where assets like textures and sounds can be cached to improve performance**.
+To avoid doubling the size of the mod, it was re-released with only this cache included, you can find the previous version of this mod [here](https://steamcommunity.com/sharedfiles/filedetails/?id=3541022508).
 
 - Some features might not function since I had to decompile the source and some of the transpiling harmony-code I could not figure out.
 - Added mod-options for changing the probability for the added biomes during world generation.
@@ -86,6 +86,18 @@ For 1.0: https://www.dropbox.com/s/m8kv0s4ofkpfxb3/Advanced%20Biomes%201.0.zip?d
 -  If you have the solution for a problem, please post it to the GitHub repository.
 -  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
-  | tags:  radiation,  lava,  toxicity 
+  | tags:  radiation,  lava,  toxicity
 
-[![Image](https://img.shields.io/github/v/release/emipa606/AdvancedBiomes?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3541022508) | tags:  radiation,  lava,  toxicity
+![Image](https://img.litet.net/logos/ReportingIssues.png)
+
+
+
+-  See if the error persists if you just have this mod and its requirements active.
+-  If not, try adding your other mods until it happens again.
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
+-  For best support, please use the Discord-channel for error-reporting.
+-  Do not report errors by making a discussion-thread, I get no notification of that.
+-  If you have the solution for a problem, please post it to the GitHub repository.
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
+
+  | lava, radiation, toxicity

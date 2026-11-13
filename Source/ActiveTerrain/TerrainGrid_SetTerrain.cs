@@ -7,7 +7,7 @@ namespace ActiveTerrain;
 public static class TerrainGrid_SetTerrain
 {
     [HarmonyPriority(600)]
-    private static void Prefix(IntVec3 c, Map ___map)
+    public static void Prefix(IntVec3 c, Map ___map)
     {
         var terrainDef = ___map.terrainGrid.TerrainAt(c);
         if (terrainDef is SpecialTerrain)
@@ -16,7 +16,7 @@ public static class TerrainGrid_SetTerrain
         }
     }
 
-    private static void Postfix(IntVec3 c, TerrainDef newTerr, Map ___map)
+    public static void Postfix(IntVec3 c, TerrainDef newTerr, Map ___map)
     {
         SpecialTerrain special;
         if ((special = newTerr as SpecialTerrain) == null)

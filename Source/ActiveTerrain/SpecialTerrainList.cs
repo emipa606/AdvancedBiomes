@@ -5,7 +5,7 @@ namespace ActiveTerrain;
 
 public class SpecialTerrainList(Map map) : MapComponent(map)
 {
-    public Dictionary<IntVec3, TerrainInstance> terrains = new();
+    private Dictionary<IntVec3, TerrainInstance> terrains = new();
 
     public override void ExposeData()
     {

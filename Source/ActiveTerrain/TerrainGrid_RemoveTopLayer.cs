@@ -7,7 +7,7 @@ namespace ActiveTerrain;
 internal static class TerrainGrid_RemoveTopLayer
 {
     [HarmonyPriority(600)]
-    private static void Prefix(IntVec3 c, TerrainGrid __instance, Map ___map)
+    public static void Prefix(IntVec3 c, TerrainGrid __instance, Map ___map)
     {
         if (__instance.TerrainAt(c) is not SpecialTerrain)
         {

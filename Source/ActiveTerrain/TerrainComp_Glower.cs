@@ -8,9 +8,7 @@ public sealed class TerrainComp_Glower : TerrainComp
 {
     [Unsaved] private bool currentlyOn;
 
-    [Unsaved] private CompGlower instanceGlowerComp;
-
-    private CompGlower AsThingComp => instanceGlowerComp ?? (instanceGlowerComp = (CompGlower)this);
+    [field: Unsaved] private CompGlower AsThingComp => field ?? (field = (CompGlower)this);
 
     private TerrainCompProperties_Glower Props => (TerrainCompProperties_Glower)props;
 

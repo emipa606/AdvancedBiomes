@@ -6,21 +6,19 @@ public sealed class TerrainComp_PowerTrader : TerrainComp
 {
     private readonly int tickInterval = 50;
 
-    private CompPowerTraderFloor connectParentInt;
-
     private bool curSignal;
 
     private float powerOutputInt;
 
     private CompPowerTraderFloor ConnectParent
     {
-        get => connectParentInt;
+        get;
         set
         {
-            var compPowerTraderFloor = connectParentInt;
+            var compPowerTraderFloor = field;
             compPowerTraderFloor?.Notify_TerrainCompRemoved(this);
 
-            connectParentInt = value;
+            field = value;
             value?.ReceiveTerrainComp(this);
         }
     }

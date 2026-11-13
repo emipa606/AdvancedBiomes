@@ -15,11 +15,6 @@ internal class BiomesPlusMod : Mod
     private static string currentVersion;
 
     /// <summary>
-    ///     The private settings
-    /// </summary>
-    private BiomesPlusSettings settings;
-
-    /// <summary>
     ///     Cunstructor
     /// </summary>
     /// <param name="content"></param>
@@ -37,9 +32,9 @@ internal class BiomesPlusMod : Mod
     {
         get
         {
-            settings ??= GetSettings<BiomesPlusSettings>();
+            field ??= GetSettings<BiomesPlusSettings>();
 
-            return settings;
+            return field;
         }
     }
 
@@ -56,11 +51,11 @@ internal class BiomesPlusMod : Mod
     ///     The settings-window
     ///     For more info: https://rimworldwiki.com/wiki/Modding_Tutorials/ModSettings
     /// </summary>
-    /// <param name="rect"></param>
-    public override void DoSettingsWindowContents(Rect rect)
+    /// <param name="inRect"></param>
+    public override void DoSettingsWindowContents(Rect inRect)
     {
         var listingStandard = new Listing_Standard();
-        listingStandard.Begin(rect);
+        listingStandard.Begin(inRect);
         listingStandard.Label("AdB.Probability.label".Translate());
         listingStandard.Gap();
         listingStandard.Label("AdB.PoisonForest.label".Translate(Settings.PoisonForest));

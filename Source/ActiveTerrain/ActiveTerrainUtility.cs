@@ -50,21 +50,29 @@ public static class ActiveTerrainUtility
         return null;
     }
 
-    public static TempControlType AnalyzeType(this CompTempControl tempControl)
+    private static TempControlType AnalyzeType(this CompTempControl tempControl)
     {
         var energyPerSecond = tempControl.Props.energyPerSecond;
-        return energyPerSecond > 0f ? TempControlType.Heater :
-            energyPerSecond < 0f ? TempControlType.Cooler : TempControlType.None;
+        if (energyPerSecond > 0f)
+        {
+            return TempControlType.Heater;
+        }
+
+        return energyPerSecond < 0f ? TempControlType.Cooler : TempControlType.None;
     }
 
     public static TempControlType AnalyzeType(this TerrainComp_TempControl tempControl)
     {
         var energyPerSecond = tempControl.Props.energyPerSecond;
-        return energyPerSecond > 0f ? TempControlType.Heater :
-            energyPerSecond < 0f ? TempControlType.Cooler : TempControlType.None;
+        if (energyPerSecond > 0f)
+        {
+            return TempControlType.Heater;
+        }
+
+        return energyPerSecond < 0f ? TempControlType.Cooler : TempControlType.None;
     }
 
-    public static bool Powered(this ThingWithComps t)
+    private static bool Powered(this ThingWithComps t)
     {
         var comp = t.GetComp<CompPowerTrader>();
         return comp == null || comp.PowerOn;
@@ -119,9 +127,9 @@ public static class ActiveTerrainUtility
     public static TerrainInstance MakeTerrainInstance(this SpecialTerrain tDef, Map map, IntVec3 loc)
     {
         var terrainInstance = (TerrainInstance)Activator.CreateInstance(tDef.terrainInstanceClass);
-        terrainInstance.def = tDef;
-        terrainInstance.Map = map;
-        terrainInstance.Position = loc;
+        terrainInstance?.def = tDef;
+        terrainInstance?.Map = map;
+        terrainInstance?.Position = loc;
         return terrainInstance;
     }
 }

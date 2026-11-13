@@ -8,8 +8,6 @@ public sealed class TerrainComp_TempControl : TerrainComp_HeatPush
 {
     private bool operatingAtHighPower;
 
-    [Unsaved] private CompTempControl parentTempControl;
-
     public TerrainCompProperties_TempControl Props => (TerrainCompProperties_TempControl)props;
 
     private float AmbientTemperature => GenTemperature.GetTemperatureForCell(parent.Position, parent.Map);
@@ -26,15 +24,16 @@ public sealed class TerrainComp_TempControl : TerrainComp_HeatPush
         }
     }
 
+    [field: Unsaved]
     private CompTempControl HeaterToConformTo
     {
         get
         {
             CompTempControl result;
-            if (parentTempControl != null && parentTempControl.parent.Spawned)
+            if (field != null && field.parent.Spawned)
             {
-                parentTempControl = null;
-                result = parentTempControl;
+                field = null;
+                result = field;
             }
             else
             {
@@ -45,7 +44,7 @@ public sealed class TerrainComp_TempControl : TerrainComp_HeatPush
                 }
                 else
                 {
-                    result = parentTempControl = room.GetTempControl(this.AnalyzeType());
+                    result = field = room.GetTempControl(this.AnalyzeType());
                 }
             }
 
@@ -92,13 +91,9 @@ public sealed class TerrainComp_TempControl : TerrainComp_HeatPush
                     GenTemperature.PushHeat(parent.Position, parent.Map, num2);
                 }
 
-                if (comp2 != null)
-                {
-                    comp2.PowerOutput =
-                        !Mathf.Approximately(num2, 0f) && parent.Position.GetRoom(parent.Map) != null
-                            ? -comp2.Props.basePowerConsumption
-                            : -comp2.Props.basePowerConsumption * Props.lowPowerConsumptionFactor;
-                }
+                comp2?.PowerOutput = !Mathf.Approximately(num2, 0f) && parent.Position.GetRoom(parent.Map) != null
+                    ? -comp2.Props.basePowerConsumption
+                    : -comp2.Props.basePowerConsumption * Props.lowPowerConsumptionFactor;
 
                 operatingAtHighPower =
                     !Mathf.Approximately(num2, 0f) && parent.Position.GetRoom(parent.Map) != null;
@@ -142,10 +137,7 @@ public sealed class TerrainComp_TempControl : TerrainComp_HeatPush
     private void UpdatePowerConsumption()
     {
         var comp = parent.GetComp<TerrainComp_PowerTrader>();
-        if (comp != null)
-        {
-            comp.PowerOutput = -PowerConsumptionNow;
-        }
+        comp?.PowerOutput = -PowerConsumptionNow;
     }
 
     public override string TransformLabel(string label)

@@ -7,4 +7,58 @@
   </Configurations>
   <Project Path="ActiveTerrain/ActiveTerrain.csproj" />
   <Project Path="BiomesPlus/BiomesPlus.csproj" />
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Items/">
+    <File Path="../1.7/Defs/ThingDefs_Items/Items_Resource_AnimalProduct.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/">
+    <File Path="../1.7/Patches/Caravan_Patch.xml" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/Mod_Settings.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/HediffDefs/">
+    <File Path="../1.7/Defs/HediffDefs/Hediffs_Global_Misc_UntamedRim.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/GameConditionDefs/">
+    <File Path="../1.7/Defs/GameConditionDefs/GameConditions_Misc_AdvancedBiomes.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Storyteller/">
+    <File Path="../1.7/Defs/Storyteller/Incidents_Map_Misc.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Races/">
+    <File Path="../1.7/Defs/ThingDefs_Races/Races_Animal_UntamedRim.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Food/">
+    <File Path="../1.7/Defs/ThingDefs_Food/RawPlant_UntamedRim.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/BiomeDefs/">
+    <File Path="../1.7/Defs/BiomeDefs/Biomes_PoisonForest.xml" />
+    <File Path="../1.7/Defs/BiomeDefs/Biomes_Savanna.xml" />
+    <File Path="../1.7/Defs/BiomeDefs/Biomes_Volcano.xml" />
+    <File Path="../1.7/Defs/BiomeDefs/Biomes_Wasteland.xml" />
+    <File Path="../1.7/Defs/BiomeDefs/Biomes_Wetland.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ActiveTerrain/">
+    <File Path="../1.7/Defs/ActiveTerrain/ActiveTerrain_Volcano.xml" />
+    <File Path="../1.7/Defs/ActiveTerrain/ActiveTerrain_Wasteland.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/WeatherDefs/">
+    <File Path="../1.7/Defs/WeatherDefs/Weathers.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Plants/">
+    <File Path="../1.7/Defs/ThingDefs_Plants/Plants_PoisonForest.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Plants/Plants_Savanna.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Plants/Plants_TemperateRainforest.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Plants/Plants_Wasteland.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Plants/Plants_Wetland.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/TerrainDefs/">
+    <File Path="../1.7/Defs/TerrainDefs/Terrain_PoisonForest.xml" />
+    <File Path="../1.7/Defs/TerrainDefs/Terrain_Savanna.xml" />
+    <File Path="../1.7/Defs/TerrainDefs/Terrain_Volcano.xml" />
+    <File Path="../1.7/Defs/TerrainDefs/Terrain_Wasteland.xml" />
+  </Folder>
 </Solution>

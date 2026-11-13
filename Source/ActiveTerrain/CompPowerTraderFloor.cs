@@ -6,11 +6,11 @@ namespace ActiveTerrain;
 
 public class CompPowerTraderFloor : CompPowerTrader
 {
-    public readonly List<TerrainComp_PowerTrader> acceptedComps = [];
+    private readonly List<TerrainComp_PowerTrader> acceptedComps = [];
 
     private float cachedCurPowerDemand;
 
-    public float CurPowerDemand
+    private float CurPowerDemand
     {
         get
         {

@@ -80,9 +80,9 @@ public sealed class TerrainInstance : IExposable
         foreach (var terrainCompProperties in def.terrainComps)
         {
             var terrainComp = (TerrainComp)Activator.CreateInstance(terrainCompProperties.compClass);
-            terrainComp.parent = this;
+            terrainComp?.parent = this;
             comps.Add(terrainComp);
-            terrainComp.Initialize(terrainCompProperties);
+            terrainComp?.Initialize(terrainCompProperties);
         }
     }
 
