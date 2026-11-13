@@ -10,4 +10,10 @@
     <content>There are now options for the mod that allows increasing or decreasing the probability for the added biomes during world generation.
 </content>
   </HugsLib.UpdateFeatureDef>
+	<HugsLib.UpdateFeatureDef ParentName="AdvancedBiomes_UpdateFeatureBase">
+		<defName>AdvancedBiomes_1_6_3</defName>
+		<assemblyVersion>1.6.3</assemblyVersion>
+		<content>This mod has been re-released for the new version of the game. This version will remain but will not be updated further.</content>
+	</HugsLib.UpdateFeatureDef>
 </Defs>
+

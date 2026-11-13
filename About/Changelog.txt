@@ -1,5 +1,8 @@
 # Changelog for AdvancedBiomes
 
+1.6.4 - Last update of the AssetBundle version of the mod
+
+
 1.6.3 - Updated Odyssey fixes. Fixed Fertile Fields patch. Thanks to Halicade!
 
 
